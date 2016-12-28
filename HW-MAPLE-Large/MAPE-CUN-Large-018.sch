@@ -4708,7 +4708,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="22pF"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C1210" value="10uF"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="22pF"/>
-<part name="SV1" library="con-lstb" deviceset="MA05-2" device=""/>
+<part name="W5500NIREN" library="con-lstb" deviceset="MA05-2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4785,7 +4785,7 @@ Drill dist 23,1mm</text>
 <instance part="C4" gate="G$1" x="129.54" y="142.24" rot="R90"/>
 <instance part="C5" gate="G$1" x="54.61" y="86.36" rot="R90"/>
 <instance part="C6" gate="G$1" x="54.61" y="92.71" rot="R90"/>
-<instance part="SV1" gate="G$1" x="-40.64" y="-20.32" rot="R180"/>
+<instance part="W5500NIREN" gate="G$1" x="-40.64" y="-20.32" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -5040,7 +5040,7 @@ Drill dist 23,1mm</text>
 <label x="-29.21" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="3"/>
+<pinref part="W5500NIREN" gate="G$1" pin="3"/>
 <wire x1="-48.26" y1="-17.78" x2="-58.42" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-55.88" y="-17.78" size="1.778" layer="95"/>
 </segment>
@@ -5058,7 +5058,7 @@ Drill dist 23,1mm</text>
 <wire x1="50.8" y1="38.1" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="1"/>
+<pinref part="W5500NIREN" gate="G$1" pin="1"/>
 <wire x1="-48.26" y1="-15.24" x2="-58.42" y2="-15.24" width="0.1524" layer="91"/>
 <label x="-55.88" y="-15.24" size="1.778" layer="95"/>
 </segment>
@@ -5075,12 +5075,12 @@ Drill dist 23,1mm</text>
 <label x="-13.97" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="8"/>
+<pinref part="W5500NIREN" gate="G$1" pin="8"/>
 <wire x1="-33.02" y1="-22.86" x2="-22.86" y2="-22.86" width="0.1524" layer="91"/>
 <label x="-33.02" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MOSI2" class="0">
+<net name="RST" class="0">
 <segment>
 <pinref part="W5100" gate="G$1" pin="5"/>
 <wire x1="-30.48" y1="20.32" x2="-20.32" y2="20.32" width="0.1524" layer="91"/>
@@ -5092,7 +5092,7 @@ Drill dist 23,1mm</text>
 <label x="-13.97" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="6"/>
+<pinref part="W5500NIREN" gate="G$1" pin="6"/>
 <wire x1="-33.02" y1="-20.32" x2="-22.86" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-33.02" y="-20.32" size="1.778" layer="95"/>
 </segment>
@@ -5109,7 +5109,7 @@ Drill dist 23,1mm</text>
 <label x="-13.97" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="5"/>
+<pinref part="W5500NIREN" gate="G$1" pin="5"/>
 <wire x1="-48.26" y1="-20.32" x2="-58.42" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-55.88" y="-20.32" size="1.778" layer="95"/>
 </segment>
@@ -5126,7 +5126,7 @@ Drill dist 23,1mm</text>
 <label x="-13.97" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="10"/>
+<pinref part="W5500NIREN" gate="G$1" pin="10"/>
 <wire x1="-33.02" y1="-25.4" x2="-22.86" y2="-25.4" width="0.1524" layer="91"/>
 <label x="-33.02" y="-25.4" size="1.778" layer="95"/>
 </segment>
@@ -5143,7 +5143,7 @@ Drill dist 23,1mm</text>
 <label x="-13.97" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="4"/>
+<pinref part="W5500NIREN" gate="G$1" pin="4"/>
 <wire x1="-33.02" y1="-17.78" x2="-22.86" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-33.02" y="-17.78" size="1.778" layer="95"/>
 </segment>
@@ -5567,25 +5567,16 @@ Drill dist 23,1mm</text>
 <label x="29.21" y="102.87" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SWCLK" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="21"/>
-<wire x1="-5.08" y1="63.5" x2="-21.59" y2="63.5" width="0.1524" layer="91"/>
-<label x="-13.97" y="63.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SWDIO" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="22"/>
-<wire x1="-5.08" y1="60.96" x2="-21.59" y2="60.96" width="0.1524" layer="91"/>
-<label x="-13.97" y="60.96" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="SWDIO/TMS" class="0">
 <segment>
 <pinref part="CTX-DB" gate="-2" pin="S"/>
 <wire x1="167.64" y1="68.58" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
 <label x="154.94" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="22"/>
+<wire x1="-5.08" y1="60.96" x2="-21.59" y2="60.96" width="0.1524" layer="91"/>
+<label x="-13.97" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWCLK/TCK" class="0">
@@ -5593,6 +5584,11 @@ Drill dist 23,1mm</text>
 <pinref part="CTX-DB" gate="-4" pin="S"/>
 <wire x1="167.64" y1="66.04" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
 <label x="154.94" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="21"/>
+<wire x1="-5.08" y1="63.5" x2="-21.59" y2="63.5" width="0.1524" layer="91"/>
+<label x="-13.97" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWO/TDO" class="0">
@@ -5741,7 +5737,6 @@ Drill dist 23,1mm</text>
 <segment>
 <pinref part="CTX-DB" gate="-7" pin="S"/>
 <wire x1="137.16" y1="60.96" x2="121.92" y2="60.96" width="0.1524" layer="91"/>
-<label x="129.54" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
