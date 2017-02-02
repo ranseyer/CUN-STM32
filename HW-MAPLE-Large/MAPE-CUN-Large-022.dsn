@@ -1,0 +1,448 @@
+(PCB "/home/martin/GitHub/CUN-STM32/HW-MAPLE-Large/MAPE-CUN-Large-022.brd"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad CadSoft)
+    (host_version 'EAGLE Version 7.3.0 Copyright (c) 1988-2015 CadSoft')
+  )
+  (resolution mil 254)
+  (unit mil)
+  (structure
+    (layer "1#Top"  (type signal))
+    (layer "16#Bottom"  (type signal))
+    (boundary 
+      (rect pcb  5.511811 21.653543 3942.519685 2383.858268)
+    )
+    (boundary (path signal 0 5.511811 2383.858268 5.511811 21.653543))
+    (boundary (path signal 0 5.511811 21.653543 3942.519685 21.653543))
+    (boundary (path signal 0 3942.519685 21.653543 3942.519685 2383.858268))
+    (boundary (path signal 0 3942.519685 2383.858268 5.511811 2383.858268))
+    (via
+       "Round1$12.000000"
+    )
+    (rule (width 6.000000)(clearance 6.000000))
+      (wire_keepout(path "1#Top" 16.000000 0.000000 2350.000000 0.000000 2375.000000 3950.000000 2375.000000 3950.000000 2350.000000 ))
+      (wire_keepout(path "16#Bottom" 16.000000 0.000000 2350.000000 0.000000 2375.000000 3950.000000 2375.000000 3950.000000 2350.000000 ))
+    (keepout (circ signal 82.740157 1925.000000 375.000000))
+    (control
+      (via_at_smd on)
+    )
+  )
+  (placement
+    (place_control (flip_style rotate_first))
+    (component "C0805$rcl" 
+      (place "C1" 1100.000000 325.000000 Front 270.000000)
+    )
+    (component "C0805$rcl" 
+      (place "C2" 1100.000000 1600.000000 Front 270.000000)
+    )
+    (component "C0805$rcl" 
+      (place "C3" 2850.000000 800.000000 Front 90.000000)
+    )
+    (component "C0805$rcl" 
+      (place "C4" 2850.000000 2050.000000 Front 90.000000)
+    )
+    (component "C1210$rcl" 
+      (place "C5" 2250.000000 1950.000000 Front 270.000000)
+    )
+    (component "C0805$rcl" 
+      (place "C6" 2000.000000 1950.000000 Front 270.000000)
+    )
+    (component "CC1101_MODULE1_SMD$wireless" 
+      (place "CC0" 1000.000000 850.000000 Front 180.000000)
+    )
+    (component "CC1101_MODULE1_SMD$wireless" 
+      (place "CC1" 1000.000000 2100.000000 Front 180.000000)
+    )
+    (component "CC1101_MODULE1_SMD$wireless" 
+      (place "CC2" 2950.000000 300.000000 Front 0.000000)
+    )
+    (component "CC1101_MODULE1_SMD$wireless" 
+      (place "CC4" 2950.000000 1550.000000 Front 0.000000)
+    )
+    (component "MA05-2$con-lstb" 
+      (place "CC_X0" 450.000000 150.000000 Front 180.000000)
+    )
+    (component "MA05-2$con-lstb" 
+      (place "CC_X1" 500.000000 2250.000000 Front 0.000000)
+    )
+    (component "MA05-2$con-lstb" 
+      (place "CC_X2" 3450.000000 150.000000 Front 180.000000)
+    )
+    (component "MA05-2$con-lstb" 
+      (place "CC_X4" 3450.000000 2250.000000 Front 0.000000)
+    )
+    (component "1365-10$con-leotronics" 
+      (place "CTX-DB" 3550.000000 1200.000000 Front 90.000000)
+    )
+    (component "MA04-1$con-lstb" 
+      (place "DBG" 150.000000 1200.000000 Front 270.000000)
+    )
+    (component "3,0$holes" 
+      (place "H1" 3942.519685 218.503937 Front 0.000000)
+    )
+    (component "3,0$holes" 
+      (place "H2" 3942.519685 2187.007874 Front 90.000000)
+    )
+    (component "3,0$holes" 
+      (place "H3" 5.511811 218.503937 Front 0.000000)
+    )
+    (component "3,0$holes" 
+      (place "H4" 5.511811 2187.007874 Front 0.000000)
+    )
+    (component "3,0$holes" 
+      (place "H5" 1974.015748 218.503937 Front 0.000000)
+    )
+    (component "3,0$holes" 
+      (place "H6" 1974.015748 2187.007874 Front 0.000000)
+    )
+    (component "20-DIP$maplemini-small" 
+      (place "U$1" 1500.000000 1212.500000 Front 270.000000)
+    )
+    (component "MA04-1$con-lstb" 
+      (place "UART0" 3000.000000 1200.000000 Front 270.000000)
+    )
+    (component "MA04-1$con-lstb" 
+      (place "UART1" 3200.000000 1200.000000 Front 270.000000)
+    )
+    (component "FE05-2$con-lsta" 
+      (place "W5100" 2425.000000 800.000000 Front 0.000000)
+    )
+    (component "MA05-2$con-lstb" 
+      (place "W5500NIREN" 2675.000000 2250.000000 Front 180.000000)
+    )
+    (component "SMA$sma" 
+      (place "X1" 0.000000 1850.000000 Front 0.000000)
+    )
+    (component "SMA$sma" 
+      (place "X2" 0.000000 550.000000 Front 0.000000)
+    )
+    (component "SMA$sma" 
+      (place "X3" 3950.000000 550.000000 Front 180.000000)
+    )
+    (component "SMA$sma" 
+      (place "X4" 3950.000000 1850.000000 Front 180.000000)
+    )
+  )
+  (library
+    (image "1365-10$con-leotronics"
+      (pin "Rectangle1" "1" -100.000000 -116.141732)
+      (pin "Rectangle1" "2" -100.000000 116.141732)
+      (pin "Rectangle1" "3" -50.000000 -116.141732)
+      (pin "Rectangle1" "4" -50.000000 116.141732)
+      (pin "Rectangle1" "5" 0.000000 -116.141732)
+      (pin "Rectangle1" "6" 0.000000 116.141732)
+      (pin "Rectangle1" "7" 50.000000 -116.141732)
+      (pin "Rectangle1" "8" 50.000000 116.141732)
+      (pin "Rectangle1" "9" 100.000000 -116.141732)
+      (pin "Rectangle1" "10" 100.000000 116.141732)
+    )
+    (image "FE05-2$con-lsta"
+      (pin "Round2" "1" -200.000000 50.000000)
+      (pin "Octagon1" "2" -200.000000 -50.000000)
+      (pin "Octagon1" "3" -100.000000 50.000000)
+      (pin "Octagon1" "4" -100.000000 -50.000000)
+      (pin "Octagon1" "5" 0.000000 50.000000)
+      (pin "Octagon1" "6" 0.000000 -50.000000)
+      (pin "Octagon1" "7" 100.000000 50.000000)
+      (pin "Octagon1" "8" 100.000000 -50.000000)
+      (pin "Octagon1" "9" 200.000000 50.000000)
+      (pin "Octagon1" "10" 200.000000 -50.000000)
+    )
+    (image "MA04-1$con-lstb"
+      (pin "Oblong1" "1" -150.000000 0.000000)
+      (pin "Oblong1" "2" -50.000000 0.000000)
+      (pin "Oblong1" "3" 50.000000 0.000000)
+      (pin "Oblong1" "4" 150.000000 0.000000)
+    )
+    (image "MA05-2$con-lstb"
+      (pin "Octagon2" "1" -200.000000 -50.000000)
+      (pin "Octagon2" "2" -200.000000 50.000000)
+      (pin "Octagon2" "3" -100.000000 -50.000000)
+      (pin "Octagon2" "4" -100.000000 50.000000)
+      (pin "Octagon2" "5" 0.000000 -50.000000)
+      (pin "Octagon2" "6" 0.000000 50.000000)
+      (pin "Octagon2" "7" 100.000000 -50.000000)
+      (pin "Octagon2" "8" 100.000000 50.000000)
+      (pin "Octagon2" "9" 200.000000 -50.000000)
+      (pin "Octagon2" "10" 200.000000 50.000000)
+    )
+    (image "3,0$holes"
+      (outline(circ "1#Top" 270.000000 0.000000 0.000000))
+      (outline(circ "1#Top" 125.984252 0.000000 0.000000))
+      (place_keepout(circ "1#Top" 240.000000 0.000000 0.000000))
+      (place_keepout(circ "16#Bottom" 240.000000 0.000000 0.000000))
+      (wire_keepout(circ "1#Top" 240.000000 0.000000 0.000000))
+      (wire_keepout(circ "16#Bottom" 240.000000 0.000000 0.000000))
+      (via_keepout(circ signal 240.000000 0.000000 0.000000))
+      (keepout (circ signal 122.110236 0.000000 0.000000))
+    )
+    (image "20-DIP$maplemini-small"
+      (pin "Oblong1" "1" -950.000000 -300.000000)
+      (pin "Oblong1" "2" -850.000000 -300.000000)
+      (pin "Oblong1" "3" -750.000000 -300.000000)
+      (pin "Oblong1" "4" -650.000000 -300.000000)
+      (pin "Oblong1" "5" -550.000000 -300.000000)
+      (pin "Oblong1" "6" -450.000000 -300.000000)
+      (pin "Oblong1" "7" -350.000000 -300.000000)
+      (pin "Oblong1" "8" -250.000000 -300.000000)
+      (pin "Oblong1" "9" -150.000000 -300.000000)
+      (pin "Oblong1" "10" -50.000000 -300.000000)
+      (pin "Oblong1" "11" 50.000000 -300.000000)
+      (pin "Oblong1" "12" 150.000000 -300.000000)
+      (pin "Oblong1" "13" 250.000000 -300.000000)
+      (pin "Oblong1" "14" 350.000000 -300.000000)
+      (pin "Oblong1" "15" 450.000000 -300.000000)
+      (pin "Oblong1" "16" 550.000000 -300.000000)
+      (pin "Oblong1" "17" 650.000000 -300.000000)
+      (pin "Oblong1" "18" 750.000000 -300.000000)
+      (pin "Oblong1" "19" 850.000000 -300.000000)
+      (pin "Oblong1" "20" 950.000000 -300.000000)
+      (pin "Oblong2" "21" 950.000000 300.000000)
+      (pin "Oblong2" "22" 850.000000 300.000000)
+      (pin "Oblong2" "23" 750.000000 300.000000)
+      (pin "Oblong2" "24" 650.000000 300.000000)
+      (pin "Oblong2" "25" 550.000000 300.000000)
+      (pin "Oblong2" "26" 450.000000 300.000000)
+      (pin "Oblong2" "27" 350.000000 300.000000)
+      (pin "Oblong2" "28" 250.000000 300.000000)
+      (pin "Oblong2" "29" 150.000000 300.000000)
+      (pin "Oblong2" "30" 50.000000 300.000000)
+      (pin "Oblong2" "31" -50.000000 300.000000)
+      (pin "Oblong2" "32" -150.000000 300.000000)
+      (pin "Oblong2" "33" -250.000000 300.000000)
+      (pin "Oblong2" "34" -350.000000 300.000000)
+      (pin "Oblong2" "35" -450.000000 300.000000)
+      (pin "Oblong2" "36" -550.000000 300.000000)
+      (pin "Oblong2" "37" -650.000000 300.000000)
+      (pin "Oblong2" "38" -750.000000 300.000000)
+      (pin "Oblong2" "39" -850.000000 300.000000)
+      (pin "Oblong2" "40" -950.000000 300.000000)
+    )
+    (image "C0805$rcl"
+      (place_keepout(path "1#Top" 0 77.677165 38.700787 77.677165 -38.700787 -77.677165 -38.700787 -77.677165 38.700787 ))
+      (pin "Rectangle2" "1" -37.401575 0.000000)
+      (pin "Rectangle2" "2" 37.401575 0.000000)
+    )
+    (image "C1210$rcl"
+      (place_keepout(path "1#Top" 0 97.362205 58.385827 97.362205 -58.385827 -97.362205 -58.385827 -97.362205 58.385827 ))
+      (pin "Rectangle3" "1" -55.118110 0.000000)
+      (pin "Rectangle3" "2" 55.118110 0.000000)
+    )
+    (image "SMA$sma"
+      (pin "Rectangle4" "1" 83.283465 0.000000)
+      (pin "Rectangle4" "GND@1" 83.283465 107.582677)
+      (pin "Rectangle4" "GND@2" 83.283465 -107.582677)
+      (pin "Rectangle5" "GND@3" 83.283465 107.582677)
+      (pin "Rectangle5" "GND@4" 83.283465 -107.582677)
+    )
+    (image "CC1101_MODULE1_SMD$wireless"
+      (pin "Rectangle6" "ANT" 748.031496 234.645669)
+      (pin "Rectangle6" "CSN" 0.000000 0.000000)
+      (pin "Rectangle6" "GDO0" 0.000000 78.740157)
+      (pin "Rectangle6" "GDO2" 0.000000 157.480315)
+      (pin "Rectangle6" "GND@0" 0.000000 472.440945)
+      (pin "Rectangle6" "GND@1" 748.031496 334.645669)
+      (pin "Rectangle6" "GND@2" 748.031496 134.645669)
+      (pin "Rectangle6" "MISO" 0.000000 236.220472)
+      (pin "Rectangle6" "MOSI" 0.000000 393.700787)
+      (pin "Rectangle6" "SCLK" 0.000000 314.960630)
+      (pin "Rectangle6" "VCC" 0.000000 551.181102)
+    )
+    (padstack "ViaDefault$12.000000"
+      (shape (circle signal 24.000000 0 0))
+    )
+    (padstack "Round1$12.000000" 
+      (shape (circle "1#Top" 24.000000 0 0))
+      (shape (circle "16#Bottom" 24.000000 0 0))
+      (attach off)
+    )
+    (padstack "Rectangle1" 
+      (shape (rect "1#Top" -14.960630 -47.244094 14.960630 47.244094))
+      (attach off)
+    )
+    (padstack "Round2" 
+      (shape (circle signal 56.000000 0 0))
+      (attach off)
+    )
+    (padstack "Octagon1" 
+      (shape (polygon "1#Top" 0 28.000000 11.597978 11.597978 28.000000 -11.597978 28.000000 -28.000000 11.597978 -28.000000 -11.597978 -11.597978 -28.000000 11.597978 -28.000000 28.000000 -11.597978 ))
+      (shape (polygon "16#Bottom" 0 28.000000 11.597978 11.597978 28.000000 -11.597978 28.000000 -28.000000 11.597978 -28.000000 -11.597978 -11.597978 -28.000000 11.597978 -28.000000 28.000000 -11.597978 ))
+      (attach off)
+    )
+    (padstack "Oblong1" 
+      (shape (path signal 60.000000 0.000000 -30.000000 0.000000 30.000000))
+      (attach off)
+    )
+    (padstack "Octagon2" 
+      (shape (polygon "1#Top" 0 30.000000 12.426405 12.426405 30.000000 -12.426405 30.000000 -30.000000 12.426405 -30.000000 -12.426405 -12.426405 -30.000000 12.426405 -30.000000 30.000000 -12.426405 ))
+      (shape (polygon "16#Bottom" 0 30.000000 12.426405 12.426405 30.000000 -12.426405 30.000000 -30.000000 12.426405 -30.000000 -12.426405 -12.426405 -30.000000 12.426405 -30.000000 30.000000 -12.426405 ))
+      (attach off)
+    )
+    (padstack "Oblong2" 
+      (shape (path signal 59.370079 0.000000 -29.685039 0.000000 29.685039))
+      (attach off)
+    )
+    (padstack "Rectangle2" 
+      (shape (rect "1#Top" -25.590551 -29.527559 25.590551 29.527559))
+      (attach off)
+    )
+    (padstack "Rectangle3" 
+      (shape (rect "1#Top" -31.496063 -53.149606 31.496063 53.149606))
+      (attach off)
+    )
+    (padstack "Rectangle4" 
+      (shape (rect "1#Top" -82.500000 -35.000000 82.500000 35.000000))
+      (attach off)
+    )
+    (padstack "Rectangle5" 
+      (shape (rect "16#Bottom" -82.500000 -35.000000 82.500000 35.000000))
+      (attach off)
+    )
+    (padstack "Rectangle6" 
+      (shape (rect "1#Top" -38.000000 -16.000000 38.000000 16.000000))
+      (attach off)
+    )
+  )
+  (network
+    (net "+5V"
+      (pins  "W5100"-"1" "U$1"-"21" "W5500NIREN"-"1")
+    )
+    (net "CC_CS0"
+      (pins  "U$1"-"29" "CC0"-"CSN" "CC_X0"-"7")
+    )
+    (net "CC_CS1"
+      (pins  "U$1"-"35" "CC1"-"CSN" "CC_X1"-"7")
+    )
+    (net "CC_CS2"
+      (pins  "CC2"-"CSN" "U$1"-"4" "CC_X2"-"7")
+    )
+    (net "CC_CS3"
+      (pins  "CC4"-"CSN" "U$1"-"25" "CC_X4"-"7")
+    )
+    (net "CC_IN_0"
+      (pins  "CC0"-"GDO2" "CC_X0"-"6" "U$1"-"33")
+    )
+    (net "CC_IN_1"
+      (pins  "CC1"-"GDO2" "U$1"-"7" "CC_X1"-"6")
+    )
+    (net "CC_IN_2"
+      (pins  "CC2"-"GDO2" "U$1"-"5" "CC_X2"-"6")
+    )
+    (net "CC_IN_3"
+      (pins  "CC4"-"GDO2" "U$1"-"37" "CC_X4"-"6")
+    )
+    (net "CC_OUT_0"
+      (pins  "CC0"-"GDO0" "CC_X0"-"8" "U$1"-"32")
+    )
+    (net "CC_OUT_1"
+      (pins  "CC1"-"GDO0" "U$1"-"6" "CC_X1"-"8")
+    )
+    (net "CC_OUT_2"
+      (pins  "CC2"-"GDO0" "U$1"-"36" "CC_X2"-"8")
+    )
+    (net "GND"
+      (pins  "W5100"-"2" "CC1"-"GND@0" "CC1"-"GND@1" "CC1"-"GND@2" "X1"-"GND@1" "X1"-"GND@3" "X1"-"GND@2" "X1"-"GND@4" "U$1"-"39" "U$1"-"24" "UART0"-"4" "UART1"-"4" "CC0"-"GND@0" "CC0"-"GND@1" "CC0"-"GND@2" "X2"-"GND@1" "X2"-"GND@3" "X2"-"GND@2" "X2"-"GND@4" "DBG"-"4" "CC2"-"GND@0" "CC2"-"GND@1" "CC2"-"GND@2" "X3"-"GND@1" "X3"-"GND@3" "X3"-"GND@2" "X3"-"GND@4" "CC_X0"-"9" "CC_X0"-"10" "CC_X1"-"9" "CC_X1"-"10" "CC_X2"-"9" "CC_X2"-"10" "CC4"-"GND@0" "CC4"-"GND@1" "CC4"-"GND@2" "X4"-"GND@1" "X4"-"GND@3" "X4"-"GND@2" "X4"-"GND@4" "CC_X4"-"9" "CC_X4"-"10" "CTX-DB"-"3" "CTX-DB"-"5" "C1"-"1" "C2"-"1" "C3"-"1" "C4"-"1" "C6"-"2" "C5"-"2" "W5100"-"7" "W5500NIREN"-"3")
+    )
+    (net "MISO1"
+      (pins  "U$1"-"27" "CC1"-"MISO" "CC0"-"MISO" "CC2"-"MISO" "CC_X0"-"5" "CC_X1"-"5" "CC_X2"-"5" "CC4"-"MISO" "CC_X4"-"5")
+    )
+    (net "MISO2"
+      (pins  "W5100"-"8" "U$1"-"18" "W5500NIREN"-"4")
+    )
+    (net "MOSI1"
+      (pins  "U$1"-"26" "CC1"-"MOSI" "CC0"-"MOSI" "CC2"-"MOSI" "CC_X0"-"3" "CC_X1"-"3" "CC_X2"-"3" "CC4"-"MOSI" "CC_X4"-"3")
+    )
+    (net "N$1"
+      (pins  "CC2"-"ANT" "X3"-"1")
+    )
+    (net "N$2"
+      (pins  "CC4"-"ANT" "X4"-"1")
+    )
+    (net "N$3"
+      (pins  "CC1"-"ANT" "X1"-"1")
+    )
+    (net "N$4"
+      (pins  "CC0"-"ANT" "X2"-"1")
+    )
+    (net "N$8"
+      (pins  "CTX-DB"-"7")
+    )
+    (net "NC"
+      (pins  "CTX-DB"-"9")
+    )
+    (net "NRESET"
+      (pins  "U$1"-"34" "CTX-DB"-"10")
+    )
+    (net "RST"
+      (pins  "W5100"-"5" "U$1"-"17" "W5500NIREN"-"6")
+    )
+    (net "RX0"
+      (pins  "U$1"-"30" "UART0"-"3")
+    )
+    (net "RX1"
+      (pins  "U$1"-"22" "UART1"-"3")
+    )
+    (net "RX_DBG"
+      (pins  "U$1"-"14" "DBG"-"3")
+    )
+    (net "SCK1"
+      (pins  "U$1"-"28" "CC1"-"SCLK" "CC0"-"SCLK" "CC2"-"SCLK" "CC_X0"-"4" "CC_X1"-"4" "CC_X2"-"4" "CC4"-"SCLK" "CC_X4"-"4")
+    )
+    (net "SCK2"
+      (pins  "W5100"-"6" "U$1"-"19" "W5500NIREN"-"10")
+    )
+    (net "SWCLK/TCK"
+      (pins  "CTX-DB"-"4" "U$1"-"10")
+    )
+    (net "SWDIO/TMS"
+      (pins  "CTX-DB"-"2" "U$1"-"11")
+    )
+    (net "SWO/TDO"
+      (pins  "U$1"-"8" "CTX-DB"-"6")
+    )
+    (net "TDI"
+      (pins  "U$1"-"9" "CTX-DB"-"8")
+    )
+    (net "TX0"
+      (pins  "UART0"-"2" "U$1"-"31")
+    )
+    (net "TX1"
+      (pins  "UART1"-"2" "U$1"-"23")
+    )
+    (net "TX_DBG"
+      (pins  "DBG"-"2" "U$1"-"15")
+    )
+    (net "VCC"
+      (pins  "CC1"-"VCC" "U$1"-"40" "UART0"-"1" "UART1"-"1" "CC0"-"VCC" "DBG"-"1" "CC2"-"VCC" "CC_X0"-"1" "CC_X0"-"2" "CC_X1"-"1" "CC_X1"-"2" "CC_X2"-"1" "CC_X2"-"2" "CC4"-"VCC" "CC_X4"-"1" "CC_X4"-"2" "CTX-DB"-"1" "C1"-"2" "C2"-"2" "C3"-"2" "C4"-"2" "C6"-"1" "C5"-"1")
+    )
+    (net "WIZ_CS"
+      (pins  "W5100"-"3" "U$1"-"20" "W5500NIREN"-"8")
+    )
+    (net "WIZ_RST"
+      (pins  "W5100"-"4" "U$1"-"16" "W5500NIREN"-"5")
+    )
+    (class "default"
+       "+5V" "CC_CS0" "CC_CS1" "CC_CS2" "CC_CS3" "CC_IN_0" "CC_IN_1" "CC_IN_2" "CC_IN_3" "CC_OUT_0" "CC_OUT_1" "CC_OUT_2" "GND" "MISO1" "MISO2" "MOSI1" "N$1" "N$2" "N$3" "N$4" "N$8" "NC" "NRESET" "RST" "RX0" "RX1" "RX_DBG" "SCK1" "SCK2" "SWCLK/TCK" "SWDIO/TMS" "SWO/TDO" "TDI" "TX0" "TX1" "TX_DBG" "VCC" "WIZ_CS" "WIZ_RST"
+      (rule
+        (width 16.000000)
+      )
+    )
+    (class "PWR"
+      
+      (rule
+        (width 12.000000)
+      )
+    )
+  )
+  (wiring
+    (wire
+      (poly "16#Bottom"  16.000000 0.000000 2375.000000 0.000000 25.000000 3950.000000 25.000000 3950.000000 2375.000000) 
+      (net "GND")
+    )
+    (wire
+      (poly "1#Top"  16.000000 0.000000 25.000000 0.000000 2375.000000 3950.000000 2375.000000 3950.000000 25.000000) 
+      (net "GND")
+    )
+  )
+)
