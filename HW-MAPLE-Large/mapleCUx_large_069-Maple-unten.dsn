@@ -1,0 +1,1063 @@
+(PCB "/home/martin/GitHub/CUN-STM32/HW-MAPLE-Large/mapleCUx_large_068-Maple-unten.brd"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad CadSoft)
+    (host_version 'EAGLE Version 7.3.0 Copyright (c) 1988-2015 CadSoft')
+  )
+  (resolution mil 254)
+  (unit mil)
+  (structure
+    (layer "1#Top"  (type signal))
+    (layer "16#Bottom"  (type signal))
+    (boundary 
+      (rect pcb  0.000000 0.000000 3937.007874 2322.834646)
+    )
+    (boundary (path signal 0 0.000000 0.000000 0.000000 128.110236))
+    (boundary (path signal 0 0.000000 128.110236 33.062500 128.110236))
+    (boundary (path signal 0 3911.491019 127.927781 3911.627584 127.934793))
+    (boundary (path signal 0 3911.627584 127.934793 3911.764149 127.942175))
+    (boundary (path signal 0 3911.764149 127.942175 3911.900714 127.949926))
+    (boundary (path signal 0 3911.900714 127.949926 3912.037156 127.958046))
+    (boundary (path signal 0 3912.037156 127.958046 3912.173597 127.966535))
+    (boundary (path signal 0 3912.173597 127.966535 3912.310039 127.975394))
+    (boundary (path signal 0 3912.310039 127.975394 3912.446481 127.984621))
+    (boundary (path signal 0 3912.446481 127.984621 3912.582923 127.994218))
+    (boundary (path signal 0 3912.582923 127.994218 3912.719242 128.004183))
+    (boundary (path signal 0 3912.719242 128.004183 3912.855684 128.014518))
+    (boundary (path signal 0 3912.855684 128.014518 3912.992003 128.025098))
+    (boundary (path signal 0 3912.992003 128.025098 3913.128199 128.036171))
+    (boundary (path signal 0 3913.128199 128.036171 3913.264518 128.047613))
+    (boundary (path signal 0 3913.264518 128.047613 3913.400714 128.059424))
+    (boundary (path signal 0 3913.400714 128.059424 3913.536909 128.071481))
+    (boundary (path signal 0 3913.536909 128.071481 3913.673105 128.084031))
+    (boundary (path signal 0 3913.673105 128.084031 3913.809178 128.096949))
+    (boundary (path signal 0 3913.809178 128.096949 3913.945374 128.110236))
+    (boundary (path signal 0 3913.945374 128.110236 3937.007874 128.110236))
+    (boundary (path signal 0 3937.007874 128.110236 3937.007874 0.000000))
+    (boundary (path signal 0 3937.007874 0.000000 0.000000 0.000000))
+    (boundary (path signal 0 0.000000 270.000000 0.000000 970.000000))
+    (boundary (path signal 0 0.000000 970.000000 300.000000 970.000000))
+    (boundary (path signal 0 300.000000 970.000000 300.000000 1290.000000))
+    (boundary (path signal 0 300.000000 1290.000000 0.000000 1290.000000))
+    (boundary (path signal 0 0.000000 1290.000000 0.000000 2100.000000))
+    (via
+       "Round1$12.000000"
+       "Round6$11.999877"
+    )
+    (rule (width 6.000000)(clearance 6.000000))
+    (wire_keepout(rect "1#Top" 1850.393701 -75.000000 2598.425197 397.440945))
+      (wire_keepout(path "1#Top" 16.000000 0.000000 2308.464567 0.000000 2322.834646 3937.007874 2322.834646 3937.007874 2308.464567 ))
+    (wire_keepout(rect "16#Bottom" 1850.393701 -75.000000 2598.425197 397.440945))
+      (wire_keepout(path "16#Bottom" 16.000000 3937.007874 2308.464567 0.000000 2308.464567 0.000000 2322.834646 3937.007874 2322.834646 ))
+      (wire_keepout(path "16#Bottom" 16.000000 3937.007874 2322.834646 0.000000 2322.834646 0.000000 2308.464567 3937.007874 2308.464567 3937.007874 2322.834646 0.000000 2322.834646 0.000000 2308.464567 3937.007874 2308.464567 ))
+    (keepout (circ signal 82.740157 1925.000000 335.629921))
+    (keepout (circ signal 82.740157 1968.503937 196.850394))
+    (control
+      (via_at_smd on)
+    )
+  )
+  (placement
+    (place_control (flip_style rotate_first))
+    (component "SJ$jumper" 
+      (place "3V3" 2900.000000 500.000000 Back 180.000000)
+    )
+    (component "SJ$jumper" 
+      (place "5V" 2900.000000 350.000000 Back 0.000000)
+    )
+    (component "C0805$rcl" 
+      (place "C1" 1100.000000 128.149606 Front 270.000000)
+    )
+    (component "C0805$rcl" 
+      (place "C2" 2850.000000 725.000000 Front 90.000000)
+    )
+    (component "C0805$rcl" 
+      (place "C3" 1100.000000 1635.629921 Front 270.000000)
+    )
+    (component "C0805$rcl" 
+      (place "C4" 2850.000000 2160.629921 Front 90.000000)
+    )
+    (component "R/2012-12W$rcl" 
+      (place "C5" 1300.000000 1590.629921 Front 0.000000)
+    )
+    (component "C0805$rcl" 
+      (place "C6" 100.000000 720.629921 Front 0.000000)
+    )
+    (component "C1210$rcl" 
+      (place "C7" 2665.000000 729.960630 Front 90.000000)
+    )
+    (component "C0805$rcl" 
+      (place "C8" 3400.000000 1275.000000 Back 90.000000)
+    )
+    (component "C0805$rcl" 
+      (place "C9" 3650.000000 1325.000000 Back 0.000000)
+    )
+    (component "E5-8,5$rcl" 
+      (place "C10" 1125.000000 375.000000 Front 270.000000)
+    )
+    (component "C0805$rcl" 
+      (place "C11" 2250.000000 2125.000000 Back 270.000000)
+    )
+    (component "CC1101_MODULE1_SMD$wireless" 
+      (place "CC0" 1000.000000 685.629921 Front 180.000000)
+    )
+    (component "CC1101_MODULE1_SMD$wireless" 
+      (place "CC1" 2950.000000 210.629921 Front 0.000000)
+    )
+    (component "CC1101_MODULE1_SMD$wireless" 
+      (place "CC2" 1000.000000 2135.629921 Front 180.000000)
+    )
+    (component "CC1101_MODULE1_SMD$wireless" 
+      (place "CC4" 2960.000000 1635.000000 Front 0.000000)
+    )
+    (component "MA05-2$con-lstb" 
+      (place "CC_X0" 1300.000000 350.000000 Front 90.000000)
+    )
+    (component "MA05-2$con-lstb" 
+      (place "CC_X1" 2700.000000 350.000000 Front 270.000000)
+    )
+    (component "MA05-2$con-lstb" 
+      (place "CC_X2" 1300.000000 1950.000000 Front 90.000000)
+    )
+    (component "MA05-2$con-lstb" 
+      (place "CC_X4" 2700.000000 1850.000000 Front 270.000000)
+    )
+    (component "1X02$pinhead" 
+      (place "CHPD" 2700.000000 2250.000000 Front 180.000000)
+    )
+    (component "1365-10$con-leotronics" 
+      (place "CTX-DB" 2262.244094 691.496063 Front 90.000000)
+    )
+    (component "MA04-1$con-lstb" 
+      (place "DBG" 1650.000000 150.000000 Front 180.000000)
+    )
+    (component "ESP03$esp8266modules" 
+      (place "ESP8266" 1925.000000 1825.000000 Front 0.000000)
+    )
+    (component "1812L$ptc-littlefuse" 
+      (place "F1" 3540.000000 420.000000 Back 270.000000)
+    )
+    (component "SJ$jumper" 
+      (place "GND" 2900.000000 200.000000 Back 0.000000)
+    )
+    (component "3,0$holes" 
+      (place "H6" 1968.503937 2165.354331 Front 0.000000)
+    )
+    (component "HM-MOD-UART-DIL$wireless" 
+      (place "HMMOD-UART" 2885.000000 2135.000000 Back 180.000000)
+    )
+    (component "SO08$1wire" 
+      (place "IC1" 3150.000000 635.000000 Back 0.000000)
+    )
+    (component "USR-ES1$Martin-Communication" 
+      (place "IC2" 1950.000000 1850.000000 Front 0.000000)
+    )
+    (component "WIRELESS-NRF24L01$diy-modules" 
+      (place "NRF24L01+" 2275.000000 585.629921 Front 270.000000)
+    )
+    (component "1X02$pinhead" 
+      (place "PRG" 2500.000000 2250.000000 Front 180.000000)
+    )
+    (component "SOT23$transistor-small-signal" 
+      (place "Q1" 3370.000000 510.000000 Back 180.000000)
+    )
+    (component "R0805$rcl" 
+      (place "R1" 3500.000000 750.000000 Back 0.000000)
+    )
+    (component "R0805$rcl" 
+      (place "R2" 3300.000000 700.000000 Back 270.000000)
+    )
+    (component "R0805$rcl" 
+      (place "R3" 3650.000000 1025.000000 Back 180.000000)
+    )
+    (component "R0805$rcl" 
+      (place "R4" 3500.000000 650.000000 Back 180.000000)
+    )
+    (component "R0805$rcl" 
+      (place "R5" 3450.000000 1025.000000 Back 180.000000)
+    )
+    (component "SOIC127P600X175-8N$Maxim_By_element14_Batch_1" 
+      (place "RS485" 3650.000000 1175.000000 Back 180.000000)
+    )
+    (component "SJ$jumper" 
+      (place "RX" 2100.000000 1775.000000 Back 180.000000)
+    )
+    (component "SJ$jumper" 
+      (place "TX" 2100.000000 1650.000000 Back 180.000000)
+    )
+    (component "20-DIP$maplemini-small" 
+      (place "U$1" 997.500000 1129.370079 Back 180.000000)
+    )
+    (component "ABK-PRO-MINI$Arduino-clone" 
+      (place "U$2" 3025.000000 1095.629921 Front 90.000000)
+    )
+    (component "MA04-1$con-lstb" 
+      (place "UART0" 1500.000000 500.000000 Front 270.000000)
+    )
+    (component "MA04-1$con-lstb" 
+      (place "UART1" 1800.000000 500.000000 Front 270.000000)
+    )
+    (component "SMA_EDGELAUNCH_UFL$adafruit" 
+      (place "X1" 3925.000000 450.000000 Front 180.000000)
+    )
+    (component "SMA_EDGELAUNCH_UFL$adafruit" 
+      (place "X2" 0.000000 1900.000000 Front 0.000000)
+    )
+    (component "SMA_EDGELAUNCH_UFL$adafruit" 
+      (place "X3" 3925.000000 1875.000000 Front 180.000000)
+    )
+    (component "1751248$con-phoenix-350" 
+      (place "X4" 3700.000000 125.000000 Front 0.000000)
+    )
+    (component "SMA_EDGELAUNCH_UFL$adafruit" 
+      (place "X5" 0.000000 450.000000 Front 0.000000)
+    )
+    (component "U.FL$adafruit" 
+      (place "X6" 1575.000000 2200.000000 Front 270.000000)
+    )
+    (component "1751264$con-phoenix-350" 
+      (place "X7" 3275.000000 125.000000 Front 0.000000)
+    )
+    (component "TSOC6$1wire" 
+      (place "ZD1" 3180.000000 370.000000 Back 90.000000)
+    )
+  )
+  (library
+    (image "SO08$1wire"
+      (pin "Rectangle1" "1" -75.000000 -121.000000)
+      (pin "Rectangle1" "2" -25.000000 -121.000000)
+      (pin "Rectangle1" "3" 25.000000 -121.000000)
+      (pin "Rectangle1" "4" 75.000000 -121.000000)
+      (pin "Rectangle1" "5" 75.000000 121.000000)
+      (pin "Rectangle1" "6" 25.000000 121.000000)
+      (pin "Rectangle1" "7" -25.000000 121.000000)
+      (pin "Rectangle1" "8" -75.000000 121.000000)
+    )
+    (image "TSOC6$1wire"
+      (outline(circ "1#Top" 20.000000 -45.000000 -40.000000))
+      (pin "Rectangle2" "1" -50.000000 -63.000000)
+      (pin "Rectangle2" "2" 0.000000 -63.000000)
+      (pin "Rectangle2" "3" 50.000000 -63.000000)
+      (pin "Rectangle2" "4" 50.000000 63.000000)
+      (pin "Rectangle2" "5" 0.000000 63.000000)
+      (pin "Rectangle2" "6" -50.000000 63.000000)
+    )
+    (image "ABK-PRO-MINI$Arduino-clone"
+      (pin "Oblong1" "A0" 400.000000 -150.000000)
+      (pin "Oblong1" "A1" 400.000000 -250.000000)
+      (pin "Oblong1" "A2" 400.000000 -350.000000)
+      (pin "Oblong1" "A3" 400.000000 -450.000000)
+      (pin "Round2" "A4" 250.000000 -200.000000)
+      (pin "Round2" "A5" 250.000000 -100.000000)
+      (pin "Oblong2" "A6" 150.000000 -850.000000)
+      (pin "Oblong2" "A7" 250.000000 -850.000000)
+      (pin "Oblong1" "D2" -200.000000 -150.000000)
+      (pin "Oblong1" "D3" -200.000000 -250.000000)
+      (pin "Oblong1" "D4" -200.000000 -350.000000)
+      (pin "Oblong1" "D5" -200.000000 -450.000000)
+      (pin "Oblong1" "D6" -200.000000 -550.000000)
+      (pin "Oblong1" "D7" -200.000000 -650.000000)
+      (pin "Oblong1" "D8" -200.000000 -750.000000)
+      (pin "Oblong1" "D9" -200.000000 -850.000000)
+      (pin "Oblong1" "D10" 400.000000 -850.000000)
+      (pin "Oblong1" "D11" 400.000000 -750.000000)
+      (pin "Oblong1" "D12" 400.000000 -650.000000)
+      (pin "Oblong1" "D13" 400.000000 -550.000000)
+      (pin "Oblong3" "DTR" 350.000000 350.000000)
+      (pin "Oblong1" "GND" 400.000000 150.000000)
+      (pin "Oblong1" "GND1" -200.000000 -50.000000)
+      (pin "Oblong3" "GND2" -150.000000 350.000000)
+      (pin "Oblong3" "GND3" -50.000000 350.000000)
+      (pin "Oblong2" "GND4" 50.000000 -850.000000)
+      (pin "Oblong1" "RAW" 400.000000 250.000000)
+      (pin "Oblong1" "RST" 400.000000 50.000000)
+      (pin "Oblong1" "RST1" -200.000000 50.000000)
+      (pin "Oblong1" "RX1" -200.000000 150.000000)
+      (pin "Oblong3" "RX1-1" 150.000000 350.000000)
+      (pin "Oblong1" "TX0" -200.000000 250.000000)
+      (pin "Oblong3" "TX0-1" 250.000000 350.000000)
+      (pin "Oblong1" "VCC" 400.000000 -50.000000)
+      (pin "Oblong3" "VCC1" 50.000000 350.000000)
+    )
+    (image "USR-ES1$Martin-Communication"
+      (pin "Offset1" "1" -400.000000 225.000000)
+      (pin "Offset1" "2" -400.000000 125.000000)
+      (pin "Offset1" "3" -400.000000 25.000000)
+      (pin "Offset1" "4" -400.000000 -75.000000)
+      (pin "Offset1" "5" -400.000000 -175.000000)
+      (pin "Offset1" "6" -400.000000 -275.000000)
+      (pin "Offset2" "7" 400.000000 -275.000000)
+      (pin "Offset2" "8" 400.000000 -175.000000)
+      (pin "Offset2" "9" 400.000000 -75.000000)
+      (pin "Offset2" "10" 400.000000 25.000000)
+      (pin "Offset2" "11" 400.000000 125.000000)
+      (pin "Offset2" "12" 400.000000 225.000000)
+    )
+    (image "SOIC127P600X175-8N$Maxim_By_element14_Batch_1"
+      (pin "Rectangle3" "1" -97.000000 75.000000)
+      (pin "Rectangle3" "2" -97.000000 25.000000)
+      (pin "Rectangle3" "3" -97.000000 -25.000000)
+      (pin "Rectangle3" "4" -97.000000 -75.000000)
+      (pin "Rectangle3" "5" 97.000000 -75.000000)
+      (pin "Rectangle3" "6" 97.000000 -25.000000)
+      (pin "Rectangle3" "7" 97.000000 25.000000)
+      (pin "Rectangle3" "8" 97.000000 75.000000)
+    )
+    (image "SMA_EDGELAUNCH_UFL$adafruit"
+      (wire_keepout(rect "1#Top" 36.000000 -34.000000 126.000000 -25.000000))
+      (wire_keepout(rect "1#Top" 36.000000 25.000000 126.000000 34.000000))
+      (pin "Rectangle4" "GND@1" 80.000000 -100.000000)
+      (pin "Rectangle4" "GND@2" 80.000000 100.000000)
+      (pin "Rectangle5" "GND@3" 80.000000 100.000000)
+      (pin "Rectangle5" "GND@4" 80.000000 -100.000000)
+      (pin "Rectangle6" "P" 120.000000 0.000000)
+    )
+    (image "U.FL$adafruit"
+      (wire_keepout(rect "1#Top" -35.000000 -32.500000 35.000000 32.500000))
+      (pin "Rectangle7" "1" 0.000000 54.133858)
+      (pin "Rectangle7" "2" 0.000000 -54.133858)
+      (pin "Rectangle8" "3" 60.039370 0.000000)
+    )
+    (image "1365-10$con-leotronics"
+      (pin "Rectangle9" "1" -100.000000 -116.141732)
+      (pin "Rectangle9" "2" -100.000000 116.141732)
+      (pin "Rectangle9" "3" -50.000000 -116.141732)
+      (pin "Rectangle9" "4" -50.000000 116.141732)
+      (pin "Rectangle9" "5" 0.000000 -116.141732)
+      (pin "Rectangle9" "6" 0.000000 116.141732)
+      (pin "Rectangle9" "7" 50.000000 -116.141732)
+      (pin "Rectangle9" "8" 50.000000 116.141732)
+      (pin "Rectangle9" "9" 100.000000 -116.141732)
+      (pin "Rectangle9" "10" 100.000000 116.141732)
+    )
+    (image "MA04-1$con-lstb"
+      (pin "Oblong4" "1" -150.000000 0.000000)
+      (pin "Oblong4" "2" -50.000000 0.000000)
+      (pin "Oblong4" "3" 50.000000 0.000000)
+      (pin "Oblong4" "4" 150.000000 0.000000)
+    )
+    (image "MA05-2$con-lstb"
+      (pin "Octagon1" "1" -200.000000 -50.000000)
+      (pin "Octagon1" "2" -200.000000 50.000000)
+      (pin "Octagon1" "3" -100.000000 -50.000000)
+      (pin "Octagon1" "4" -100.000000 50.000000)
+      (pin "Octagon1" "5" 0.000000 -50.000000)
+      (pin "Octagon1" "6" 0.000000 50.000000)
+      (pin "Octagon1" "7" 100.000000 -50.000000)
+      (pin "Octagon1" "8" 100.000000 50.000000)
+      (pin "Octagon1" "9" 200.000000 -50.000000)
+      (pin "Octagon1" "10" 200.000000 50.000000)
+    )
+    (image "1751248$con-phoenix-350"
+      (outline(circ "1#Top" 114.173228 -68.897638 -3.937008))
+      (outline(circ "1#Top" 114.173228 68.897638 -3.937008))
+    (outline (path signal 0 -147.637795 143.700787 147.637795 143.700787))
+    (outline (path signal 0 -147.637795 143.700787 -147.637795 75.287402))
+    (outline (path signal 0 147.637795 -82.649606 -147.637795 -82.649606))
+    (outline (path signal 0 147.637795 -63.633858 147.637795 56.562992))
+    (outline (path signal 0 147.637795 -82.649606 147.637795 -114.606299))
+    (outline (path signal 0 147.637795 -63.633858 147.637795 -82.649606))
+    (outline (path signal 0 -147.637795 75.287402 -147.637795 56.562992))
+    (outline (path signal 0 -147.637795 75.287402 147.637795 75.287402))
+    (outline (path signal 0 147.637795 56.562992 147.637795 75.287402))
+    (outline (path signal 0 -147.637795 -63.633858 -147.637795 56.562992))
+    (outline (path signal 0 147.637795 56.562992 -147.637795 56.562992))
+    (outline (path signal 0 -147.637795 -63.633858 147.637795 -63.633858))
+    (outline (path signal 0 147.637795 143.700787 147.637795 75.287402))
+    (outline (path signal 0 -147.637795 -63.633858 -147.637795 -82.649606))
+    (outline (path signal 0 -147.637795 -82.649606 -147.637795 -114.606299))
+    (outline (path signal 0 147.637795 -114.606299 -147.637795 -114.606299))
+    (outline (path signal 0 -147.637795 -143.700787 147.637795 -143.700787))
+    (outline (path signal 0 147.637795 -131.889764 147.637795 -143.700787))
+    (outline (path signal 0 -147.637795 -131.889764 147.637795 -131.889764))
+    (outline (path signal 0 -147.637795 -131.889764 -147.637795 -143.700787))
+    (outline (path signal 0 -147.637795 -114.606299 -147.637795 -131.889764))
+    (outline (path signal 0 147.637795 -114.606299 147.637795 -131.889764))
+    (outline (path signal 0 -21.417323 24.055118 -21.653543 23.818898))
+    (outline (path signal 0 116.377953 24.055118 116.141732 23.818898))
+    (outline (path signal 0 -124.114173 -112.500000 -136.614173 -87.500000))
+    (outline (path signal 0 -136.614173 -87.500000 -111.614173 -87.500000))
+    (outline (path signal 0 -111.614173 -87.500000 -124.114173 -112.500000))
+      (pin "Round3" "1" -68.897638 -3.937008)
+      (pin "Round3" "2" 68.897638 -3.937008)
+    )
+    (image "1751264$con-phoenix-350"
+      (outline(circ "1#Top" 114.173228 -206.692913 -3.937008))
+      (outline(circ "1#Top" 114.173228 -68.897638 -3.937008))
+      (outline(circ "1#Top" 114.173228 68.897638 -3.937008))
+      (outline(circ "1#Top" 114.173228 206.692913 -3.937008))
+    (outline (path signal 0 -285.433071 143.700787 285.433071 143.700787))
+    (outline (path signal 0 -285.433071 143.700787 -285.433071 75.287402))
+    (outline (path signal 0 285.433071 -82.649606 -285.433071 -82.649606))
+    (outline (path signal 0 285.433071 -63.633858 285.433071 56.562992))
+    (outline (path signal 0 285.433071 -82.649606 285.433071 -114.606299))
+    (outline (path signal 0 285.433071 -63.633858 285.433071 -82.649606))
+    (outline (path signal 0 -285.433071 75.287402 -285.433071 56.562992))
+    (outline (path signal 0 -285.433071 75.287402 285.433071 75.287402))
+    (outline (path signal 0 285.433071 56.562992 285.433071 75.287402))
+    (outline (path signal 0 -285.433071 -63.633858 -285.433071 56.562992))
+    (outline (path signal 0 285.433071 56.562992 -285.433071 56.562992))
+    (outline (path signal 0 -285.433071 -63.633858 285.433071 -63.633858))
+    (outline (path signal 0 285.433071 143.700787 285.433071 75.287402))
+    (outline (path signal 0 -285.433071 -63.633858 -285.433071 -82.649606))
+    (outline (path signal 0 -285.433071 -82.649606 -285.433071 -114.606299))
+    (outline (path signal 0 285.433071 -114.606299 -285.433071 -114.606299))
+    (outline (path signal 0 -285.433071 -143.700787 285.433071 -143.700787))
+    (outline (path signal 0 285.433071 -131.889764 285.433071 -143.700787))
+    (outline (path signal 0 -285.433071 -131.889764 285.433071 -131.889764))
+    (outline (path signal 0 -285.433071 -131.889764 -285.433071 -143.700787))
+    (outline (path signal 0 -285.433071 -114.606299 -285.433071 -131.889764))
+    (outline (path signal 0 285.433071 -114.606299 285.433071 -131.889764))
+    (outline (path signal 0 -159.212598 24.055118 -159.448819 23.818898))
+    (outline (path signal 0 -21.417323 24.055118 -21.653543 23.818898))
+    (outline (path signal 0 116.377953 24.055118 116.141732 23.818898))
+    (outline (path signal 0 254.173228 24.055118 253.937008 23.818898))
+    (outline (path signal 0 -261.909449 -112.500000 -274.409449 -87.500000))
+    (outline (path signal 0 -274.409449 -87.500000 -249.409449 -87.500000))
+    (outline (path signal 0 -249.409449 -87.500000 -261.909449 -112.500000))
+      (pin "Round3" "1" -206.692913 -3.937008)
+      (pin "Round3" "2" -68.897638 -3.937008)
+      (pin "Round3" "3" 68.897638 -3.937008)
+      (pin "Round3" "4" 206.692913 -3.937008)
+    )
+    (image "WIRELESS-NRF24L01$diy-modules"
+      (pin "Square1" "1" -500.000000 250.000000)
+      (pin "Round4" "2" -400.000000 250.000000)
+      (pin "Round4" "3" -500.000000 150.000000)
+      (pin "Round4" "4" -400.000000 150.000000)
+      (pin "Round4" "5" -500.000000 50.000000)
+      (pin "Round4" "6" -400.000000 50.000000)
+      (pin "Round4" "7" -500.000000 -50.000000)
+      (pin "Round4" "8" -400.000000 -50.000000)
+    )
+    (image "ESP03$esp8266modules"
+      (outline(rect "1#Top" -173.228346 236.220472 -78.740157 330.708661))
+      (outline(rect "1#Top" 149.606299 228.346457 244.094488 338.582677))
+      (pin "Rectangle10" "ANT" 291.338583 188.976378)
+      (pin "Rectangle10" "CH_PD" 291.338583 110.236220)
+      (pin "Rectangle10" "GND" 291.338583 -283.464567)
+      (pin "Rectangle10" "GPIO0" -204.724409 -283.464567)
+      (pin "Rectangle10" "GPIO2" -204.724409 -204.724409)
+      (pin "Rectangle10" "GPIO12" -204.724409 31.496063)
+      (pin "Rectangle10" "GPIO13" -204.724409 -47.244094)
+      (pin "Rectangle10" "GPIO14" -204.724409 110.236220)
+      (pin "Rectangle10" "GPIO15" -204.724409 -125.984252)
+      (pin "Rectangle10" "GPIO18" 291.338583 31.496063)
+      (pin "Rectangle10" "NC" 291.338583 -204.724409)
+      (pin "Rectangle10" "URXD" 291.338583 -47.244094)
+      (pin "Rectangle10" "UTXD" 291.338583 -125.984252)
+      (pin "Rectangle10" "VCC" -204.724409 188.976378)
+    )
+    (image "3,0$holes"
+      (outline(circ "1#Top" 270.000000 0.000000 0.000000))
+      (outline(circ "1#Top" 125.984252 0.000000 0.000000))
+      (place_keepout(circ "1#Top" 240.000000 0.000000 0.000000))
+      (place_keepout(circ "16#Bottom" 240.000000 0.000000 0.000000))
+      (wire_keepout(circ "1#Top" 240.000000 0.000000 0.000000))
+      (wire_keepout(circ "16#Bottom" 240.000000 0.000000 0.000000))
+      (via_keepout(circ signal 240.000000 0.000000 0.000000))
+      (keepout (circ signal 122.110236 0.000000 0.000000))
+    )
+    (image "SJ$jumper"
+      (pin "Rectangle11" "1" -30.000000 0.000000)
+      (pin "Rectangle11" "2" 30.000000 0.000000)
+    )
+    (image "20-DIP$maplemini-small"
+      (pin "Oblong4" "1" -950.000000 -300.000000)
+      (pin "Oblong4" "2" -850.000000 -300.000000)
+      (pin "Oblong4" "3" -750.000000 -300.000000)
+      (pin "Oblong4" "4" -650.000000 -300.000000)
+      (pin "Oblong4" "5" -550.000000 -300.000000)
+      (pin "Oblong4" "6" -450.000000 -300.000000)
+      (pin "Oblong4" "7" -350.000000 -300.000000)
+      (pin "Oblong4" "8" -250.000000 -300.000000)
+      (pin "Oblong4" "9" -150.000000 -300.000000)
+      (pin "Oblong4" "10" -50.000000 -300.000000)
+      (pin "Oblong4" "11" 50.000000 -300.000000)
+      (pin "Oblong4" "12" 150.000000 -300.000000)
+      (pin "Oblong4" "13" 250.000000 -300.000000)
+      (pin "Oblong4" "14" 350.000000 -300.000000)
+      (pin "Oblong4" "15" 450.000000 -300.000000)
+      (pin "Oblong4" "16" 550.000000 -300.000000)
+      (pin "Oblong4" "17" 650.000000 -300.000000)
+      (pin "Oblong4" "18" 750.000000 -300.000000)
+      (pin "Oblong4" "19" 850.000000 -300.000000)
+      (pin "Oblong4" "20" 950.000000 -300.000000)
+      (pin "Oblong5" "21" 950.000000 300.000000)
+      (pin "Oblong5" "22" 850.000000 300.000000)
+      (pin "Oblong5" "23" 750.000000 300.000000)
+      (pin "Oblong5" "24" 650.000000 300.000000)
+      (pin "Oblong5" "25" 550.000000 300.000000)
+      (pin "Oblong5" "26" 450.000000 300.000000)
+      (pin "Oblong5" "27" 350.000000 300.000000)
+      (pin "Oblong5" "28" 250.000000 300.000000)
+      (pin "Oblong5" "29" 150.000000 300.000000)
+      (pin "Oblong5" "30" 50.000000 300.000000)
+      (pin "Oblong5" "31" -50.000000 300.000000)
+      (pin "Oblong5" "32" -150.000000 300.000000)
+      (pin "Oblong5" "33" -250.000000 300.000000)
+      (pin "Oblong5" "34" -350.000000 300.000000)
+      (pin "Oblong5" "35" -450.000000 300.000000)
+      (pin "Oblong5" "36" -550.000000 300.000000)
+      (pin "Oblong5" "37" -650.000000 300.000000)
+      (pin "Oblong5" "38" -750.000000 300.000000)
+      (pin "Oblong5" "39" -850.000000 300.000000)
+      (pin "Oblong5" "40" -950.000000 300.000000)
+    )
+    (image "1X02$pinhead"
+      (pin "Oblong4" "1" -50.000000 0.000000)
+      (pin "Oblong4" "2" 50.000000 0.000000)
+    )
+    (image "1812L$ptc-littlefuse"
+      (pin "Rectangle12" "P$1" -85.039370 0.000000)
+      (pin "Rectangle12" "P$2" 85.039370 0.000000)
+    )
+    (image "C0805$rcl"
+      (place_keepout(path "1#Top" 0 77.677165 38.700787 77.677165 -38.700787 -77.677165 -38.700787 -77.677165 38.700787 ))
+      (pin "Rectangle13" "1" -37.401575 0.000000)
+      (pin "Rectangle13" "2" 37.401575 0.000000)
+    )
+    (image "C1210$rcl"
+      (place_keepout(path "1#Top" 0 97.362205 58.385827 97.362205 -58.385827 -97.362205 -58.385827 -97.362205 58.385827 ))
+      (pin "Rectangle14" "1" -55.118110 0.000000)
+      (pin "Rectangle14" "2" 55.118110 0.000000)
+    )
+    (image "E5-8,5$rcl"
+      (outline(circ "1#Top" 350.000000 0.000000 0.000000))
+      (outline(rect "1#Top" 10.000000 -45.000000 35.000000 45.000000))
+      (pin "Round5" "+" -100.000000 0.000000)
+      (pin "Octagon2" "-" 100.000000 0.000000)
+    )
+    (image "R/2012-12W$rcl"
+      (pin "Rectangle15" "+" 50.196850 0.000000)
+      (pin "Rectangle15" "-" -50.196850 0.000000)
+    )
+    (image "R0805$rcl"
+      (place_keepout(path "1#Top" 0 -77.677165 -38.700787 -77.677165 38.700787 77.677165 38.700787 77.677165 -38.700787 ))
+      (pin "Rectangle13" "1" -37.401575 0.000000)
+      (pin "Rectangle13" "2" 37.401575 0.000000)
+    )
+    (image "SOT23$transistor-small-signal"
+      (pin "Rectangle16" "1" -37.401575 -43.307087)
+      (pin "Rectangle16" "2" 37.401575 -43.307087)
+      (pin "Rectangle16" "3" 0.000000 43.307087)
+    )
+    (image "CC1101_MODULE1_SMD$wireless"
+      (pin "Rectangle17" "ANT" 748.031496 234.645669)
+      (pin "Rectangle17" "CSN" 0.000000 0.000000)
+      (pin "Rectangle17" "GDO0" 0.000000 78.740157)
+      (pin "Rectangle17" "GDO2" 0.000000 157.480315)
+      (pin "Rectangle17" "GND@0" 0.000000 472.440945)
+      (pin "Rectangle17" "GND@1" 748.031496 334.645669)
+      (pin "Rectangle17" "GND@2" 748.031496 134.645669)
+      (pin "Rectangle17" "MISO" 0.000000 236.220472)
+      (pin "Rectangle17" "MOSI" 0.000000 393.700787)
+      (pin "Rectangle17" "SCLK" 0.000000 314.960630)
+      (pin "Rectangle17" "VCC" 0.000000 551.181102)
+    )
+    (image "HM-MOD-UART-DIL$wireless"
+      (pin "Offset3" "1" 0.000000 472.440945)
+      (pin "Offset3" "2" 0.000000 393.700787)
+      (pin "Offset3" "3" 0.000000 314.960630)
+      (pin "Offset3" "4" 0.000000 236.220472)
+      (pin "Offset3" "5" 0.000000 157.480315)
+      (pin "Offset3" "6" 0.000000 78.740157)
+    )
+    (padstack "ViaDefault$12.000000"
+      (shape (circle signal 24.000000 0 0))
+    )
+    (padstack "Round1$12.000000" 
+      (shape (circle "1#Top" 24.000000 0 0))
+      (shape (circle "16#Bottom" 24.000000 0 0))
+      (attach off)
+    )
+    (padstack "Rectangle1" 
+      (shape (rect "1#Top" -13.000000 -40.000000 13.000000 40.000000))
+      (attach off)
+    )
+    (padstack "Rectangle2" 
+      (shape (rect "1#Top" -8.000000 -24.000000 8.000000 24.000000))
+      (attach off)
+    )
+    (padstack "Oblong1" 
+      (shape (path signal 51.496063 -25.748031 0.000000 25.748031 0.000000))
+      (attach off)
+    )
+    (padstack "Round2" 
+      (shape (circle signal 51.496063 0 0))
+      (attach off)
+    )
+    (padstack "Oblong2" 
+      (shape (path signal 51.496063 0.000000 -25.748031 0.000000 25.748031))
+      (attach off)
+    )
+    (padstack "Oblong3" 
+      (shape (path signal 51.496063 0.000000 -25.748031 0.000000 25.748031))
+      (attach off)
+    )
+    (padstack "Offset1" 
+      (shape (path signal 59.370079 0.000000 0.000000 -59.370079 0.000000))
+      (attach off)
+    )
+    (padstack "Offset2" 
+      (shape (path signal 59.370079 0.000000 0.000000 59.370079 0.000000))
+      (attach off)
+    )
+    (padstack "Rectangle3" 
+      (shape (rect "1#Top" -39.000000 -10.500000 39.000000 10.500000))
+      (attach off)
+    )
+    (padstack "Rectangle4" 
+      (shape (rect "1#Top" -80.000000 -30.000000 80.000000 30.000000))
+      (attach off)
+    )
+    (padstack "Rectangle5" 
+      (shape (rect "16#Bottom" -80.000000 -30.000000 80.000000 30.000000))
+      (attach off)
+    )
+    (padstack "Rectangle6" 
+      (shape (rect "1#Top" -40.000000 -20.000000 40.000000 20.000000))
+      (attach off)
+    )
+    (padstack "Rectangle7" 
+      (shape (rect "1#Top" -43.307087 -20.669291 43.307087 20.669291))
+      (attach off)
+    )
+    (padstack "Rectangle8" 
+      (shape (rect "1#Top" -15.748031 -19.685039 15.748031 19.685039))
+      (attach off)
+    )
+    (padstack "Rectangle9" 
+      (shape (rect "1#Top" -14.960630 -47.244094 14.960630 47.244094))
+      (attach off)
+    )
+    (padstack "Oblong4" 
+      (shape (path signal 60.000000 0.000000 -30.000000 0.000000 30.000000))
+      (attach off)
+    )
+    (padstack "Octagon1" 
+      (shape (polygon "1#Top" 0 30.000000 12.426405 12.426405 30.000000 -12.426405 30.000000 -30.000000 12.426405 -30.000000 -12.426405 -12.426405 -30.000000 12.426405 -30.000000 30.000000 -12.426405 ))
+      (shape (polygon "16#Bottom" 0 30.000000 12.426405 12.426405 30.000000 -12.426405 30.000000 -30.000000 12.426405 -30.000000 -12.426405 -12.426405 -30.000000 12.426405 -30.000000 30.000000 -12.426405 ))
+      (attach off)
+    )
+    (padstack "Round3" 
+      (shape (circle signal 66.929134 0 0))
+      (attach off)
+    )
+    (padstack "Square1" 
+      (shape (rect signal -29.685039 -29.685039 29.685039 29.685039))
+      (attach off)
+    )
+    (padstack "Round4" 
+      (shape (circle signal 59.370079 0 0))
+      (attach off)
+    )
+    (padstack "Rectangle10" 
+      (shape (rect "1#Top" -29.527559 -19.685039 29.527559 19.685039))
+      (attach off)
+    )
+    (padstack "Rectangle11" 
+      (shape (rect "1#Top" -23.000000 -31.500000 23.000000 31.500000))
+      (attach off)
+    )
+    (padstack "Oblong5" 
+      (shape (path signal 59.370079 0.000000 -29.685039 0.000000 29.685039))
+      (attach off)
+    )
+    (padstack "Rectangle12" 
+      (shape (rect "1#Top" -39.960630 -64.960630 39.960630 64.960630))
+      (attach off)
+    )
+    (padstack "Rectangle13" 
+      (shape (rect "1#Top" -25.590551 -29.527559 25.590551 29.527559))
+      (attach off)
+    )
+    (padstack "Rectangle14" 
+      (shape (rect "1#Top" -31.496063 -53.149606 31.496063 53.149606))
+      (attach off)
+    )
+    (padstack "Round5" 
+      (shape (circle signal 100.000000 0 0))
+      (attach off)
+    )
+    (padstack "Octagon2" 
+      (shape (polygon "1#Top" 0 50.000000 20.710675 20.710675 50.000000 -20.710675 50.000000 -50.000000 20.710675 -50.000000 -20.710675 -20.710675 -50.000000 20.710675 -50.000000 50.000000 -20.710675 ))
+      (shape (polygon "16#Bottom" 0 50.000000 20.710675 20.710675 50.000000 -20.710675 50.000000 -50.000000 20.710675 -50.000000 -20.710675 -20.710675 -50.000000 20.710675 -50.000000 50.000000 -20.710675 ))
+      (attach off)
+    )
+    (padstack "Rectangle15" 
+      (shape (rect "1#Top" -34.448819 -24.803150 34.448819 24.803150))
+      (attach off)
+    )
+    (padstack "Rectangle16" 
+      (shape (rect "1#Top" -19.685039 -27.559055 19.685039 27.559055))
+      (attach off)
+    )
+    (padstack "Rectangle17" 
+      (shape (rect "1#Top" -38.000000 -16.000000 38.000000 16.000000))
+      (attach off)
+    )
+    (padstack "Offset3" 
+      (shape (path signal 51.496063 0.000000 0.000000 -51.496063 0.000000))
+      (attach off)
+    )
+    (padstack "Round6$11.999877" 
+      (shape (circle "1#Top" 24.000000 0 0))
+      (shape (circle "16#Bottom" 24.000000 0 0))
+      (attach off)
+    )
+  )
+  (network
+    (net "+5V"
+      (pins  "5V"-"2" "U$1"-"21")
+    )
+    (net "1W"
+      (pins  "ZD1"-"1" "RS485"-"6" "R5"-"2" "X7"-"2")
+    )
+    (net "2W"
+      (pins  "RS485"-"7" "R3"-"2" "X7"-"3")
+    )
+    (net "CC_CS0"
+      (pins  "U$1"-"29" "CC0"-"CSN" "CC_X0"-"7")
+    )
+    (net "CC_CS1"
+      (pins  "U$1"-"35" "CC1"-"CSN" "CC_X1"-"7")
+    )
+    (net "CC_CS2"
+      (pins  "CC2"-"CSN" "U$1"-"4" "CC_X2"-"7" "IC1"-"5" "R1"-"2")
+    )
+    (net "CC_CS3"
+      (pins  "CC4"-"CSN" "U$1"-"25" "CC_X4"-"7")
+    )
+    (net "CC_IN_0"
+      (pins  "CC0"-"GDO2" "CC_X0"-"6" "U$1"-"33")
+    )
+    (net "CC_IN_1"
+      (pins  "CC1"-"GDO2" "U$1"-"7" "CC_X1"-"6")
+    )
+    (net "CC_IN_2"
+      (pins  "CC2"-"GDO2" "U$1"-"5" "CC_X2"-"6" "IC1"-"4" "R2"-"2")
+    )
+    (net "CC_IN_3"
+      (pins  "CC4"-"GDO2" "U$1"-"37" "CC_X4"-"6")
+    )
+    (net "CC_OUT_0"
+      (pins  "CC0"-"GDO0" "CC_X0"-"8" "U$1"-"32")
+    )
+    (net "CC_OUT_1"
+      (pins  "CC1"-"GDO0" "U$1"-"6" "CC_X1"-"8")
+    )
+    (net "CC_OUT_2"
+      (pins  "CC2"-"GDO0" "U$1"-"36" "CC_X2"-"8")
+    )
+    (net "CE-A"
+      (pins  "NRF24L01+"-"3" "U$2"-"D9" "RS485"-"4")
+    )
+    (net "CSN-A"
+      (pins  "NRF24L01+"-"4" "U$2"-"D10")
+    )
+    (net "GD"
+      (pins  "ZD1"-"2" "GND"-"2" "X7"-"4")
+    )
+    (net "GND"
+      (pins  "CC1"-"GND@0" "CC1"-"GND@2" "U$1"-"39" "U$1"-"24" "UART0"-"4" "UART1"-"4" "CC0"-"GND@0" "CC0"-"GND@2" "DBG"-"4" "CC2"-"GND@0" "CC2"-"GND@2" "CC_X0"-"9" "CC_X0"-"10" "CC_X1"-"9" "CC_X1"-"10" "CC_X2"-"9" "CC_X2"-"10" "CC4"-"GND@0" "CC4"-"GND@2" "CC_X4"-"9" "CC_X4"-"10" "CTX-DB"-"3" "CTX-DB"-"5" "C1"-"1" "C2"-"1" "C3"-"1" "C4"-"1" "C6"-"2" "C5"-"-" "NRF24L01+"-"1" "C7"-"1" "U$2"-"GND" "X5"-"GND@3" "X5"-"GND@4" "X1"-"GND@3" "X1"-"GND@4" "CC1"-"GND@1" "X1"-"GND@2" "X1"-"GND@1" "X5"-"GND@1" "X5"-"GND@2" "CC2"-"GND@1" "X2"-"GND@1" "X2"-"GND@3" "X2"-"GND@4" "X2"-"GND@2" "X3"-"GND@3" "X3"-"GND@4" "CC4"-"GND@1" "X3"-"GND@1" "X3"-"GND@2" "HMMOD-UART"-"2" "IC1"-"3" "IC1"-"8" "IC1"-"7" "X4"-"2" "ZD1"-"5" "RS485"-"5" "C8"-"2" "GND"-"1" "CC0"-"GND@1" "C9"-"1" "IC2"-"1" "IC2"-"2" "IC2"-"12" "C10"-"-" "ESP8266"-"GND" "C11"-"1" "X6"-"2" "X6"-"1" "PRG"-"2" "ESP8266"-"GPIO15")
+    )
+    (net "IRQ-A"
+      (pins  "NRF24L01+"-"8" "U$2"-"D2" "RS485"-"3" "RS485"-"2")
+    )
+    (net "MISO-A"
+      (pins  "NRF24L01+"-"7" "U$2"-"D12")
+    )
+    (net "MISO1"
+      (pins  "U$1"-"27" "CC1"-"MISO" "CC0"-"MISO" "CC2"-"MISO" "CC_X0"-"5" "CC_X1"-"5" "CC_X2"-"5" "CC4"-"MISO" "CC_X4"-"5")
+    )
+    (net "MISO2"
+      (pins  "U$1"-"18" "IC2"-"7")
+    )
+    (net "MOSI-A"
+      (pins  "NRF24L01+"-"6" "U$2"-"D11")
+    )
+    (net "MOSI1"
+      (pins  "U$1"-"26" "CC1"-"MOSI" "CC0"-"MOSI" "CC2"-"MOSI" "CC_X0"-"3" "CC_X1"-"3" "CC_X2"-"3" "CC4"-"MOSI" "CC_X4"-"3")
+    )
+    (net "N$1"
+      (pins  "CC1"-"ANT" "X1"-"P")
+    )
+    (net "N$2"
+      (pins  "CC4"-"ANT" "X3"-"P")
+    )
+    (net "N$3"
+      (pins  "X2"-"P" "CC2"-"ANT")
+    )
+    (net "N$4"
+      (pins  "CC0"-"ANT" "X5"-"P")
+    )
+    (net "N$6"
+      (pins )
+    )
+    (net "N$7"
+      (pins )
+    )
+    (net "N$8"
+      (pins  "CTX-DB"-"7")
+    )
+    (net "N$9"
+      (pins )
+    )
+    (net "N$10"
+      (pins )
+    )
+    (net "N$11"
+      (pins  "ESP8266"-"GPIO0" "PRG"-"1")
+    )
+    (net "N$12"
+      (pins  "ESP8266"-"ANT" "X6"-"3")
+    )
+    (net "N$13"
+      (pins )
+    )
+    (net "N$14"
+      (pins )
+    )
+    (net "N$16"
+      (pins )
+    )
+    (net "N$17"
+      (pins  "ESP8266"-"CH_PD" "CHPD"-"2")
+    )
+    (net "N$18"
+      (pins  "ESP8266"-"URXD" "RX"-"2")
+    )
+    (net "N$19"
+      (pins  "ESP8266"-"UTXD" "TX"-"2")
+    )
+    (net "N$21"
+      (pins  "R5"-"1" "C8"-"1" "R3"-"1")
+    )
+    (net "N$22"
+      (pins )
+    )
+    (net "N$23"
+      (pins )
+    )
+    (net "N$25"
+      (pins )
+    )
+    (net "N$28"
+      (pins )
+    )
+    (net "N$31"
+      (pins )
+    )
+    (net "N$33"
+      (pins  "IC2"-"6")
+    )
+    (net "N$35"
+      (pins )
+    )
+    (net "N$36"
+      (pins )
+    )
+    (net "N$37"
+      (pins )
+    )
+    (net "N$38"
+      (pins )
+    )
+    (net "N$39"
+      (pins )
+    )
+    (net "N$40"
+      (pins )
+    )
+    (net "N$41"
+      (pins )
+    )
+    (net "N$42"
+      (pins )
+    )
+    (net "N$43"
+      (pins )
+    )
+    (net "N$44"
+      (pins )
+    )
+    (net "N$45"
+      (pins  "X4"-"1" "F1"-"P$2")
+    )
+    (net "N$47"
+      (pins  "IC1"-"6" "Q1"-"1")
+    )
+    (net "N$48"
+      (pins  "Q1"-"3" "IC1"-"2" "ZD1"-"6")
+    )
+    (net "N$52"
+      (pins  "Q1"-"2" "R4"-"1")
+    )
+    (net "NC"
+      (pins  "CTX-DB"-"9")
+    )
+    (net "NRESET"
+      (pins  "U$1"-"34" "CTX-DB"-"10")
+    )
+    (net "RO-A"
+      (pins  "U$2"-"D8" "RS485"-"1")
+    )
+    (net "RST"
+      (pins  "U$1"-"17" "IC2"-"3")
+    )
+    (net "RX-MAPLE"
+      (pins  "U$1"-"30" "UART0"-"3" "U$2"-"TX0-1")
+    )
+    (net "RX1"
+      (pins  "U$1"-"22" "UART1"-"3" "HMMOD-UART"-"5")
+    )
+    (net "RX_DBG"
+      (pins  "U$1"-"14" "DBG"-"3" "TX"-"1")
+    )
+    (net "SCK-A"
+      (pins  "NRF24L01+"-"5" "U$2"-"D13")
+    )
+    (net "SCK1"
+      (pins  "U$1"-"28" "CC1"-"SCLK" "CC0"-"SCLK" "CC2"-"SCLK" "CC_X0"-"4" "CC_X1"-"4" "CC_X2"-"4" "CC4"-"SCLK" "CC_X4"-"4")
+    )
+    (net "SCK2"
+      (pins  "U$1"-"19" "IC2"-"4" "IC2"-"5")
+    )
+    (net "SWCLK/TCK"
+      (pins  "CTX-DB"-"4" "U$1"-"10")
+    )
+    (net "SWDIO/TMS"
+      (pins  "CTX-DB"-"2" "U$1"-"11")
+    )
+    (net "SWO/TDO"
+      (pins  "U$1"-"8" "CTX-DB"-"6")
+    )
+    (net "TDI"
+      (pins  "U$1"-"9" "CTX-DB"-"8")
+    )
+    (net "TX-MAPLE"
+      (pins  "UART0"-"2" "U$1"-"31" "U$2"-"RX1-1")
+    )
+    (net "TX1"
+      (pins  "UART1"-"2" "U$1"-"23" "HMMOD-UART"-"6")
+    )
+    (net "TX_DBG"
+      (pins  "DBG"-"2" "U$1"-"15" "RX"-"1")
+    )
+    (net "VCC"
+      (pins  "CC1"-"VCC" "U$1"-"40" "UART0"-"1" "UART1"-"1" "CC0"-"VCC" "DBG"-"1" "CC2"-"VCC" "CC_X0"-"1" "CC_X0"-"2" "CC_X1"-"1" "CC_X1"-"2" "CC_X2"-"1" "CC_X2"-"2" "CC4"-"VCC" "CC_X4"-"1" "CC_X4"-"2" "CTX-DB"-"1" "C1"-"2" "C2"-"2" "C3"-"2" "C4"-"2" "C6"-"1" "C5"-"+" "U$2"-"VCC" "C7"-"2" "HMMOD-UART"-"1" "3V3"-"1" "NRF24L01+"-"2" "IC2"-"10" "IC2"-"11" "C10"-"+" "ESP8266"-"VCC" "C11"-"2" "CHPD"-"1")
+    )
+    (net "VDD"
+      (pins  "IC1"-"1" "3V3"-"2" "5V"-"1" "R4"-"2" "R1"-"1" "F1"-"P$1" "R2"-"1" "RS485"-"8" "C9"-"2" "X7"-"1")
+    )
+    (net "WIZ_CS"
+      (pins  "U$1"-"20")
+    )
+    (net "WIZ_RST"
+      (pins  "U$1"-"16" "IC2"-"8")
+    )
+    (class "default"
+       "1W" "2W" "CC_CS0" "CC_CS1" "CC_CS2" "CC_CS3" "CC_IN_0" "CC_IN_1" "CC_IN_2" "CC_IN_3" "CC_OUT_0" "CC_OUT_1" "CC_OUT_2" "CE-A" "CSN-A" "IRQ-A" "MISO-A" "MISO1" "MISO2" "MOSI-A" "MOSI1" "N$1" "N$2" "N$3" "N$4" "N$6" "N$7" "N$8" "N$9" "N$10" "N$11" "N$12" "N$13" "N$14" "N$16" "N$17" "N$18" "N$19" "N$21" "N$22" "N$23" "N$25" "N$28" "N$31" "N$33" "N$35" "N$36" "N$37" "N$38" "N$39" "N$40" "N$41" "N$42" "N$43" "N$44" "N$47" "N$48" "N$52" "NC" "NRESET" "RO-A" "RST" "RX-MAPLE" "RX1" "RX_DBG" "SCK-A" "SCK1" "SCK2" "SWCLK/TCK" "SWDIO/TMS" "SWO/TDO" "TDI" "TX-MAPLE" "TX1" "TX_DBG" "WIZ_CS" "WIZ_RST"
+      (rule
+        (width 12.000000)
+      )
+    )
+    (class "PWR"
+       "+5V" "GD" "GND" "N$45" "VCC" "VDD"
+      (rule
+        (width 18.000000)
+      )
+    )
+  )
+  (wiring
+    (via
+      "Round6$11.999877" 150.000000 2200.000000
+      (net "N$6")
+    )
+    (via
+      "Round6$11.999877" 50.000000 1650.000000
+      (net "N$7")
+    )
+    (via
+      "Round6$11.999877" 150.000000 100.000000
+      (net "N$9")
+    )
+    (via
+      "Round6$11.999877" 75.000000 650.000000
+      (net "N$10")
+    )
+    (via
+      "Round6$11.999877" 300.000000 2200.000000
+      (net "N$13")
+    )
+    (via
+      "Round6$11.999877" 500.000000 2200.000000
+      (net "N$14")
+    )
+    (via
+      "Round6$11.999877" 3750.000000 2200.000000
+      (net "N$16")
+    )
+    (via
+      "Round1$12.000000" 300.000000 1550.000000
+      (net "N$22")
+    )
+    (via
+      "Round1$12.000000" 525.000000 1550.000000
+      (net "N$23")
+    )
+    (via
+      "Round1$12.000000" 675.000000 1550.000000
+      (net "N$25")
+    )
+    (via
+      "Round6$11.999877" 500.000000 550.000000
+      (net "N$28")
+    )
+    (via
+      "Round1$12.000000" 2825.000000 2250.000000
+      (net "N$31")
+    )
+    (via
+      "Round1$12.000000" 3875.000000 50.000000
+      (net "N$35")
+    )
+    (via
+      "Round6$11.999877" 850.000000 2200.000000
+      (net "N$36")
+    )
+    (via
+      "Round6$11.999877" 650.000000 2200.000000
+      (net "N$37")
+    )
+    (via
+      "Round6$11.999877" 500.000000 400.000000
+      (net "N$38")
+    )
+    (via
+      "Round6$11.999877" 3700.000000 1650.000000
+      (net "N$39")
+    )
+    (via
+      "Round1$12.000000" 3875.000000 650.000000
+      (net "N$40")
+    )
+    (via
+      "Round1$12.000000" 3750.000000 650.000000
+      (net "N$41")
+    )
+    (via
+      "Round1$12.000000" 3875.000000 775.000000
+      (net "N$42")
+    )
+    (via
+      "Round1$12.000000" 3750.000000 775.000000
+      (net "N$43")
+    )
+    (via
+      "Round1$12.000000" 3850.000000 1650.000000
+      (net "N$44")
+    )
+  )
+)
