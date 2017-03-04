@@ -14701,6 +14701,7 @@ at 30/07/2012 11:04:18</description>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C0805" value="22pF"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="GND6" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14852,6 +14853,7 @@ siehe 1Wire...</text>
 <instance part="GND16" gate="1" x="21.59" y="181.61" rot="R180"/>
 <instance part="C12" gate="G$1" x="49.53" y="165.1" rot="R270"/>
 <instance part="GND17" gate="1" x="41.91" y="158.75"/>
+<instance part="GND6" gate="1" x="106.68" y="163.83" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -15181,6 +15183,12 @@ siehe 1Wire...</text>
 <wire x1="44.45" y1="165.1" x2="41.91" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="41.91" y1="165.1" x2="41.91" y2="161.29" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="123.19" y1="156.21" x2="106.68" y2="156.21" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="156.21" x2="106.68" y2="161.29" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+5V" class="1">
 <segment>
@@ -15495,10 +15503,9 @@ siehe 1Wire...</text>
 <label x="203.2" y="133.35" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="TX0-1"/>
-<wire x1="95.25" y1="57.15" x2="95.25" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="66.04" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
-<label x="96.52" y="66.04" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="TX0"/>
+<wire x1="72.39" y1="41.91" x2="57.15" y2="41.91" width="0.1524" layer="91"/>
+<label x="59.69" y="41.91" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX-MAPLE" class="0">
@@ -15512,10 +15519,9 @@ siehe 1Wire...</text>
 <label x="203.2" y="135.89" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="RX1-1"/>
-<wire x1="92.71" y1="57.15" x2="92.71" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="92.71" y1="71.12" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
-<label x="96.52" y="71.12" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="RX1"/>
+<wire x1="72.39" y1="39.37" x2="57.15" y2="39.37" width="0.1524" layer="91"/>
+<label x="59.69" y="39.37" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CC_CS0" class="0">
