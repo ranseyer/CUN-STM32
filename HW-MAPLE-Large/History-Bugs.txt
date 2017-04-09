@@ -14,3 +14,8 @@ Masse geroutet vor Anlegen der Masseflächen
 1.4
 1Wire entfernt.
 
+1.5 (102)
+Auf Basis 1.3 , die letzten beiden Transceiver nicht steckbar
+LAN Modul mehr am Rand, kleine Optimierungen
+
+
