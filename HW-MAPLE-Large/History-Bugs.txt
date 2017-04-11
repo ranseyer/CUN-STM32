@@ -17,5 +17,9 @@ Masse geroutet vor Anlegen der Masseflächen
 1.5 (102)
 Auf Basis 1.3 , die letzten beiden Transceiver nicht steckbar
 LAN Modul mehr am Rand, kleine Optimierungen
+Bohrungen für Taster, falls der Maple unter der Platine montiert wird
+Transceiver 1+3 etwas besser ausgerichtet
+RS485 Option nur nocht mit Lötjumper (keine Bohrung)
+Bessere Ausrichtung
 
 
