@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9175,85 +9175,6 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Martin-Communication">
-<packages>
-<package name="USR-ES1">
-<wire x1="-11.5" y1="-12.785" x2="-11.5" y2="12.215" width="0.127" layer="21"/>
-<wire x1="-11.5" y1="12.215" x2="-9.5" y2="12.215" width="0.127" layer="21"/>
-<wire x1="-9.5" y1="12.215" x2="-9.5" y2="16.215" width="0.127" layer="21"/>
-<wire x1="-9.5" y1="16.215" x2="9.5" y2="16.215" width="0.127" layer="21"/>
-<wire x1="9.5" y1="16.215" x2="9.5" y2="12.215" width="0.127" layer="21"/>
-<wire x1="9.5" y1="12.215" x2="11.5" y2="12.215" width="0.127" layer="21"/>
-<wire x1="11.5" y1="12.215" x2="11.5" y2="-12.785" width="0.127" layer="21"/>
-<wire x1="11.5" y1="-12.785" x2="-11.5" y2="-12.785" width="0.127" layer="21"/>
-<wire x1="-9.5" y1="12.215" x2="9.5" y2="12.215" width="0.127" layer="21"/>
-<text x="-3.5" y="19.715" size="1.27" layer="25" ratio="12">&gt;NAME</text>
-<text x="-4" y="17.215" size="1.27" layer="27" ratio="12">&gt;VALUE</text>
-<pad name="1" x="-10.16" y="5.715" drill="1" diameter="1.35" shape="offset" rot="R180"/>
-<pad name="2" x="-10.16" y="3.175" drill="1" diameter="1.35" shape="offset" rot="R180"/>
-<pad name="3" x="-10.16" y="0.635" drill="1" diameter="1.35" shape="offset" rot="R180"/>
-<pad name="4" x="-10.16" y="-1.905" drill="1" diameter="1.35" shape="offset" rot="R180"/>
-<pad name="5" x="-10.16" y="-4.445" drill="1" diameter="1.35" shape="offset" rot="R180"/>
-<pad name="6" x="-10.16" y="-6.985" drill="1" diameter="1.35" shape="offset" rot="R180"/>
-<pad name="7" x="10.16" y="-6.985" drill="1" diameter="1.35" shape="offset"/>
-<pad name="8" x="10.16" y="-4.445" drill="1" diameter="1.35" shape="offset"/>
-<pad name="9" x="10.16" y="-1.905" drill="1" diameter="1.35" shape="offset"/>
-<pad name="10" x="10.16" y="0.635" drill="1" diameter="1.35" shape="offset"/>
-<pad name="11" x="10.16" y="3.175" drill="1" diameter="1.35" shape="offset"/>
-<pad name="12" x="10.16" y="5.715" drill="1" diameter="1.35" shape="offset"/>
-</package>
-</packages>
-<symbols>
-<symbol name="USR-ES1">
-<wire x1="-7.62" y1="17.78" x2="5.08" y2="17.78" width="0.254" layer="94"/>
-<wire x1="5.08" y1="17.78" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-22.86" x2="-7.62" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-22.86" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
-<pin name="GND" x="-12.7" y="-12.7" length="middle" direction="pwr"/>
-<pin name="GND@1" x="-12.7" y="-15.24" length="middle" direction="pwr"/>
-<pin name="MOSI" x="-12.7" y="0" length="middle"/>
-<pin name="MISO" x="-12.7" y="-2.54" length="middle"/>
-<pin name="SCLK" x="-12.7" y="-5.08" length="middle" direction="in"/>
-<pin name="!INT!" x="-12.7" y="-10.16" length="middle" direction="out"/>
-<pin name="V+" x="-12.7" y="15.24" length="middle" direction="pwr"/>
-<pin name="V+@1" x="-12.7" y="12.7" length="middle" direction="pwr"/>
-<pin name="!SCS!" x="-12.7" y="7.62" length="middle" direction="in"/>
-<pin name="NC" x="-12.7" y="-20.32" length="middle" direction="nc"/>
-<pin name="RES" x="-12.7" y="2.54" length="middle" direction="in"/>
-<pin name="GND@2" x="-12.7" y="-17.78" length="middle" direction="pwr"/>
-<text x="-5.08" y="22.86" size="1.27" layer="95" ratio="12">&gt;NAME</text>
-<text x="-5.08" y="20.32" size="1.27" layer="96" ratio="12">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LAN-USR-ES1" prefix="IC">
-<gates>
-<gate name="G$1" symbol="USR-ES1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="USR-ES1">
-<connects>
-<connect gate="G$1" pin="!INT!" pad="6"/>
-<connect gate="G$1" pin="!SCS!" pad="5"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="GND@1" pad="2"/>
-<connect gate="G$1" pin="GND@2" pad="12"/>
-<connect gate="G$1" pin="MISO" pad="7"/>
-<connect gate="G$1" pin="MOSI" pad="3"/>
-<connect gate="G$1" pin="NC" pad="9"/>
-<connect gate="G$1" pin="RES" pad="8"/>
-<connect gate="G$1" pin="SCLK" pad="4"/>
-<connect gate="G$1" pin="V+" pad="10"/>
-<connect gate="G$1" pin="V+@1" pad="11"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="testpad">
 <description>&lt;b&gt;Test Pins/Pads&lt;/b&gt;&lt;p&gt;
 Cream on SMD OFF.&lt;br&gt;
@@ -10016,12 +9937,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="22pF"/>
 <part name="X5" library="adafruit" deviceset="SMACONNECTOR" device="_EDGE_UFL"/>
 <part name="X1" library="adafruit" deviceset="SMACONNECTOR" device="_EDGE_UFL"/>
-<part name="X2" library="adafruit" deviceset="SMACONNECTOR" device="_EDGE_UFL"/>
-<part name="CC2-EXT1" library="wireless" deviceset="CC1101_MODULE3_DIL" device=""/>
-<part name="IC2" library="Martin-Communication" deviceset="LAN-USR-ES1" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="VCC" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="ANT3" library="testpad" deviceset="TP" device="PAD1-13"/>
+<part name="ANT2" library="testpad" deviceset="TP" device="PAD1-13"/>
 </parts>
 <sheets>
 <sheet>
@@ -10108,12 +10027,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="C4" gate="G$1" x="233.68" y="236.22" rot="R90"/>
 <instance part="X5" gate="G$1" x="63.5" y="228.6"/>
 <instance part="X1" gate="G$1" x="138.43" y="228.6"/>
-<instance part="X2" gate="G$1" x="212.09" y="228.6"/>
-<instance part="CC2-EXT1" gate="G$1" x="38.1" y="177.8"/>
-<instance part="IC2" gate="G$1" x="210.82" y="116.84"/>
 <instance part="SUPPLY12" gate="G$1" x="60.96" y="139.7"/>
 <instance part="GND15" gate="1" x="54.61" y="133.35" rot="R270"/>
 <instance part="ANT3" gate="G$1" x="283.21" y="224.79" rot="R270"/>
+<instance part="ANT2" gate="G$1" x="209.55" y="228.6" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -10313,25 +10230,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="CC2" gate="G$1" pin="GND@3"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="198.12" y1="222.25" x2="198.12" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="GND4"/>
-<pinref part="X2" gate="G$1" pin="GND3"/>
-<wire x1="214.63" y1="220.98" x2="209.55" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="209.55" y1="220.98" x2="201.93" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="201.93" y1="220.98" x2="201.93" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="GND1"/>
 <wire x1="201.93" y1="226.06" x2="201.93" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="201.93" y1="231.14" x2="201.93" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="201.93" y1="236.22" x2="209.55" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="GND2"/>
-<wire x1="209.55" y1="236.22" x2="214.63" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="CC2" gate="G$1" pin="GND@2"/>
 <wire x1="201.93" y1="231.14" x2="198.12" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="226.06" x2="201.93" y2="226.06" width="0.1524" layer="91"/>
-<junction x="201.93" y="231.14"/>
-<junction x="201.93" y="226.06"/>
 <junction x="198.12" y="226.06"/>
-<junction x="209.55" y="220.98"/>
-<junction x="209.55" y="236.22"/>
 </segment>
 <segment>
 <pinref part="CC3" gate="G$1" pin="GND@1"/>
@@ -10352,24 +10255,19 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="273.05" y="222.25"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT1" gate="G$1" pin="GND@0"/>
 <wire x1="38.1" y1="182.88" x2="20.32" y2="182.88" width="0.1524" layer="91"/>
 <label x="22.86" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT1" gate="G$1" pin="GND@1"/>
 <wire x1="38.1" y1="180.34" x2="20.32" y2="180.34" width="0.1524" layer="91"/>
 <label x="22.86" y="180.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="GND"/>
 <wire x1="198.12" y1="104.14" x2="196.85" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="196.85" y1="104.14" x2="196.85" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="GND@1"/>
 <wire x1="196.85" y1="101.6" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="101.6" x2="196.85" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="196.85" y1="101.6" x2="196.85" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="GND@2"/>
 <wire x1="196.85" y1="99.06" x2="198.12" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="196.85" y1="101.6" x2="189.23" y2="101.6" width="0.1524" layer="91"/>
 <label x="190.5" y="101.6" size="1.778" layer="95"/>
@@ -10395,7 +10293,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U$4" gate="G$1" pin="31/SPI2_SS"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="!SCS!"/>
 <wire x1="198.12" y1="124.46" x2="189.23" y2="124.46" width="0.1524" layer="91"/>
 <label x="190.5" y="124.46" size="1.778" layer="95"/>
 </segment>
@@ -10407,7 +10304,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U$4" gate="G$1" pin="28/SPI2_MOSI"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="MOSI"/>
 <wire x1="198.12" y1="116.84" x2="189.23" y2="116.84" width="0.1524" layer="91"/>
 <label x="190.5" y="116.84" size="1.778" layer="95"/>
 </segment>
@@ -10419,7 +10315,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U$4" gate="G$1" pin="27/PWM"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="RES"/>
 <wire x1="198.12" y1="119.38" x2="189.23" y2="119.38" width="0.1524" layer="91"/>
 <label x="190.5" y="119.38" size="1.778" layer="95"/>
 </segment>
@@ -10431,7 +10326,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U$4" gate="G$1" pin="30/SPI2_SCK"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="SCLK"/>
 <wire x1="198.12" y1="111.76" x2="189.23" y2="111.76" width="0.1524" layer="91"/>
 <label x="190.5" y="111.76" size="1.778" layer="95"/>
 </segment>
@@ -10443,7 +10337,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U$4" gate="G$1" pin="29/SPI2_MISO"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="MISO"/>
 <wire x1="198.12" y1="114.3" x2="189.23" y2="114.3" width="0.1524" layer="91"/>
 <label x="190.5" y="114.3" size="1.778" layer="95"/>
 </segment>
@@ -10460,7 +10353,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="8.89" y="223.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT1" gate="G$1" pin="GDO0"/>
 <wire x1="38.1" y1="187.96" x2="20.32" y2="187.96" width="0.1524" layer="91"/>
 <label x="22.86" y="187.96" size="1.778" layer="95"/>
 </segment>
@@ -10477,7 +10369,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="11.43" y="226.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT1" gate="G$1" pin="GDO2"/>
 <wire x1="38.1" y1="190.5" x2="20.32" y2="190.5" width="0.1524" layer="91"/>
 <label x="22.86" y="190.5" size="1.778" layer="95"/>
 </segment>
@@ -10604,20 +10495,16 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="240.03" y="236.22"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT1" gate="G$1" pin="VCC@0"/>
 <wire x1="38.1" y1="203.2" x2="20.32" y2="203.2" width="0.1524" layer="91"/>
 <label x="22.86" y="203.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT1" gate="G$1" pin="VCC@1"/>
 <wire x1="38.1" y1="200.66" x2="20.32" y2="200.66" width="0.1524" layer="91"/>
 <label x="22.86" y="200.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="V+"/>
 <wire x1="198.12" y1="132.08" x2="196.85" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="196.85" y1="132.08" x2="196.85" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="V+@1"/>
 <wire x1="196.85" y1="129.54" x2="198.12" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="196.85" y1="129.54" x2="189.23" y2="129.54" width="0.1524" layer="91"/>
 <label x="190.5" y="129.54" size="1.778" layer="95"/>
@@ -10705,7 +10592,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="11.43" y="220.98" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT1" gate="G$1" pin="CSN"/>
 <wire x1="38.1" y1="185.42" x2="20.32" y2="185.42" width="0.1524" layer="91"/>
 <label x="22.86" y="185.42" size="1.778" layer="95"/>
 </segment>
@@ -10742,7 +10628,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="233.68" y="227.33" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT1" gate="G$1" pin="SCLK"/>
 <wire x1="38.1" y1="195.58" x2="20.32" y2="195.58" width="0.1524" layer="91"/>
 <label x="22.86" y="195.58" size="1.778" layer="95"/>
 </segment>
@@ -10779,7 +10664,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="233.68" y="224.79" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT1" gate="G$1" pin="MISO"/>
 <wire x1="38.1" y1="193.04" x2="20.32" y2="193.04" width="0.1524" layer="91"/>
 <label x="22.86" y="193.04" size="1.778" layer="95"/>
 </segment>
@@ -10816,7 +10700,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="233.68" y="229.87" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT1" gate="G$1" pin="MOSI"/>
 <wire x1="38.1" y1="198.12" x2="20.32" y2="198.12" width="0.1524" layer="91"/>
 <label x="22.86" y="198.12" size="1.778" layer="95"/>
 </segment>
@@ -11111,14 +10994,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="X2" gate="G$1" pin="ANT"/>
 <pinref part="CC2" gate="G$1" pin="ANT"/>
 <wire x1="204.47" y1="228.6" x2="198.12" y2="228.6" width="0.1524" layer="91"/>
+<pinref part="ANT2" gate="G$1" pin="TP"/>
+<wire x1="204.47" y1="228.6" x2="207.01" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="!INT!"/>
 <wire x1="198.12" y1="106.68" x2="189.23" y2="106.68" width="0.1524" layer="91"/>
 <label x="190.5" y="106.68" size="1.778" layer="95"/>
 </segment>
