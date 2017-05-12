@@ -1,2 +1,0 @@
-DRC SAVE '/home/martin/GitHub/CUN-STM32/HW-MAPLE-Large/mapleCUx_large_176.dru';
-RUN eagle2freerouter.ulp 'mapleCUx_large_176.dru';

@@ -27,3 +27,4 @@ SMA Buchsen auf Längs-Seite
 MiniStamps zusätzlich möglich
 MySensors RFM69 433/866MHz (SMA, U.FL oder Draht) per MEGA328-SMD zusätzlich zu MySensors NFR24L01 (2,4GHz) per Arduino möglich
 RS485+ abgesicherte Spannungs-Einspeisung
+Drossel+C für MySensors
