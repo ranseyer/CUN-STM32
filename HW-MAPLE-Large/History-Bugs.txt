@@ -22,4 +22,8 @@ Transceiver 1+3 etwas besser ausgerichtet
 RS485 Option nur nocht mit Lötjumper (keine Bohrung)
 Bessere Ausrichtung
 
-
+2.0
+SMA Buchsen auf Längs-Seite
+MiniStamps zusätzlich möglich
+MySensors RFM69 433/866MHz (SMA, U.FL oder Draht) per MEGA328-SMD zusätzlich zu MySensors NFR24L01 (2,4GHz) per Arduino möglich
+RS485+ abgesicherte Spannungs-Einspeisung
