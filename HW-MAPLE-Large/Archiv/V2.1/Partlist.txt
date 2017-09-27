@@ -1,0 +1,74 @@
+Partlist
+
+Exported from mapleCUx_large_210.brd at 27.09.17 18:10
+
+EAGLE Version 7.3.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part       Value               Package            Library                     Position (mil)        Orientation
+
+3V3                            SJ                 jumper                      (3825 750)            MR180
+5V                             SJ                 jumper                      (3825 900)            MR0
+ANT        MICRO RF            1X01               SparkFun-Connectors         (1900 200)            R0
+C1         22pF                C0805              rcl                         (675 1100)            R0
+C2         22pF                C0805              rcl                         (1842.75591 907.28346) R90
+C3         22pF                C0805              rcl                         (2714.37008 1725)     MR180
+C4         22pF                C0805              rcl                         (2690.31496 1075)     R0
+C5         220uF               E5-8,5             rcl                         (2925 650)            R270
+C6         22pF                C0805              rcl                         (175 2189.37008)      R180
+C7                             C1812              rcl                         (2850 650)            R90
+C8         220p                C0805              rcl                         (2481.69291 1907.67717) MR90
+C9         22p                 C0805              rcl                         (3025 1940.94488)     MR270
+C11        22pF                C0805              rcl                         (852.91339 887.59843) R270
+C12        22pF                C0805              rcl                         (3650 1100)           R180
+C14        30pf                0805               doug                        (800 200)             MR270
+C15        30pf                0805               doug                        (800 375)             MR90
+C31        100n                C0805              rcl                         (850 575)             MR0
+C32        100n                C0805              rcl                         (1000 550)            MR270
+CC0        CC1101              CC1101_MODULE1_SMD wireless                    (175 975)             R270
+CC1        CC1101_MODULE1SMD   CC1101_MODULE1_SMD wireless                    (3150 975)            R270
+CC2        CC1101_MODULE1SMD   CC1101_MODULE1_SMD wireless                    (1175 975)            R270
+CC2-EXT    CC1101_MODULE3_DIL  CC1101_MODULE3_DIL wireless                    (1254.72441 1251.5748) R270
+CC3        CC1101_MODULE1SMD   CC1101_MODULE1_SMD wireless                    (2175 975)            R270
+CC3-EXT    CC1101_MODULE3_DIL  CC1101_MODULE3_DIL wireless                    (1944.68504 1256.88976) R270
+CHPD                           SJ                 jumper                      (1850 600)            MR180
+DBG                            MA04-1             con-lstb                    (1400 1650)           R270
+F1         1812L               1812L              ptc-littlefuse              (3760 1745)           MR180
+F2         1812L               1812L              ptc-littlefuse              (3850 525)            R270
+GND                            SJ                 jumper                      (3825 1025)           MR180
+HMMOD-UART HM-MOD-UARTDIL      HM-MOD-UART-DIL    wireless                    (3090 1485)           MR90
+IC2        LAN-USR-ES1         USR-ES1            Martin-Communication        (330 1645)            R90
+IC31       ATMEGA168-TQFP      TQFP32-08          atmel                       (400 550)             MR90
+L1                             WE-KI_0805A        EAGLE-EMC_COMPONENTS-rev17a (2204.72441 2165.35433) R270
+NRF24L01+  NRF24L01+           WIRELESS-NRF24L01  diy-modules                 (2600 1800)           R0
+PRG                            SJ                 jumper                      (1850 750)            MR0
+R1                             SJ_2               jumper                      (1025 1125)           MR90
+R2         10k                 0805               doug                        (825 750)             MR90
+R3         60                  R0805              rcl                         (3275 1250)           MR270
+R4         1M                  0805               doug                        (1025 150)            MR0
+R5         60                  R0805              rcl                         (3450 1275)           MR180
+R34                            R0805              rcl                         (975 725)             MR180
+RADIO0B    CC1101_MODULE1SMALL CC1101_MODULE1_SMD Martin-Communication        (240 815)             R270
+RADIO1B    CC1101_MODULE1SMALL CC1101_MODULE1_SMD Martin-Communication        (3210 820)            R270
+RADIO2B    CC1101_MODULE1SMALL CC1101_MODULE1_SMD Martin-Communication        (1240 820)            R270
+RADIO3B    CC1101_MODULE1SMALL CC1101_MODULE1_SMD Martin-Communication        (2240 820)            R270
+RS485      MAX487ECSA+         SOIC127P600X175-8N Maxim_By_element14_Batch_1  (2760.62992 1915.94488) MR180
+RX                             SJ                 jumper                      (2050 750)            MR180
+T1                             SJ_2               jumper                      (900 1125)            MR90
+TX                             SJ                 jumper                      (2050 600)            MR180
+U$1        MAPLEMINI           20-DIP             maplemini-small             (997.5 1645.62992)    R0
+U$2        ABK-PRO-MINI        ABK-PRO-MINI       Arduino-clone               (3200 2002.79528)     R270
+U$3        ESP01               ESP01              esp8266modules              (3250 1150)           R270
+U1         RFM69HCW            RFM69HCW-XXXS2     doug                        (1425 600)            MR270
+UART0                          MA04-1             con-lstb                    (1475 2200)           R0
+UART1                          MA04-1             con-lstb                    (950 2200)            R0
+X1                             SMA_EDGELAUNCH     adafruit                    (3425 0)              R90
+X2                             SMA_EDGELAUNCH     adafruit                    (1400 0)              R90
+X3                             SMA_EDGELAUNCH     adafruit                    (2400 0)              R90
+X4         1751248             1751248            con-phoenix-350             (3800 1975)           R270
+X5                             SMA_EDGELAUNCH     adafruit                    (400 0)               R90
+X7         1751264             1751264            con-phoenix-350             (3800 1375)           R270
+X8                             SMA_EDGELAUNCH_UFL adafruit                    (1900 0)              R90
+X31        M03X2               2X03-1.27MM_SMD    mechanics                   (925 125)             R90
+Y2         8MHZ                CRYSTAL-TXC-7A     SparkFun-FreqCtrl           (1000 325)            MR270
