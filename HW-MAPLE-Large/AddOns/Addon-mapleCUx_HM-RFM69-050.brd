@@ -211,7 +211,8 @@ Transc. 2+3</text>
 <wire x1="100" y1="59" x2="100" y2="54.746" width="0" layer="20"/>
 <wire x1="100" y1="54.746" x2="100" y2="12" width="0" layer="20"/>
 <wire x1="100" y1="12" x2="51" y2="12" width="0" layer="20"/>
-<hole x="92.202" y="13.208" drill="1.5"/>
+<text x="104.14" y="27.94" size="0.4064" layer="51">Wenn man die 
+Antenne also nicht auf die andere Seite führen soll, würde ich bei der Zusatzplatine das Loch nicht bohren lassen sondern auch nur die Antennenposition andeuten.</text>
 </plain>
 <libraries>
 <library name="con-lstb">
