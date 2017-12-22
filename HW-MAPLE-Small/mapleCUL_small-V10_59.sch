@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11364,15 +11364,15 @@ modified by ranseyer.</description>
 <wire x1="-0.3" y1="-1.5" x2="-0.3" y2="10.3" width="0.2032" layer="21"/>
 <wire x1="-0.3" y1="10.3" x2="14.9" y2="10.3" width="0.2032" layer="21"/>
 <smd name="ANT" x="14.889" y="4.381" dx="1.9304" dy="0.8128" layer="1"/>
-<smd name="CSN" x="-0.3175" y="-0.3175" dx="1.9304" dy="0.8128" layer="1"/>
-<smd name="GDO0" x="-0.3175" y="1.0475" dx="1.9304" dy="0.8128" layer="1"/>
-<smd name="GDO2" x="-0.3175" y="2.4125" dx="1.9304" dy="0.8128" layer="1"/>
-<smd name="GND@0" x="-0.3175" y="7.8725" dx="1.9304" dy="0.8128" layer="1"/>
+<smd name="CSN" x="-0.3048" y="0.3048" dx="1.9304" dy="0.8128" layer="1"/>
+<smd name="GDO0" x="-0.3048" y="1.6256" dx="1.9304" dy="0.8128" layer="1"/>
+<smd name="GDO2" x="-0.3048" y="2.9464" dx="1.9304" dy="0.8128" layer="1"/>
+<smd name="GND@0" x="-0.3048" y="7.9248" dx="1.9304" dy="0.8128" layer="1"/>
 <smd name="GND@1" x="14.889" y="6.381" dx="1.9304" dy="0.8128" layer="1"/>
 <smd name="GND@2" x="14.889" y="2.381" dx="1.9304" dy="0.8128" layer="1"/>
-<smd name="MISO" x="-0.3175" y="3.7775" dx="1.9304" dy="0.8128" layer="1"/>
-<smd name="MOSI" x="-0.3175" y="6.5075" dx="1.9304" dy="0.8128" layer="1"/>
-<smd name="SCLK" x="-0.3175" y="5.1425" dx="1.9304" dy="0.8128" layer="1"/>
+<smd name="MISO" x="-0.3048" y="4.2672" dx="1.9304" dy="0.8128" layer="1"/>
+<smd name="MOSI" x="-0.3048" y="6.7056" dx="1.9304" dy="0.8128" layer="1"/>
+<smd name="SCLK" x="-0.3048" y="5.4864" dx="1.9304" dy="0.8128" layer="1"/>
 <smd name="VCC" x="-0.3175" y="9.2375" dx="1.9304" dy="0.8128" layer="1"/>
 <text x="4.7488" y="0.5448" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 </package>
@@ -11535,7 +11535,7 @@ DIL version for mounting with pin header (and SMD soldering) and SMD only varian
 <classes>
 <class number="0" name="default" width="0.3048" drill="0">
 </class>
-<class number="1" name="PWR" width="0.3048" drill="0">
+<class number="1" name="PWR" width="0.4064" drill="0">
 </class>
 </classes>
 <parts>
@@ -11567,8 +11567,8 @@ DIL version for mounting with pin header (and SMD soldering) and SMD only varian
 <part name="C5" library="rcl" deviceset="CPOL-EU" device="R/2012-12W" value="10uF"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="22pF"/>
 <part name="FRAME1" library="frames" deviceset="DINA3_L" device=""/>
-<part name="X5" library="adafruit" deviceset="SMACONNECTOR" device="_EDGE_UFL"/>
-<part name="X1" library="adafruit" deviceset="SMACONNECTOR" device="_EDGE_UFL"/>
+<part name="ANT0" library="adafruit" deviceset="SMACONNECTOR" device="_EDGE_UFL"/>
+<part name="ANT1" library="adafruit" deviceset="SMACONNECTOR" device="_EDGE_UFL"/>
 <part name="HMMOD-UART" library="wireless" deviceset="HM-MOD-UART" device="DIL"/>
 <part name="SUPPLY12" library="supply2" deviceset="VCC" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
@@ -11577,7 +11577,7 @@ DIL version for mounting with pin header (and SMD soldering) and SMD only varian
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="VCC" device=""/>
 <part name="RADIO0B" library="Martin-Communication" deviceset="CC1101_MODULE1" device="SMALL"/>
-<part name="RADIO0B1" library="Martin-Communication" deviceset="CC1101_MODULE1" device="SMALL"/>
+<part name="RADIO0B1" library="Martin-Communication" deviceset="CC1101_MODULE1" device="SMD" value="CC1101_MODULE1SMD"/>
 </parts>
 <sheets>
 <sheet>
@@ -11636,8 +11636,8 @@ DIL version for mounting with pin header (and SMD soldering) and SMD only varian
 <instance part="C6" gate="G$1" x="182.88" y="165.1" rot="R90"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="287.02" y="0"/>
-<instance part="X5" gate="G$1" x="152.4" y="228.6"/>
-<instance part="X1" gate="G$1" x="242.57" y="228.6"/>
+<instance part="ANT0" gate="G$1" x="152.4" y="228.6"/>
+<instance part="ANT1" gate="G$1" x="242.57" y="228.6"/>
 <instance part="HMMOD-UART" gate="G$1" x="322.58" y="68.58"/>
 <instance part="SUPPLY12" gate="G$1" x="297.18" y="88.9"/>
 <instance part="GND20" gate="1" x="294.64" y="81.28" rot="R270"/>
@@ -11726,18 +11726,18 @@ DIL version for mounting with pin header (and SMD soldering) and SMD only varian
 <pinref part="CC0" gate="G$1" pin="GND@3"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="139.7" y1="220.98" x2="139.7" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="X5" gate="G$1" pin="GND4"/>
-<pinref part="X5" gate="G$1" pin="GND3"/>
+<pinref part="ANT0" gate="G$1" pin="GND4"/>
+<pinref part="ANT0" gate="G$1" pin="GND3"/>
 <wire x1="154.94" y1="220.98" x2="149.86" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="220.98" x2="142.24" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="220.98" x2="142.24" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="226.06" x2="139.7" y2="226.06" width="0.1524" layer="91"/>
 <junction x="139.7" y="226.06"/>
 <junction x="149.86" y="220.98"/>
-<pinref part="X5" gate="G$1" pin="GND1"/>
+<pinref part="ANT0" gate="G$1" pin="GND1"/>
 <wire x1="142.24" y1="232.41" x2="142.24" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="236.22" x2="149.86" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="X5" gate="G$1" pin="GND2"/>
+<pinref part="ANT0" gate="G$1" pin="GND2"/>
 <wire x1="149.86" y1="236.22" x2="154.94" y2="236.22" width="0.1524" layer="91"/>
 <junction x="149.86" y="236.22"/>
 <wire x1="142.24" y1="226.06" x2="142.24" y2="231.14" width="0.1524" layer="91"/>
@@ -11823,14 +11823,14 @@ DIL version for mounting with pin header (and SMD soldering) and SMD only varian
 <pinref part="CC1" gate="G$1" pin="GND@3"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="214.63" y1="222.25" x2="214.63" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="GND4"/>
-<pinref part="X1" gate="G$1" pin="GND3"/>
+<pinref part="ANT1" gate="G$1" pin="GND4"/>
+<pinref part="ANT1" gate="G$1" pin="GND3"/>
 <wire x1="245.11" y1="220.98" x2="240.03" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="240.03" y1="220.98" x2="217.17" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="217.17" y1="220.98" x2="217.17" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="217.17" y1="226.06" x2="214.63" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="GND2"/>
-<pinref part="X1" gate="G$1" pin="GND1"/>
+<pinref part="ANT1" gate="G$1" pin="GND2"/>
+<pinref part="ANT1" gate="G$1" pin="GND1"/>
 <wire x1="245.11" y1="236.22" x2="240.03" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="240.03" y1="236.22" x2="217.17" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="217.17" y1="236.22" x2="217.17" y2="231.14" width="0.1524" layer="91"/>
@@ -12357,7 +12357,7 @@ DIL version for mounting with pin header (and SMD soldering) and SMD only varian
 </segment>
 <segment>
 <pinref part="CC0" gate="G$1" pin="ANT"/>
-<pinref part="X5" gate="G$1" pin="ANT"/>
+<pinref part="ANT0" gate="G$1" pin="ANT"/>
 <wire x1="139.7" y1="228.6" x2="144.78" y2="228.6" width="0.1524" layer="91"/>
 <label x="137.16" y="228.6" size="1.778" layer="95"/>
 </segment>
@@ -12371,7 +12371,7 @@ DIL version for mounting with pin header (and SMD soldering) and SMD only varian
 </segment>
 <segment>
 <pinref part="CC1" gate="G$1" pin="ANT"/>
-<pinref part="X1" gate="G$1" pin="ANT"/>
+<pinref part="ANT1" gate="G$1" pin="ANT"/>
 <wire x1="214.63" y1="228.6" x2="234.95" y2="228.6" width="0.1524" layer="91"/>
 <label x="213.36" y="228.6" size="1.778" layer="95"/>
 </segment>

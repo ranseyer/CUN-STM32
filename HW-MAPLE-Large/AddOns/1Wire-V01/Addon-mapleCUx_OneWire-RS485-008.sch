@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -433,32 +433,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="-1.905" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="+05V">
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="0.635" x2="0" y2="1.905" width="0.1524" layer="94"/>
-<circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
-<text x="-1.905" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="VCC" prefix="SUPPLY">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="VCC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+5V" prefix="SUPPLY">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="+5V" symbol="+05V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -8923,8 +8903,6 @@ at 30/07/2012 11:04:18</description>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply2" deviceset="VCC" device=""/>
 <part name="3V3" library="jumper" deviceset="SJ" device=""/>
-<part name="5V" library="jumper" deviceset="SJ" device=""/>
-<part name="SUPPLY15" library="supply2" deviceset="+5V" device=""/>
 <part name="X4" library="con-phoenix-350" deviceset="1751248" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="F1" library="ptc-littlefuse" deviceset="1812L" device=""/>
@@ -9047,8 +9025,6 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <instance part="GND22" gate="1" x="280.67" y="111.76"/>
 <instance part="SUPPLY13" gate="G$1" x="233.68" y="163.83"/>
 <instance part="3V3" gate="1" x="238.76" y="160.02"/>
-<instance part="5V" gate="1" x="251.46" y="160.02"/>
-<instance part="SUPPLY15" gate="+5V" x="256.54" y="163.83"/>
 <instance part="X4" gate="-1" x="300.99" y="160.02" smashed="yes">
 <attribute name="NAME" x="302.26" y="159.131" size="1.778" layer="95"/>
 </instance>
@@ -9279,11 +9255,6 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <wire x1="146.05" y1="78.74" x2="153.67" y2="78.74" width="0.1524" layer="91"/>
 <label x="147.955" y="79.375" size="1.778" layer="95"/>
 <pinref part="X31" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="SUPPLY13" gate="G$1" pin="VCC"/>
-<pinref part="3V3" gate="1" pin="1"/>
-<wire x1="233.68" y1="161.29" x2="233.68" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
@@ -9642,13 +9613,6 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <pinref part="R34" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="+5V" class="1">
-<segment>
-<pinref part="SUPPLY15" gate="+5V" pin="+5V"/>
-<pinref part="5V" gate="1" pin="2"/>
-<wire x1="256.54" y1="161.29" x2="256.54" y2="160.02" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$47" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PCT"/>
@@ -9685,7 +9649,6 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="237.49" y1="153.67" x2="237.49" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="5V" gate="1" pin="1"/>
 <pinref part="3V3" gate="1" pin="2"/>
 <wire x1="243.84" y1="160.02" x2="245.11" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="245.11" y1="160.02" x2="246.38" y2="160.02" width="0.1524" layer="91"/>
@@ -9704,6 +9667,13 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <pinref part="EXT" gate="1" pin="1"/>
 <wire x1="257.81" y1="153.67" x2="245.11" y2="153.67" width="0.1524" layer="91"/>
 <junction x="245.11" y="153.67"/>
+</segment>
+<segment>
+<pinref part="SUPPLY13" gate="G$1" pin="VCC"/>
+<pinref part="3V3" gate="1" pin="1"/>
+<wire x1="233.68" y1="161.29" x2="233.68" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="160.02" x2="223.52" y2="160.02" width="0.1524" layer="91"/>
+<label x="223.52" y="160.02" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$45" class="1">
