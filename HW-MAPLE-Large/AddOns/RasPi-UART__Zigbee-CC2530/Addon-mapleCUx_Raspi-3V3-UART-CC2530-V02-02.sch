@@ -11503,6 +11503,8 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <text x="88.9" y="-86.36" size="1.778" layer="97" rot="R90">RX/TX from MAPLE Side !</text>
 <text x="351.79" y="-127" size="1.778" layer="95" rot="R90">External Power</text>
 <text x="124.46" y="-78.74" size="1.778" layer="97">könnte weg</text>
+<text x="17.78" y="-210.82" size="1.778" layer="97">History: TX0 mit TX1 getauscht
+Footprint CC2530 fixed</text>
 </plain>
 <instances>
 <instance part="DBG" gate="G$1" x="96.52" y="-71.12"/>
@@ -11794,9 +11796,9 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <label x="27.94" y="-111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TX_SEL1" gate="G$1" pin="3"/>
-<wire x1="182.88" y1="-165.1" x2="190.5" y2="-165.1" width="0.1524" layer="91"/>
-<label x="190.5" y="-165.1" size="1.778" layer="95"/>
+<pinref part="TX_SEL1" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="-154.94" x2="190.5" y2="-154.94" width="0.1524" layer="91"/>
+<label x="190.5" y="-154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -11852,9 +11854,9 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <label x="40.64" y="-43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TX_SEL1" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="-154.94" x2="190.5" y2="-154.94" width="0.1524" layer="91"/>
-<label x="190.5" y="-154.94" size="1.778" layer="95"/>
+<pinref part="TX_SEL1" gate="G$1" pin="3"/>
+<wire x1="182.88" y1="-165.1" x2="190.5" y2="-165.1" width="0.1524" layer="91"/>
+<label x="190.5" y="-165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX" class="0">
