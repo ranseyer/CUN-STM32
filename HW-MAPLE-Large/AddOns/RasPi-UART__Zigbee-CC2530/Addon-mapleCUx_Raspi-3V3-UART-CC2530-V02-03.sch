@@ -11791,14 +11791,14 @@ Footprint CC2530 fixed</text>
 <label x="137.16" y="-63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TX_SEL" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="-111.76" x2="27.94" y2="-111.76" width="0.1524" layer="91"/>
-<label x="27.94" y="-111.76" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="TX_SEL1" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="-154.94" x2="190.5" y2="-154.94" width="0.1524" layer="91"/>
 <label x="190.5" y="-154.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TX_SEL" gate="G$1" pin="3"/>
+<wire x1="20.32" y1="-121.92" x2="27.94" y2="-121.92" width="0.1524" layer="91"/>
+<label x="27.94" y="-121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -11838,11 +11838,6 @@ Footprint CC2530 fixed</text>
 </net>
 <net name="TX0" class="0">
 <segment>
-<pinref part="TX_SEL" gate="G$1" pin="3"/>
-<wire x1="20.32" y1="-121.92" x2="27.94" y2="-121.92" width="0.1524" layer="91"/>
-<label x="27.94" y="-121.92" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="UART0" gate="1" pin="2"/>
 <wire x1="154.94" y1="-44.45" x2="143.51" y2="-44.45" width="0.1524" layer="91"/>
 <wire x1="143.51" y1="-44.45" x2="135.89" y2="-44.45" width="0.1524" layer="91"/>
@@ -11857,6 +11852,11 @@ Footprint CC2530 fixed</text>
 <pinref part="TX_SEL1" gate="G$1" pin="3"/>
 <wire x1="182.88" y1="-165.1" x2="190.5" y2="-165.1" width="0.1524" layer="91"/>
 <label x="190.5" y="-165.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TX_SEL" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="-111.76" x2="27.94" y2="-111.76" width="0.1524" layer="91"/>
+<label x="27.94" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX" class="0">
