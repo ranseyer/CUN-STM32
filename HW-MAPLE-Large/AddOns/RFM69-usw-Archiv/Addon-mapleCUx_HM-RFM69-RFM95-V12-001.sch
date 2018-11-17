@@ -9570,14 +9570,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <package name="C01005">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<rectangle x1="-0.2" y1="-0.1" x2="-0.075" y2="0.1" layer="51"/>
-<rectangle x1="0.075" y1="-0.1" x2="0.2" y2="0.1" layer="51"/>
-<rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
-<rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
 <smd name="1" x="-0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
 <smd name="2" x="0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
 <text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2" y1="-0.1" x2="-0.075" y2="0.1" layer="51"/>
+<rectangle x1="0.075" y1="-0.1" x2="0.2" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -9627,9 +9627,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C0504" package="C0504">
@@ -9638,9 +9636,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C0603" package="C0603">
@@ -9649,9 +9645,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C0805" package="C0805">
@@ -9660,9 +9654,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1206" package="C1206">
@@ -9671,9 +9663,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1210" package="C1210">
@@ -9682,9 +9672,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1310" package="C1310">
@@ -9693,9 +9681,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1608" package="C1608">
@@ -9704,9 +9690,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1812" package="C1812">
@@ -9715,9 +9699,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1825" package="C1825">
@@ -9726,9 +9708,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C2012" package="C2012">
@@ -9737,9 +9717,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C3216" package="C3216">
@@ -9748,9 +9726,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C3225" package="C3225">
@@ -9759,9 +9735,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C4532" package="C4532">
@@ -9770,9 +9744,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C4564" package="C4564">
@@ -9781,9 +9753,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025-024X044" package="C025-024X044">
@@ -9792,9 +9762,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025-025X050" package="C025-025X050">
@@ -9803,9 +9771,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025-030X050" package="C025-030X050">
@@ -9814,9 +9780,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025-040X050" package="C025-040X050">
@@ -9825,9 +9789,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025-050X050" package="C025-050X050">
@@ -9836,9 +9798,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025-060X050" package="C025-060X050">
@@ -9847,9 +9807,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C025_050-024X070" package="C025_050-024X070">
@@ -9858,9 +9816,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025_050-025X075" package="C025_050-025X075">
@@ -9869,9 +9825,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025_050-035X075" package="C025_050-035X075">
@@ -9880,9 +9834,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025_050-045X075" package="C025_050-045X075">
@@ -9891,9 +9843,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025_050-055X075" package="C025_050-055X075">
@@ -9902,9 +9852,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="050-024X044" package="C050-024X044">
@@ -9913,9 +9861,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="050-025X075" package="C050-025X075">
@@ -9924,9 +9870,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="050-045X075" package="C050-045X075">
@@ -9935,9 +9879,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="050-030X075" package="C050-030X075">
@@ -9946,9 +9888,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="050-050X075" package="C050-050X075">
@@ -9957,9 +9897,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="050-055X075" package="C050-055X075">
@@ -9968,9 +9906,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="050-075X075" package="C050-075X075">
@@ -9979,9 +9915,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="050H075X075" package="C050H075X075">
@@ -9990,9 +9924,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="075-032X103" package="C075-032X103">
@@ -10001,9 +9933,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="075-042X103" package="C075-042X103">
@@ -10012,9 +9942,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="075-052X106" package="C075-052X106">
@@ -10023,9 +9951,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="102-043X133" package="C102-043X133">
@@ -10034,9 +9960,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="102-054X133" package="C102-054X133">
@@ -10045,9 +9969,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="102-064X133" package="C102-064X133">
@@ -10056,9 +9978,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="102_152-062X184" package="C102_152-062X184">
@@ -10067,9 +9987,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="150-054X183" package="C150-054X183">
@@ -10078,9 +9996,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="150-064X183" package="C150-064X183">
@@ -10089,9 +10005,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="150-072X183" package="C150-072X183">
@@ -10100,9 +10014,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="150-084X183" package="C150-084X183">
@@ -10111,9 +10023,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="150-091X182" package="C150-091X182">
@@ -10122,9 +10032,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="225-062X268" package="C225-062X268">
@@ -10133,9 +10041,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="225-074X268" package="C225-074X268">
@@ -10144,9 +10050,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="225-087X268" package="C225-087X268">
@@ -10155,9 +10059,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="225-108X268" package="C225-108X268">
@@ -10166,9 +10068,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="225-113X268" package="C225-113X268">
@@ -10177,9 +10077,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="275-093X316" package="C275-093X316">
@@ -10188,9 +10086,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="275-113X316" package="C275-113X316">
@@ -10199,9 +10095,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="275-134X316" package="C275-134X316">
@@ -10210,9 +10104,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="275-205X316" package="C275-205X316">
@@ -10221,9 +10113,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="325-137X374" package="C325-137X374">
@@ -10232,9 +10122,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="325-162X374" package="C325-162X374">
@@ -10243,9 +10131,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="325-182X374" package="C325-182X374">
@@ -10254,9 +10140,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="375-192X418" package="C375-192X418">
@@ -10265,9 +10149,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="375-203X418" package="C375-203X418">
@@ -10276,9 +10158,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="050-035X075" package="C050-035X075">
@@ -10287,9 +10167,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="375-155X418" package="C375-155X418">
@@ -10298,9 +10176,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="075-063X106" package="C075-063X106">
@@ -10309,9 +10185,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="275-154X316" package="C275-154X316">
@@ -10320,9 +10194,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="275-173X316" package="C275-173X316">
@@ -10331,9 +10203,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C0402K" package="C0402K">
@@ -10342,9 +10212,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C0603K" package="C0603K">
@@ -10353,9 +10221,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C0805K" package="C0805K">
@@ -10364,9 +10230,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1206K" package="C1206K">
@@ -10375,9 +10239,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1210K" package="C1210K">
@@ -10386,9 +10248,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1812K" package="C1812K">
@@ -10397,9 +10257,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1825K" package="C1825K">
@@ -10408,9 +10266,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C2220K" package="C2220K">
@@ -10419,9 +10275,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C2225K" package="C2225K">
@@ -10430,9 +10284,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="HPC0201" package="HPC0201">
@@ -10441,9 +10293,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C0201" package="C0201">
@@ -10452,9 +10302,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1808" package="C1808">
@@ -10463,9 +10311,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C3640" package="C3640">
@@ -10474,9 +10320,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="01005" package="C01005">
@@ -10485,9 +10329,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -15023,6 +14865,190 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </deviceset>
 </devicesets>
 </library>
+<library name="AIR602">
+<packages>
+<package name="MODULE12P-2.0-10X12MM">
+<smd name="1" x="-5" y="5" dx="1.8" dy="1" layer="1" roundness="50"/>
+<smd name="2" x="-5" y="3" dx="1.8" dy="1" layer="1" roundness="50"/>
+<smd name="3" x="-5" y="1" dx="1.8" dy="1" layer="1" roundness="50"/>
+<smd name="4" x="-5" y="-1" dx="1.8" dy="1" layer="1" roundness="50"/>
+<smd name="5" x="-5" y="-3" dx="1.8" dy="1" layer="1" roundness="50"/>
+<smd name="6" x="-5" y="-5" dx="1.8" dy="1" layer="1" roundness="50"/>
+<smd name="7" x="5" y="-5" dx="1.8" dy="1" layer="1" roundness="50"/>
+<smd name="8" x="5" y="-3" dx="1.8" dy="1" layer="1" roundness="50"/>
+<smd name="9" x="5" y="-1" dx="1.8" dy="1" layer="1" roundness="50"/>
+<smd name="10" x="5" y="1" dx="1.8" dy="1" layer="1" roundness="50"/>
+<smd name="11" x="5" y="3" dx="1.8" dy="1" layer="1" roundness="50"/>
+<smd name="12" x="5" y="5" dx="1.8" dy="1" layer="1" roundness="50"/>
+<wire x1="-5" y1="6" x2="5" y2="6" width="0.127" layer="21"/>
+<wire x1="5" y1="-6" x2="-5" y2="-6" width="0.127" layer="21"/>
+<circle x="-5.334" y="6.35" radius="0.254" width="0" layer="25"/>
+<wire x1="-5" y1="-6" x2="-5" y2="-5.684" width="0.127" layer="21"/>
+<wire x1="-5" y1="5.684" x2="-5" y2="6" width="0.127" layer="21"/>
+<wire x1="5" y1="6" x2="5" y2="5.684" width="0.127" layer="21"/>
+<wire x1="5" y1="-5.684" x2="5" y2="-6" width="0.127" layer="21"/>
+<rectangle x1="-4.953" y1="-5.969" x2="4.953" y2="5.969" layer="39"/>
+<text x="-1.905" y="6.35" size="0.889" layer="25" ratio="12">&gt;NAME</text>
+<text x="0" y="0.635" size="0.6096" layer="27" ratio="12" align="center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="AIR602">
+<pin name="GND1" x="-11.43" y="6.35" length="short"/>
+<pin name="ANT" x="-11.43" y="3.81" length="short"/>
+<pin name="GND2" x="-11.43" y="1.27" length="short"/>
+<pin name="VCC" x="-11.43" y="-1.27" length="short"/>
+<pin name="TX0" x="-11.43" y="-3.81" length="short"/>
+<pin name="RX0" x="-11.43" y="-6.35" length="short"/>
+<pin name="PB8" x="11.43" y="-6.35" length="short" rot="R180"/>
+<pin name="CTS" x="11.43" y="-3.81" length="short" rot="R180"/>
+<pin name="RTS" x="11.43" y="-1.27" length="short" rot="R180"/>
+<pin name="RX1" x="11.43" y="1.27" length="short" rot="R180"/>
+<pin name="TX1" x="11.43" y="3.81" length="short" rot="R180"/>
+<pin name="RST" x="11.43" y="6.35" length="short" rot="R180"/>
+<wire x1="-7.62" y1="8.89" x2="7.62" y2="8.89" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="8.89" x2="7.62" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-8.89" x2="-7.62" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-8.89" x2="-7.62" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-6.35" x2="-7.62" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-3.81" x2="-7.62" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-1.27" x2="-7.62" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="1.27" x2="-7.62" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="3.81" x2="-7.62" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="6.35" x2="-7.62" y2="8.89" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="6.35" x2="-8.89" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="3.81" x2="-8.89" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="1.27" x2="-8.89" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-1.27" x2="-8.89" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-3.81" x2="-8.89" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-6.35" x2="-8.89" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="6.35" x2="7.62" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="3.81" x2="7.62" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="1.27" x2="7.62" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="-1.27" x2="7.62" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="-3.81" x2="7.62" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="-6.35" x2="7.62" y2="-6.35" width="0.1524" layer="94"/>
+<text x="-7.62" y="10.16" size="1.27" layer="95" ratio="12">&gt;NAME</text>
+<text x="-7.62" y="8.89" size="1.27" layer="96" ratio="12">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AIR602" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="AIR602" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MODULE12P-2.0-10X12MM">
+<connects>
+<connect gate="G$1" pin="ANT" pad="2"/>
+<connect gate="G$1" pin="CTS" pad="8"/>
+<connect gate="G$1" pin="GND1" pad="1"/>
+<connect gate="G$1" pin="GND2" pad="3"/>
+<connect gate="G$1" pin="PB8" pad="7"/>
+<connect gate="G$1" pin="RST" pad="12"/>
+<connect gate="G$1" pin="RTS" pad="9"/>
+<connect gate="G$1" pin="RX0" pad="6"/>
+<connect gate="G$1" pin="RX1" pad="10"/>
+<connect gate="G$1" pin="TX0" pad="5"/>
+<connect gate="G$1" pin="TX1" pad="11"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-Connectors">
+<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
+This library contains electrically-functional connectors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="U.FL">
+<description>&lt;h3&gt;U.FL SMD Antenna Connector&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 3.0mm x 2.5mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”http://cdn.sparkfun.com/datasheets/Wireless/Antennas/RF-001001.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;U.FL&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="1.3" y1="0.7" x2="1.3" y2="2" width="0.127" layer="21"/>
+<wire x1="1.3" y1="2" x2="-1.3" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-2" x2="1.3" y2="-2" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-2" x2="1.3" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="0.7" x2="-1.3" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-2" x2="-1.3" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="1.4" y2="2" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-2" x2="1.4" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0.7" x2="1.5" y2="2" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2" x2="1.5" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2" x2="1.3" y2="2" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0.7" x2="1.3" y2="0.7" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-0.7" x2="1.3" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2" x2="1.3" y2="-2" width="0.127" layer="21"/>
+<smd name="1" x="0" y="1.375" dx="2.2" dy="0.85" layer="1"/>
+<smd name="2" x="0" y="-1.375" dx="2.2" dy="0.85" layer="1"/>
+<smd name="FEED" x="1.525" y="0" dx="1.05" dy="1" layer="1"/>
+<smd name="NC" x="-1.525" y="0" dx="1.05" dy="1" layer="1"/>
+<text x="-1.27" y="2.54" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="U.FL">
+<wire x1="0" y1="-2.54" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.1359" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<pin name="GND@0" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="SIGNAL" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
+<pin name="GND@1" x="-2.54" y="-7.62" visible="off" length="short"/>
+<text x="-3.81" y="4.064" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="U.FL" prefix="J" uservalue="yes">
+<description>&lt;h3&gt;SMD Antenna Connector - U.FL&lt;/h3&gt;
+&lt;p&gt;2mm height, 3.0mm x 3.0mm receptacle size. &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13287"&gt;SparkFun WiFi Shield - ESP8266&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13231”&gt;SparkFun ESP8266 Thing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/11420”&gt;SparkFun MiniGen - Pro Mini Signal Generator Shield&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="U.FL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="U.FL">
+<connects>
+<connect gate="G$1" pin="GND@0" pad="1"/>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-09193"/>
+<attribute name="SF_ID" value="WRL-09144" constant="no"/>
+<attribute name="VALUE" value="U.FL"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15094,6 +15120,14 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="IC6" library="lm1117" deviceset="LM1117MPX-ADJ" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="VCC" device=""/>
 <part name="EXT1" library="jumper" deviceset="SJ" device=""/>
+<part name="AIR602" library="AIR602" deviceset="AIR602" device=""/>
+<part name="GND4" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY4" library="supply2" deviceset="VCC" device=""/>
+<part name="U.FL" library="SparkFun-Connectors" deviceset="U.FL" device="" value="U.FL"/>
+<part name="GND9" library="supply1" deviceset="GND" device=""/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="22pF"/>
+<part name="ARD-TX" library="jumper" deviceset="SJ" device=""/>
+<part name="ARD-RX" library="jumper" deviceset="SJ" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15132,6 +15166,7 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <text x="22.86" y="-88.9" size="1.778" layer="97" rot="R90">RX/TX from MAPLE Side !</text>
 <text x="58.42" y="-81.28" size="1.778" layer="97">könnte weg</text>
 <text x="-16.51" y="-119.38" size="1.778" layer="95" rot="R90">External Power</text>
+<text x="318.77" y="-106.68" size="3.81" layer="95" ratio="15">AIR602 from Seeed</text>
 </plain>
 <instances>
 <instance part="GND1" gate="1" x="127" y="-30.48" rot="R90"/>
@@ -15236,6 +15271,14 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <instance part="IC6" gate="G$1" x="274.32" y="-228.6" rot="R180"/>
 <instance part="SUPPLY3" gate="G$1" x="245.11" y="-200.66" rot="R90"/>
 <instance part="EXT1" gate="1" x="276.86" y="-200.66"/>
+<instance part="AIR602" gate="G$1" x="358.14" y="-125.73"/>
+<instance part="GND4" gate="1" x="341.63" y="-114.3" rot="R180"/>
+<instance part="SUPPLY4" gate="G$1" x="339.09" y="-129.54" rot="R180"/>
+<instance part="U.FL" gate="G$1" x="327.66" y="-119.38"/>
+<instance part="GND9" gate="1" x="320.04" y="-124.46" rot="R270"/>
+<instance part="C2" gate="G$1" x="331.47" y="-127" rot="R90"/>
+<instance part="ARD-TX" gate="1" x="373.38" y="-129.54" rot="R90"/>
+<instance part="ARD-RX" gate="1" x="373.38" y="-116.84" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -15381,6 +15424,30 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <pinref part="GND19" gate="1" pin="GND"/>
 <wire x1="274.32" y1="-241.3" x2="274.32" y2="-243.84" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="AIR602" gate="G$1" pin="GND1"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="346.71" y1="-119.38" x2="341.63" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="341.63" y1="-119.38" x2="341.63" y2="-116.84" width="0.1524" layer="91"/>
+<pinref part="AIR602" gate="G$1" pin="GND2"/>
+<wire x1="346.71" y1="-124.46" x2="341.63" y2="-124.46" width="0.1524" layer="91"/>
+<wire x1="341.63" y1="-124.46" x2="341.63" y2="-119.38" width="0.1524" layer="91"/>
+<junction x="341.63" y="-119.38"/>
+</segment>
+<segment>
+<pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="U.FL" gate="G$1" pin="GND@0"/>
+<wire x1="322.58" y1="-124.46" x2="325.12" y2="-124.46" width="0.1524" layer="91"/>
+<pinref part="U.FL" gate="G$1" pin="GND@1"/>
+<wire x1="325.12" y1="-124.46" x2="325.12" y2="-127" width="0.1524" layer="91"/>
+<junction x="325.12" y="-124.46"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="328.93" y1="-127" x2="327.66" y2="-127" width="0.1524" layer="91"/>
+<junction x="327.66" y="-127"/>
+<label x="322.58" y="-124.46" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VCC" class="1">
 <segment>
@@ -15486,6 +15553,14 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <junction x="266.7" y="-228.6"/>
 <wire x1="261.62" y1="-218.44" x2="261.62" y2="-200.66" width="0.1524" layer="91"/>
 <junction x="261.62" y="-200.66"/>
+</segment>
+<segment>
+<pinref part="AIR602" gate="G$1" pin="VCC"/>
+<pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
+<wire x1="346.71" y1="-127" x2="339.09" y2="-127" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="339.09" y1="-127" x2="336.55" y2="-127" width="0.1524" layer="91"/>
+<junction x="339.09" y="-127"/>
 </segment>
 </net>
 <net name="RX1" class="0">
@@ -15799,6 +15874,11 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <wire x1="21.59" y1="-224.79" x2="6.35" y2="-224.79" width="0.1524" layer="91"/>
 <label x="8.89" y="-224.79" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="ARD-TX" gate="1" pin="1"/>
+<wire x1="373.38" y1="-134.62" x2="381" y2="-134.62" width="0.1524" layer="91"/>
+<label x="381" y="-134.62" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RX0" class="0">
 <segment>
@@ -15839,12 +15919,10 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <wire x1="21.59" y1="-227.33" x2="6.35" y2="-227.33" width="0.1524" layer="91"/>
 <label x="8.89" y="-227.33" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="R" class="0">
 <segment>
-<pinref part="DBG1" gate="G$1" pin="4"/>
-<wire x1="38.1" y1="-71.12" x2="45.72" y2="-71.12" width="0.1524" layer="91"/>
-<label x="40.64" y="-71.12" size="1.778" layer="95"/>
+<pinref part="ARD-RX" gate="1" pin="2"/>
+<wire x1="373.38" y1="-111.76" x2="381" y2="-111.76" width="0.1524" layer="91"/>
+<label x="381" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VIN2" class="1">
@@ -15852,13 +15930,6 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <pinref part="REGULATOR-USE" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="-76.2" x2="60.96" y2="-76.2" width="0.1524" layer="91"/>
 <label x="60.96" y="-76.2" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="T" class="0">
-<segment>
-<pinref part="DBG1" gate="G$1" pin="3"/>
-<wire x1="38.1" y1="-73.66" x2="45.72" y2="-73.66" width="0.1524" layer="91"/>
-<label x="40.64" y="-73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN" class="1">
@@ -15898,6 +15969,45 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <pinref part="DBG1" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="-78.74" x2="38.1" y2="-83.82" width="0.1524" layer="91"/>
 <label x="38.1" y="-83.82" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="RX_DBG" class="0">
+<segment>
+<pinref part="AIR602" gate="G$1" pin="TX1"/>
+<wire x1="369.57" y1="-121.92" x2="373.38" y2="-121.92" width="0.1524" layer="91"/>
+<label x="377.19" y="-121.92" size="1.778" layer="95" xref="yes"/>
+<pinref part="ARD-RX" gate="1" pin="1"/>
+<wire x1="373.38" y1="-121.92" x2="377.19" y2="-121.92" width="0.1524" layer="91"/>
+<junction x="373.38" y="-121.92"/>
+</segment>
+<segment>
+<pinref part="DBG1" gate="G$1" pin="4"/>
+<wire x1="38.1" y1="-71.12" x2="45.72" y2="-71.12" width="0.1524" layer="91"/>
+<label x="40.64" y="-71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TX_DBG" class="0">
+<segment>
+<pinref part="AIR602" gate="G$1" pin="RX1"/>
+<wire x1="369.57" y1="-124.46" x2="373.38" y2="-124.46" width="0.1524" layer="91"/>
+<label x="377.19" y="-124.46" size="1.778" layer="95" xref="yes"/>
+<pinref part="ARD-TX" gate="1" pin="2"/>
+<wire x1="373.38" y1="-124.46" x2="377.19" y2="-124.46" width="0.1524" layer="91"/>
+<junction x="373.38" y="-124.46"/>
+</segment>
+<segment>
+<pinref part="DBG1" gate="G$1" pin="3"/>
+<wire x1="38.1" y1="-73.66" x2="45.72" y2="-73.66" width="0.1524" layer="91"/>
+<label x="40.64" y="-73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AN" class="0">
+<segment>
+<wire x1="335.28" y1="-119.38" x2="335.28" y2="-121.92" width="0.1524" layer="91"/>
+<pinref part="AIR602" gate="G$1" pin="ANT"/>
+<wire x1="335.28" y1="-121.92" x2="346.71" y2="-121.92" width="0.1524" layer="91"/>
+<pinref part="U.FL" gate="G$1" pin="SIGNAL"/>
+<wire x1="335.28" y1="-119.38" x2="332.74" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
