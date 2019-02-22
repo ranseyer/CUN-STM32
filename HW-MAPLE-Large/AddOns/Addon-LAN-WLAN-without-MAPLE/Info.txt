@@ -1,0 +1,18 @@
+This AddOn hast two main functions:
+
+
+Using Maple-CUL-AddOns without MAPLE-CUL
+========================================
+A) Base: USR-TCP232-E2 wit two UARTs or hopefully T2 (only one UART)
+Important: This Board with LAN Module comes on top of all others...
+
+
+
+MAPLE-CUL AddOn for OneWire and RS485
+A) Onewire with DS2480 at the last UART of the MAPLE (UART2 can handle 5V without Levelshifter)
+B) RS485 via Arduino and MAX487 or similar
+
+
+Status: Not tested.
+
+Todo: Check of separation of the connectors for RS485 and OneWire for parallel usage...
