@@ -12856,7 +12856,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <classes>
 <class number="0" name="default" width="0.3048" drill="0">
 </class>
-<class number="1" name="PWR" width="0.508" drill="0">
+<class number="1" name="PWR" width="0.6096" drill="0">
 </class>
 </classes>
 <parts>
@@ -13484,33 +13484,6 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 </net>
 <net name="IN" class="1">
 <segment>
-<wire x1="309.88" y1="-139.7" x2="309.88" y2="-142.24" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="307.34" y1="-139.7" x2="309.88" y2="-139.7" width="0.1524" layer="91"/>
-<label x="304.8" y="-137.16" size="1.778" layer="95"/>
-<wire x1="307.34" y1="-147.32" x2="307.34" y2="-139.7" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="-147.32" x2="307.34" y2="-149.86" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="IN"/>
-<wire x1="307.34" y1="-149.86" x2="307.34" y2="-172.72" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="-172.72" x2="302.26" y2="-172.72" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="IN"/>
-<wire x1="302.26" y1="-149.86" x2="307.34" y2="-149.86" width="0.1524" layer="91"/>
-<junction x="307.34" y="-149.86"/>
-<wire x1="314.96" y1="-116.84" x2="314.96" y2="-121.92" width="0.1524" layer="91"/>
-<pinref part="F1" gate="G$1" pin="1"/>
-<wire x1="317.5" y1="-116.84" x2="314.96" y2="-116.84" width="0.1524" layer="91"/>
-<pinref part="NOREG" gate="G$1" pin="2"/>
-<wire x1="302.26" y1="-121.92" x2="307.34" y2="-121.92" width="0.1524" layer="91"/>
-<label x="304.8" y="-121.92" size="1.778" layer="95"/>
-<wire x1="307.34" y1="-121.92" x2="314.96" y2="-121.92" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="-139.7" x2="307.34" y2="-121.92" width="0.1524" layer="91"/>
-<junction x="307.34" y="-121.92"/>
-<pinref part="NOFUSE" gate="G$1" pin="1"/>
-<wire x1="317.5" y1="-127" x2="314.96" y2="-127" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="-127" x2="314.96" y2="-121.92" width="0.1524" layer="91"/>
-<junction x="314.96" y="-121.92"/>
-</segment>
-<segment>
 <pinref part="DBG" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="-73.66" x2="111.76" y2="-73.66" width="0.1524" layer="91"/>
 <label x="106.68" y="-73.66" size="1.778" layer="95"/>
@@ -13579,22 +13552,6 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 </net>
 <net name="VIN" class="1">
 <segment>
-<pinref part="X4" gate="-1" pin="K"/>
-<pinref part="F1" gate="G$1" pin="2"/>
-<wire x1="331.47" y1="-116.84" x2="330.2" y2="-116.84" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="-116.84" x2="327.66" y2="-116.84" width="0.1524" layer="91"/>
-<label x="327.66" y="-116.84" size="1.778" layer="95"/>
-<label x="330.2" y="-154.94" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$2" gate="G$1" pin="TIP"/>
-<wire x1="342.9" y1="-154.94" x2="330.2" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="-116.84" x2="330.2" y2="-127" width="0.1524" layer="91"/>
-<junction x="330.2" y="-116.84"/>
-<pinref part="NOFUSE" gate="G$1" pin="2"/>
-<wire x1="330.2" y1="-127" x2="330.2" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="-127" x2="327.66" y2="-127" width="0.1524" layer="91"/>
-<junction x="330.2" y="-127"/>
-</segment>
-<segment>
 <wire x1="53.34" y1="-207.01" x2="53.34" y2="-219.71" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="-219.71" x2="66.04" y2="-219.71" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="-219.71" x2="66.04" y2="-226.06" width="0.1524" layer="91"/>
@@ -13602,6 +13559,7 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <label x="67.31" y="-226.06" size="1.778" layer="95"/>
 <pinref part="X7" gate="-1" pin="K"/>
 <label x="55.88" y="-218.44" size="1.778" layer="95"/>
+<label x="53.34" y="-205.74" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="-2" pin="3"/>
@@ -13622,6 +13580,33 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <wire x1="123.19" y1="-247.65" x2="123.19" y2="-237.49" width="0.1524" layer="91"/>
 <junction x="123.19" y="-237.49"/>
 <label x="139.7" y="-237.49" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="309.88" y1="-139.7" x2="309.88" y2="-142.24" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="307.34" y1="-139.7" x2="309.88" y2="-139.7" width="0.1524" layer="91"/>
+<label x="304.8" y="-137.16" size="1.778" layer="95"/>
+<wire x1="307.34" y1="-147.32" x2="307.34" y2="-139.7" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="-147.32" x2="307.34" y2="-149.86" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="IN"/>
+<wire x1="307.34" y1="-149.86" x2="307.34" y2="-172.72" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="-172.72" x2="302.26" y2="-172.72" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="G$1" pin="IN"/>
+<wire x1="302.26" y1="-149.86" x2="307.34" y2="-149.86" width="0.1524" layer="91"/>
+<junction x="307.34" y="-149.86"/>
+<wire x1="314.96" y1="-116.84" x2="314.96" y2="-121.92" width="0.1524" layer="91"/>
+<pinref part="F1" gate="G$1" pin="1"/>
+<wire x1="317.5" y1="-116.84" x2="314.96" y2="-116.84" width="0.1524" layer="91"/>
+<pinref part="NOREG" gate="G$1" pin="2"/>
+<wire x1="302.26" y1="-121.92" x2="307.34" y2="-121.92" width="0.1524" layer="91"/>
+<label x="304.8" y="-121.92" size="1.778" layer="95"/>
+<wire x1="307.34" y1="-121.92" x2="314.96" y2="-121.92" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="-139.7" x2="307.34" y2="-121.92" width="0.1524" layer="91"/>
+<junction x="307.34" y="-121.92"/>
+<pinref part="NOFUSE" gate="G$1" pin="1"/>
+<wire x1="317.5" y1="-127" x2="314.96" y2="-127" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="-127" x2="314.96" y2="-121.92" width="0.1524" layer="91"/>
+<junction x="314.96" y="-121.92"/>
 </segment>
 </net>
 <net name="B" class="0">
@@ -13917,6 +13902,24 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <pinref part="TX" gate="G$1" pin="2"/>
 <pinref part="RS485" gate="A" pin="DI"/>
 <wire x1="99.06" y1="-142.24" x2="114.3" y2="-142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VINPUT" class="1">
+<segment>
+<pinref part="X4" gate="-1" pin="K"/>
+<pinref part="F1" gate="G$1" pin="2"/>
+<wire x1="331.47" y1="-116.84" x2="330.2" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="-116.84" x2="327.66" y2="-116.84" width="0.1524" layer="91"/>
+<label x="327.66" y="-116.84" size="1.778" layer="95"/>
+<label x="330.2" y="-154.94" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$2" gate="G$1" pin="TIP"/>
+<wire x1="342.9" y1="-154.94" x2="330.2" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="-116.84" x2="330.2" y2="-127" width="0.1524" layer="91"/>
+<junction x="330.2" y="-116.84"/>
+<pinref part="NOFUSE" gate="G$1" pin="2"/>
+<wire x1="330.2" y1="-127" x2="330.2" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="-127" x2="327.66" y2="-127" width="0.1524" layer="91"/>
+<junction x="330.2" y="-127"/>
 </segment>
 </net>
 </nets>
