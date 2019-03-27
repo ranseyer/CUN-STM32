@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15167,6 +15167,8 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <text x="58.42" y="-81.28" size="1.778" layer="97">könnte weg</text>
 <text x="-16.51" y="-119.38" size="1.778" layer="95" rot="R90">External Power</text>
 <text x="318.77" y="-106.68" size="3.81" layer="95" ratio="15">AIR602 from Seeed</text>
+<text x="91.44" y="-127" size="1.778" layer="97">Historie
+-ab V1.05 UART Vertauschung behoben</text>
 </plain>
 <instances>
 <instance part="GND1" gate="1" x="127" y="-30.48" smashed="yes" rot="R90">
@@ -15830,7 +15832,7 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 </segment>
 <segment>
 <pinref part="RFM69W" gate="A" pin="SCK"/>
-<wire x1="190.5" y1="-220.98" x2="208.28" y2="-220.98" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="-220.98" x2="226.06" y2="-241.3" width="0.1524" layer="91"/>
 <label x="193.04" y="-220.98" size="1.778" layer="95"/>
 </segment>
 <segment>
