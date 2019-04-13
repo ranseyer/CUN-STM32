@@ -3026,15 +3026,6 @@ Metric Code Size 4564</description>
 <rectangle x1="-2.8" y1="-3.15" x2="-2.2" y2="3.15" layer="51"/>
 <rectangle x1="2.2" y1="-3.15" x2="2.8" y2="3.15" layer="51"/>
 </package>
-<package name="HPC0201" urn="urn:adsk.eagle:footprint:23195/1" library_version="3">
-<description>&lt;b&gt; &lt;/b&gt;&lt;p&gt;
-Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
-<smd name="1" x="-0.18" y="0" dx="0.2" dy="0.35" layer="1"/>
-<smd name="2" x="0.18" y="0" dx="0.2" dy="0.35" layer="1"/>
-<text x="-0.75" y="0.74" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.785" y="-1.865" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.305" y1="-0.15" x2="0.305" y2="0.15" layer="51"/>
-</package>
 <package name="C0201" urn="urn:adsk.eagle:footprint:23196/1" library_version="3">
 <description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
 <smd name="1" x="-0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
@@ -3082,20 +3073,17 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="HPC0201" urn="urn:adsk.eagle:footprint:25783/1" library_version="10">
+<description>&lt;b&gt; &lt;/b&gt;&lt;p&gt;
+Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
+<smd name="1" x="-0.18" y="0" dx="0.2" dy="0.35" layer="1"/>
+<smd name="2" x="0.18" y="0" dx="0.2" dy="0.35" layer="1"/>
+<text x="-0.75" y="0.74" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.785" y="-1.865" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.305" y1="-0.15" x2="0.305" y2="0.15" layer="51"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="C0402" urn="urn:adsk.eagle:package:23626/1" type="box" library_version="3">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C0402"/>
-</packageinstances>
-</package3d>
-<package3d name="C0504" urn="urn:adsk.eagle:package:23624/1" type="box" library_version="3">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C0504"/>
-</packageinstances>
-</package3d>
 <package3d name="C0603" urn="urn:adsk.eagle:package:23616/2" type="model" library_version="3">
 <description>CAPACITOR</description>
 <packageinstances>
@@ -3118,12 +3106,6 @@ Source: AVX .. aphvc.pdf</description>
 <description>CAPACITOR</description>
 <packageinstances>
 <packageinstance name="C1210"/>
-</packageinstances>
-</package3d>
-<package3d name="C1310" urn="urn:adsk.eagle:package:23620/1" type="box" library_version="3">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C1310"/>
 </packageinstances>
 </package3d>
 <package3d name="C1608" urn="urn:adsk.eagle:package:23621/2" type="model" library_version="3">
@@ -3566,13 +3548,6 @@ Metric Code Size 4532</description>
 <packageinstance name="C1812K"/>
 </packageinstances>
 </package3d>
-<package3d name="C1825K" urn="urn:adsk.eagle:package:23684/1" type="box" library_version="3">
-<description>Ceramic Chip Capacitor KEMET 1825 reflow solder
-Metric Code Size 4564</description>
-<packageinstances>
-<packageinstance name="C1825K"/>
-</packageinstances>
-</package3d>
 <package3d name="C2220K" urn="urn:adsk.eagle:package:23687/2" type="model" library_version="3">
 <description>Ceramic Chip Capacitor KEMET 2220 reflow solderMetric Code Size 5650</description>
 <packageinstances>
@@ -3583,13 +3558,6 @@ Metric Code Size 4564</description>
 <description>Ceramic Chip Capacitor KEMET 2225 reflow solderMetric Code Size 5664</description>
 <packageinstances>
 <packageinstance name="C2225K"/>
-</packageinstances>
-</package3d>
-<package3d name="HPC0201" urn="urn:adsk.eagle:package:23688/1" type="box" library_version="3">
-<description> 
-Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
-<packageinstances>
-<packageinstance name="HPC0201"/>
 </packageinstances>
 </package3d>
 <package3d name="C0201" urn="urn:adsk.eagle:package:23690/2" type="model" library_version="3">
@@ -3618,6 +3586,39 @@ Source: AVX .. aphvc.pdf</description>
 <packageinstance name="C01005"/>
 </packageinstances>
 </package3d>
+<package3d name="CAPC1005X60" urn="urn:adsk.eagle:package:23626/2" type="model" library_version="10">
+<description>Chip, 1.00 X 0.50 X 0.60 mm body
+&lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.60 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="C0402"/>
+</packageinstances>
+</package3d>
+<package3d name="C0504" urn="urn:adsk.eagle:package:23624/2" type="model" library_version="10">
+<description>CAPACITOR</description>
+<packageinstances>
+<packageinstance name="C0504"/>
+</packageinstances>
+</package3d>
+<package3d name="C1310" urn="urn:adsk.eagle:package:23620/2" type="model" library_version="10">
+<description>CAPACITOR</description>
+<packageinstances>
+<packageinstance name="C1310"/>
+</packageinstances>
+</package3d>
+<package3d name="C1825K" urn="urn:adsk.eagle:package:23684/2" type="model" library_version="10">
+<description>Ceramic Chip Capacitor KEMET 1825 reflow solder
+Metric Code Size 4564</description>
+<packageinstances>
+<packageinstance name="C1825K"/>
+</packageinstances>
+</package3d>
+<package3d name="HPC0201" urn="urn:adsk.eagle:package:26213/1" type="box" library_version="10">
+<description> 
+Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
+<packageinstances>
+<packageinstance name="HPC0201"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="C-EU" urn="urn:adsk.eagle:symbol:23120/1" library_version="3">
@@ -3632,7 +3633,7 @@ Source: AVX .. aphvc.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="C-EU" urn="urn:adsk.eagle:component:23793/42" prefix="C" uservalue="yes" library_version="3">
+<deviceset name="C-EU" urn="urn:adsk.eagle:component:23793/45" prefix="C" uservalue="yes" library_version="10">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
@@ -3644,7 +3645,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23626/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23626/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3658,7 +3659,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23624/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23624/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3728,7 +3729,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23620/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23620/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4638,7 +4639,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23684/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23684/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4680,7 +4681,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23688/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26213/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4745,6 +4746,12 @@ Source: AVX .. aphvc.pdf</description>
 </technologies>
 </device>
 </devices>
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
 </deviceset>
 </devicesets>
 </library>
@@ -4844,6 +4851,56 @@ size 20 x 30 mm</description>
 <pad name="P$24" x="9" y="1.87" drill="0.6" diameter="0.8128" shape="square"/>
 <text x="0.81" y="-14" size="1.778" layer="21" rot="R90">CC2503 SZ1 Zigbee</text>
 </package>
+<package name="SZ1ZIGBEE-SMD">
+<description>CC2530 Wireless Module Zigbee Module SZ1Zigbee 3.0-3.6V 2.405-2.485GHz
+size 20 x 30 mm</description>
+<wire x1="-10" y1="-15" x2="10" y2="-15" width="0.127" layer="21"/>
+<wire x1="10" y1="-15" x2="10" y2="15" width="0.127" layer="21"/>
+<wire x1="10" y1="15" x2="-10" y2="15" width="0.127" layer="21"/>
+<wire x1="-10" y1="15" x2="-10" y2="-15" width="0.127" layer="21"/>
+<wire x1="-7.19" y1="3.67" x2="-7.19" y2="14.1" width="0.6096" layer="21"/>
+<wire x1="-7.19" y1="14.1" x2="-4.65" y2="14.1" width="0.6096" layer="21"/>
+<wire x1="-4.65" y1="6.48" x2="-4.65" y2="14.1" width="0.6096" layer="21"/>
+<wire x1="-4.65" y1="14.1" x2="-2.11" y2="14.1" width="0.6096" layer="21"/>
+<wire x1="-2.11" y1="14.1" x2="-2.11" y2="9.02" width="0.6096" layer="21"/>
+<wire x1="-2.11" y1="9.02" x2="0.43" y2="9.02" width="0.6096" layer="21"/>
+<wire x1="0.43" y1="9.02" x2="0.43" y2="14.1" width="0.6096" layer="21"/>
+<wire x1="0.43" y1="14.1" x2="2.97" y2="14.1" width="0.6096" layer="21"/>
+<wire x1="2.97" y1="14.1" x2="2.97" y2="9.02" width="0.6096" layer="21"/>
+<wire x1="2.97" y1="9.02" x2="5.51" y2="9.02" width="0.6096" layer="21"/>
+<wire x1="5.51" y1="9.02" x2="5.51" y2="14.1" width="0.6096" layer="21"/>
+<wire x1="5.51" y1="14.1" x2="8.05" y2="14.1" width="0.6096" layer="21"/>
+<wire x1="8.05" y1="14.1" x2="8.05" y2="5.94" width="0.6096" layer="21"/>
+<text x="6.761" y="-3.381" size="1.778" layer="21" rot="R180">CC2530
+SZ1 Zigbee</text>
+<smd name="P$12" x="-10.035540625" y="1.869440625" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$11" x="-10.035540625" y="0.599440625" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$10" x="-10.035540625" y="-0.670559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$9" x="-10.035540625" y="-1.940559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$2" x="-10.035540625" y="-10.830559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$3" x="-10.035540625" y="-9.560559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$4" x="-10.035540625" y="-8.290559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$5" x="-10.035540625" y="-7.020559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$6" x="-10.035540625" y="-5.750559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$7" x="-10.035540625" y="-4.480559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$8" x="-10.035540625" y="-3.210559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$1" x="-10.035540625" y="-12.100559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$13" x="10.030459375" y="-12.100559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$14" x="10.030459375" y="-10.830559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$15" x="10.030459375" y="-9.560559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$16" x="10.030459375" y="-8.290559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$17" x="10.030459375" y="-7.020559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$18" x="10.030459375" y="-5.750559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$19" x="10.030459375" y="-4.480559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$20" x="10.030459375" y="-3.210559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$21" x="10.030459375" y="-1.940559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$22" x="10.030459375" y="-0.670559375" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$23" x="10.030459375" y="0.599440625" dx="2.4384" dy="0.8128" layer="1"/>
+<smd name="P$24" x="10.030459375" y="1.869440625" dx="2.4384" dy="0.8128" layer="1"/>
+<wire x1="-10.287" y1="2.413" x2="-10.287" y2="-5.969" width="0.8128" layer="21"/>
+<wire x1="10.287" y1="2.413" x2="10.287" y2="1.524" width="0.8128" layer="21"/>
+<wire x1="10.287" y1="-1.651" x2="10.287" y2="-3.556" width="0.8128" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CC2530PA">
@@ -4880,7 +4937,8 @@ size 20 x 30 mm</description>
 </symbols>
 <devicesets>
 <deviceset name="CC2530">
-<description>CC2530 Wireless Zigbee Module 3.0-3.6V 2.405-2.485GHz</description>
+<description>CC2530 Wireless Zigbee Module 3.0-3.6V 2.405-2.485GHz
+SMD Pads !</description>
 <gates>
 <gate name="G$1" symbol="CC2530PA" x="-20.32" y="0"/>
 </gates>
@@ -4947,6 +5005,37 @@ size 20 x 30 mm</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="" package="SZ1ZIGBEE-SMD">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$12"/>
+<connect gate="G$1" pin="GND2" pad="P$11"/>
+<connect gate="G$1" pin="P0.1" pad="P$22"/>
+<connect gate="G$1" pin="P0.2" pad="P$21"/>
+<connect gate="G$1" pin="P0.3" pad="P$20"/>
+<connect gate="G$1" pin="P0.4" pad="P$19"/>
+<connect gate="G$1" pin="P0.5" pad="P$18"/>
+<connect gate="G$1" pin="P0.6" pad="P$17"/>
+<connect gate="G$1" pin="P0.7" pad="P$16"/>
+<connect gate="G$1" pin="P0_0" pad="P$23"/>
+<connect gate="G$1" pin="P1.0" pad="P$15"/>
+<connect gate="G$1" pin="P1.1" pad="P$14"/>
+<connect gate="G$1" pin="P1.2" pad="P$13"/>
+<connect gate="G$1" pin="P1.3" pad="P$1"/>
+<connect gate="G$1" pin="P1.4" pad="P$2"/>
+<connect gate="G$1" pin="P1.5" pad="P$3"/>
+<connect gate="G$1" pin="P1.6" pad="P$4"/>
+<connect gate="G$1" pin="P1.7" pad="P$5"/>
+<connect gate="G$1" pin="P2.0" pad="P$6"/>
+<connect gate="G$1" pin="P2.1" pad="P$7"/>
+<connect gate="G$1" pin="P2.2" pad="P$8"/>
+<connect gate="G$1" pin="RESET_N" pad="P$24"/>
+<connect gate="G$1" pin="VCC" pad="P$10"/>
+<connect gate="G$1" pin="VCC2" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -4972,12 +5061,12 @@ size 20 x 30 mm</description>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1812" package3d_urn="urn:adsk.eagle:package:23622/2"/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="CC-DEBUG" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA05-2" device="" package3d_urn="urn:adsk.eagle:package:8329/1"/>
-<part name="U$1" library="zigbee" deviceset="CC2530" device="CC2530PA"/>
+<part name="U$1" library="zigbee" deviceset="CC2530" device="" value="CC2530"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5016,12 +5105,6 @@ size 20 x 30 mm</description>
 <instance part="GND15" gate="1" x="245.11" y="-74.93" smashed="yes">
 <attribute name="VALUE" x="242.57" y="-77.47" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="116.84" y="-104.14" smashed="yes" rot="R180">
-<attribute name="VALUE" x="119.38" y="-101.6" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="SUPPLY3" gate="G$1" x="152.4" y="-121.92" smashed="yes" rot="R270">
-<attribute name="VALUE" x="155.575" y="-120.015" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="CC-DEBUG" gate="G$1" x="193.04" y="-111.76" smashed="yes" rot="R180">
 <attribute name="VALUE" x="196.85" y="-101.6" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="196.85" y="-120.142" size="1.778" layer="95" rot="R180"/>
@@ -5032,6 +5115,12 @@ size 20 x 30 mm</description>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="91.44" y="-203.2" smashed="yes" rot="R90">
 <attribute name="VALUE" x="88.265" y="-205.105" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND2" gate="1" x="91.44" y="-132.08" smashed="yes" rot="R270">
+<attribute name="VALUE" x="88.9" y="-129.54" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY1" gate="G$1" x="91.44" y="-139.7" smashed="yes" rot="R90">
+<attribute name="VALUE" x="88.265" y="-141.605" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -5057,16 +5146,6 @@ size 20 x 30 mm</description>
 <wire x1="245.11" y1="-71.12" x2="245.11" y2="-72.39" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="116.84" y1="-106.68" x2="86.36" y2="-106.68" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-106.68" x2="86.36" y2="-116.84" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-116.84" x2="93.98" y2="-116.84" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="-116.84" x2="149.86" y2="-116.84" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-116.84" x2="149.86" y2="-106.68" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-106.68" x2="116.84" y2="-106.68" width="0.1524" layer="91"/>
-<junction x="116.84" y="-106.68"/>
-</segment>
-<segment>
 <pinref part="CC-DEBUG" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="-106.68" x2="170.18" y2="-106.68" width="0.1524" layer="91"/>
 <label x="172.72" y="-106.68" size="1.778" layer="95"/>
@@ -5080,6 +5159,14 @@ size 20 x 30 mm</description>
 <wire x1="96.52" y1="-195.58" x2="96.52" y2="-198.12" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="-198.12" x2="101.6" y2="-198.12" width="0.1524" layer="91"/>
 <junction x="96.52" y="-195.58"/>
+</segment>
+<segment>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="101.6" y1="-132.08" x2="96.52" y2="-132.08" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-132.08" x2="93.98" y2="-132.08" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-132.08" x2="96.52" y2="-134.62" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-134.62" x2="101.6" y2="-134.62" width="0.1524" layer="91"/>
+<junction x="96.52" y="-132.08"/>
 </segment>
 </net>
 <net name="VCC" class="1">
@@ -5126,6 +5213,14 @@ size 20 x 30 mm</description>
 <wire x1="96.52" y1="-200.66" x2="96.52" y2="-203.2" width="0.1524" layer="91"/>
 <junction x="96.52" y="-203.2"/>
 </segment>
+<segment>
+<pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
+<wire x1="101.6" y1="-139.7" x2="96.52" y2="-139.7" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-139.7" x2="93.98" y2="-139.7" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="-137.16" x2="96.52" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-137.16" x2="96.52" y2="-139.7" width="0.1524" layer="91"/>
+<junction x="96.52" y="-139.7"/>
+</segment>
 </net>
 <net name="RX0" class="0">
 <segment>
@@ -5135,14 +5230,13 @@ size 20 x 30 mm</description>
 <pinref part="UART0" gate="1" pin="3"/>
 </segment>
 <segment>
-<wire x1="142.24" y1="-152.4" x2="160.02" y2="-152.4" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="-152.4" x2="162.56" y2="-152.4" width="0.1524" layer="91"/>
-<label x="149.86" y="-152.4" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="P0.3"/>
 <wire x1="132.08" y1="-205.74" x2="147.32" y2="-205.74" width="0.1524" layer="91"/>
 <label x="139.7" y="-205.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="132.08" y1="-142.24" x2="147.32" y2="-142.24" width="0.1524" layer="91"/>
+<label x="139.7" y="-142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX0" class="0">
@@ -5153,13 +5247,13 @@ size 20 x 30 mm</description>
 <pinref part="UART0" gate="1" pin="2"/>
 </segment>
 <segment>
-<wire x1="142.24" y1="-147.32" x2="160.02" y2="-147.32" width="0.1524" layer="91"/>
-<label x="149.86" y="-147.32" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="P0.2"/>
 <wire x1="132.08" y1="-203.2" x2="147.32" y2="-203.2" width="0.1524" layer="91"/>
 <label x="139.7" y="-203.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="132.08" y1="-139.7" x2="147.32" y2="-139.7" width="0.1524" layer="91"/>
+<label x="139.7" y="-139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DC" class="0">
@@ -5169,13 +5263,13 @@ size 20 x 30 mm</description>
 <label x="172.72" y="-109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="-157.48" x2="73.66" y2="-157.48" width="0.1524" layer="91"/>
-<label x="76.2" y="-157.48" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="P2.2"/>
 <wire x1="101.6" y1="-205.74" x2="81.28" y2="-205.74" width="0.1524" layer="91"/>
 <label x="81.28" y="-205.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="101.6" y1="-142.24" x2="81.28" y2="-142.24" width="0.1524" layer="91"/>
+<label x="81.28" y="-142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CS" class="0">
@@ -5192,13 +5286,13 @@ size 20 x 30 mm</description>
 <label x="172.72" y="-114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="142.24" y1="-132.08" x2="160.02" y2="-132.08" width="0.1524" layer="91"/>
-<label x="152.4" y="-132.08" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="RESET_N"/>
 <wire x1="132.08" y1="-195.58" x2="147.32" y2="-195.58" width="0.1524" layer="91"/>
 <label x="139.7" y="-195.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="132.08" y1="-132.08" x2="147.32" y2="-132.08" width="0.1524" layer="91"/>
+<label x="139.7" y="-132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DD" class="0">
@@ -5208,13 +5302,13 @@ size 20 x 30 mm</description>
 <label x="205.74" y="-109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="-127" x2="73.66" y2="-127" width="0.1524" layer="91"/>
-<label x="76.2" y="-127" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="P2.1"/>
 <wire x1="101.6" y1="-208.28" x2="83.82" y2="-208.28" width="0.1524" layer="91"/>
 <label x="83.82" y="-208.28" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="101.6" y1="-144.78" x2="83.82" y2="-144.78" width="0.1524" layer="91"/>
+<label x="83.82" y="-144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
@@ -5249,12 +5343,9 @@ size 20 x 30 mm</description>
 <wire x1="101.6" y1="-210.82" x2="88.9" y2="-210.82" width="0.1524" layer="91"/>
 <label x="88.9" y="-210.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="N$2" class="1">
 <segment>
-<wire x1="147.32" y1="-121.92" x2="142.24" y2="-121.92" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="-127" x2="147.32" y2="-127" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="-127" x2="147.32" y2="-121.92" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="-147.32" x2="88.9" y2="-147.32" width="0.1524" layer="91"/>
+<label x="88.9" y="-147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -5263,6 +5354,10 @@ size 20 x 30 mm</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
@@ -5277,6 +5372,12 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="8.4" severity="warning">
+Since Version 8.4, EAGLE supports properties for SPICE simulation. 
+Probes in schematics and SPICE mapping objects found in parts and library devices
+will not be understood with this version. Update EAGLE to the latest version
+for full support of SPICE simulation. 
 </note>
 </compatibility>
 </eagle>
