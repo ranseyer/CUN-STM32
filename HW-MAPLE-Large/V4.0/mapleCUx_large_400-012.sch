@@ -26836,27 +26836,26 @@ Silk outline shows header location.
 <description>RS485 Module
 from LC-Tech
 based on Max485</description>
-<wire x1="0" y1="19" x2="47" y2="19" width="0.127" layer="21"/>
-<wire x1="47" y1="19" x2="47" y2="0" width="0.127" layer="21"/>
-<wire x1="47" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="19" width="0.127" layer="21"/>
-<pad name="GND" x="2.54" y="5.08" drill="0.8" shape="offset" rot="R180"/>
-<pad name="RX-MAP" x="2.54" y="7.62" drill="0.8" shape="offset" rot="R180"/>
-<pad name="TX-MAP" x="2.54" y="10.16" drill="0.8" shape="offset" rot="R180"/>
-<pad name="VCC" x="2.54" y="12.7" drill="0.8" shape="offset" rot="R180"/>
-<pad name="VCC1" x="44.45" y="5.08" drill="0.8" shape="offset"/>
-<pad name="TX-MAP1" x="44.45" y="7.62" drill="0.8" shape="offset"/>
-<pad name="RX-MAP1" x="44.45" y="10.16" drill="0.8" shape="offset"/>
-<pad name="GND1" x="44.45" y="12.7" drill="0.8" shape="offset"/>
-<text x="4.43" y="5.49" size="1.27" layer="21" rot="R180" align="bottom-right">GND</text>
-<text x="8.03" y="1.92" size="1.778" layer="21">MAPLE-CUL V4.x AddOn</text>
-<text x="4.43" y="13.11" size="1.27" layer="21" rot="R180" align="bottom-right">VCC</text>
-<text x="38.72" y="13.11" size="1.27" layer="21" rot="R180" align="bottom-right">GND</text>
-<text x="38.72" y="5.49" size="1.27" layer="21" rot="R180" align="bottom-right">VCC</text>
-<text x="33.64" y="8.03" size="1.27" layer="21" rot="R180" align="bottom-right">TX-MAPLE</text>
-<text x="33.64" y="10.57" size="1.27" layer="21" rot="R180" align="bottom-right">RX-MAPLE</text>
-<text x="4.43" y="8.03" size="1.27" layer="21" rot="R180" align="bottom-right">RX-MAPLE</text>
-<text x="4.43" y="10.57" size="1.27" layer="21" rot="R180" align="bottom-right">TX-MAPLE</text>
+<wire x1="0" y1="13.92" x2="47" y2="13.92" width="0.127" layer="21"/>
+<wire x1="47" y1="13.92" x2="47" y2="-8" width="0.127" layer="21"/>
+<wire x1="47" y1="-8" x2="0" y2="-8" width="0.127" layer="21"/>
+<wire x1="0" y1="-8" x2="0" y2="13.92" width="0.127" layer="21"/>
+<pad name="GND" x="1.27" y="12.7" drill="0.8" shape="offset"/>
+<pad name="RX-MAP" x="1.27" y="10.16" drill="0.8" shape="offset"/>
+<pad name="TX-MAP" x="1.27" y="7.62" drill="0.8" shape="offset"/>
+<pad name="VCC" x="1.27" y="5.08" drill="0.8" shape="offset"/>
+<pad name="VCC1" x="45.72" y="5.08" drill="0.8" shape="offset" rot="R180"/>
+<pad name="TX-MAP1" x="45.72" y="7.62" drill="0.8" shape="offset" rot="R180"/>
+<pad name="RX-MAP1" x="45.72" y="10.16" drill="0.8" shape="offset" rot="R180"/>
+<pad name="GND1" x="45.72" y="12.7" drill="0.8" shape="offset" rot="R180"/>
+<text x="3.668" y="12.856" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">GND</text>
+<text x="3.668" y="5.236" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">VCC</text>
+<text x="41.768" y="13.11" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">GND</text>
+<text x="42.022" y="5.49" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">VCC</text>
+<text x="42.53" y="8.03" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">TX</text>
+<text x="41.26" y="10.57" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">RX(M)</text>
+<text x="3.668" y="10.316" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">RX(M)</text>
+<text x="3.668" y="8.03" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">TX</text>
 </package>
 </packages>
 <symbols>
@@ -26951,7 +26950,7 @@ by Ranseyer</text>
 <part name="IC2" library="Martin-Communication" deviceset="LAN-USR-ES1" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
-<part name="CC2-EXT" library="CC1101" deviceset="ONEWIRE-MODULE" device=""/>
+<part name="CC3-EXT" library="CC1101" deviceset="ONEWIRE-MODULE" device=""/>
 <part name="VTRX2" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="C5" library="rcl" deviceset="CPOL-EU" device="E5-8.5" value="220uF"/>
@@ -27139,7 +27138,7 @@ by Ranseyer</text>
 <instance part="SUPPLY4" gate="G$1" x="123.19" y="165.1" smashed="yes">
 <attribute name="VALUE" x="121.285" y="168.275" size="1.778" layer="96"/>
 </instance>
-<instance part="CC2-EXT" gate="G$1" x="334.01" y="140.97" smashed="yes">
+<instance part="CC3-EXT" gate="G$1" x="334.01" y="140.97" smashed="yes">
 <attribute name="NAME" x="349.25" y="142.24" size="1.778" layer="95"/>
 </instance>
 <instance part="VTRX2" gate="G$1" x="246.38" y="259.08" smashed="yes">
@@ -27474,12 +27473,12 @@ by Ranseyer</text>
 <wire x1="115.57" y1="156.21" x2="115.57" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT" gate="G$1" pin="GND@0"/>
+<pinref part="CC3-EXT" gate="G$1" pin="GND@0"/>
 <wire x1="334.01" y1="146.05" x2="316.23" y2="146.05" width="0.1524" layer="91"/>
 <label x="317.5" y="144.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT" gate="G$1" pin="GND@1"/>
+<pinref part="CC3-EXT" gate="G$1" pin="GND@1"/>
 <wire x1="334.01" y1="143.51" x2="316.23" y2="143.51" width="0.1524" layer="91"/>
 <label x="317.5" y="142.24" size="1.778" layer="95"/>
 </segment>
@@ -27710,12 +27709,12 @@ by Ranseyer</text>
 <wire x1="123.19" y1="158.75" x2="123.19" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT" gate="G$1" pin="VCC@0"/>
+<pinref part="CC3-EXT" gate="G$1" pin="VCC@0"/>
 <wire x1="334.01" y1="166.37" x2="316.23" y2="166.37" width="0.1524" layer="91"/>
 <label x="318.77" y="166.37" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT" gate="G$1" pin="VCC@1"/>
+<pinref part="CC3-EXT" gate="G$1" pin="VCC@1"/>
 <wire x1="334.01" y1="163.83" x2="316.23" y2="163.83" width="0.1524" layer="91"/>
 <label x="317.5" y="162.56" size="1.778" layer="95"/>
 </segment>
@@ -27792,11 +27791,6 @@ by Ranseyer</text>
 <label x="180.34" y="113.03" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="HMMOD-UART" gate="G$1" pin="TX"/>
-<wire x1="317.5" y1="76.2" x2="297.18" y2="76.2" width="0.1524" layer="91"/>
-<label x="302.26" y="76.2" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$3" gate="G$1" pin="RX-MAPLE1"/>
 <wire x1="203.2" y1="71.12" x2="219.71" y2="71.12" width="0.1524" layer="91"/>
 <label x="219.71" y="71.12" size="1.778" layer="95" xref="yes"/>
@@ -27807,11 +27801,6 @@ by Ranseyer</text>
 <pinref part="U$1" gate="G$1" pin="1/TX3/I2C2_SCL"/>
 <wire x1="215.9" y1="115.57" x2="179.07" y2="115.57" width="0.1524" layer="91"/>
 <label x="180.34" y="115.57" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="HMMOD-UART" gate="G$1" pin="RX"/>
-<wire x1="317.5" y1="78.74" x2="297.18" y2="78.74" width="0.1524" layer="91"/>
-<label x="302.26" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="TX-MAPLE1"/>
@@ -27836,6 +27825,11 @@ by Ranseyer</text>
 <wire x1="137.16" y1="66.04" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
 <label x="114.3" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="HMMOD-UART" gate="G$1" pin="TX"/>
+<wire x1="317.5" y1="76.2" x2="297.18" y2="76.2" width="0.1524" layer="91"/>
+<label x="302.26" y="76.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TX-MAPLE" class="0">
 <segment>
@@ -27852,6 +27846,11 @@ by Ranseyer</text>
 <pinref part="U$3" gate="G$1" pin="TX-MAPLE"/>
 <wire x1="137.16" y1="71.12" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
 <label x="114.3" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="HMMOD-UART" gate="G$1" pin="RX"/>
+<wire x1="317.5" y1="78.74" x2="297.18" y2="78.74" width="0.1524" layer="91"/>
+<label x="302.26" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CC_CS0" class="0">
@@ -27893,7 +27892,7 @@ by Ranseyer</text>
 <label x="322.58" y="240.03" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT" gate="G$1" pin="SCLK"/>
+<pinref part="CC3-EXT" gate="G$1" pin="SCLK"/>
 <wire x1="334.01" y1="158.75" x2="316.23" y2="158.75" width="0.1524" layer="91"/>
 <label x="317.5" y="157.48" size="1.778" layer="95"/>
 </segment>
@@ -27929,7 +27928,7 @@ by Ranseyer</text>
 <label x="322.58" y="237.49" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT" gate="G$1" pin="MISO"/>
+<pinref part="CC3-EXT" gate="G$1" pin="MISO"/>
 <wire x1="334.01" y1="156.21" x2="316.23" y2="156.21" width="0.1524" layer="91"/>
 <label x="317.5" y="154.94" size="1.778" layer="95"/>
 </segment>
@@ -27965,7 +27964,7 @@ by Ranseyer</text>
 <label x="322.58" y="242.57" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT" gate="G$1" pin="MOSI"/>
+<pinref part="CC3-EXT" gate="G$1" pin="MOSI"/>
 <wire x1="334.01" y1="161.29" x2="316.23" y2="161.29" width="0.1524" layer="91"/>
 <label x="317.5" y="160.02" size="1.778" layer="95"/>
 </segment>
@@ -28073,7 +28072,7 @@ by Ranseyer</text>
 <label x="114.3" y="148.59" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT" gate="G$1" pin="GDO2"/>
+<pinref part="CC3-EXT" gate="G$1" pin="GDO2"/>
 <wire x1="334.01" y1="153.67" x2="316.23" y2="153.67" width="0.1524" layer="91"/>
 <label x="317.5" y="152.4" size="1.778" layer="95"/>
 </segment>
@@ -28099,7 +28098,7 @@ by Ranseyer</text>
 <label x="180.34" y="148.59" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT" gate="G$1" pin="GDO0"/>
+<pinref part="CC3-EXT" gate="G$1" pin="GDO0"/>
 <wire x1="334.01" y1="151.13" x2="316.23" y2="151.13" width="0.1524" layer="91"/>
 <label x="317.5" y="149.86" size="1.778" layer="95"/>
 </segment>
@@ -28116,7 +28115,7 @@ by Ranseyer</text>
 <label x="114.3" y="151.13" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT" gate="G$1" pin="CSN"/>
+<pinref part="CC3-EXT" gate="G$1" pin="CSN"/>
 <wire x1="334.01" y1="148.59" x2="316.23" y2="148.59" width="0.1524" layer="91"/>
 <label x="317.5" y="147.32" size="1.778" layer="95"/>
 </segment>
@@ -28239,7 +28238,7 @@ by Ranseyer</text>
 <label x="379.73" y="176.53" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CC2-EXT" gate="G$1" pin="5V"/>
+<pinref part="CC3-EXT" gate="G$1" pin="5V"/>
 <wire x1="364.49" y1="158.75" x2="372.11" y2="158.75" width="0.1524" layer="91"/>
 <wire x1="372.11" y1="158.75" x2="372.11" y2="146.05" width="0.1524" layer="91"/>
 <label x="372.11" y="146.05" size="1.778" layer="95" rot="R270" xref="yes"/>
@@ -28298,7 +28297,7 @@ by Ranseyer</text>
 </net>
 <net name="1W" class="0">
 <segment>
-<pinref part="CC2-EXT" gate="G$1" pin="1W"/>
+<pinref part="CC3-EXT" gate="G$1" pin="1W"/>
 <pinref part="J2" gate="J$1" pin="2"/>
 <wire x1="374.65" y1="163.83" x2="364.49" y2="163.83" width="0.1524" layer="91"/>
 <label x="373.38" y="165.1" size="1.778" layer="95" rot="R180"/>
@@ -28313,7 +28312,7 @@ by Ranseyer</text>
 </net>
 <net name="1W-GND" class="0">
 <segment>
-<pinref part="CC2-EXT" gate="G$1" pin="1W-GND"/>
+<pinref part="CC3-EXT" gate="G$1" pin="1W-GND"/>
 <pinref part="J2" gate="J$1" pin="3"/>
 <wire x1="374.65" y1="161.29" x2="364.49" y2="161.29" width="0.1524" layer="91"/>
 <label x="367.03" y="158.75" size="1.778" layer="95"/>

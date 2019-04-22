@@ -165,13 +165,18 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="47" y2="0" width="0" layer="20"/>
-<wire x1="47" y1="0" x2="47" y2="19" width="0" layer="20"/>
-<wire x1="47" y1="19" x2="0" y2="19" width="0" layer="20"/>
-<wire x1="0" y1="19" x2="0" y2="0" width="0" layer="20"/>
-<wire x1="-4" y1="19" x2="50" y2="19" width="0.1524" layer="48" style="shortdash"/>
+<wire x1="47" y1="0" x2="47" y2="22" width="0" layer="20"/>
+<wire x1="47" y1="22" x2="0" y2="22" width="0" layer="20"/>
+<wire x1="0" y1="22" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="-4" y1="22" x2="51" y2="22" width="0.1524" layer="48" style="shortdash"/>
 <wire x1="47" y1="22" x2="47" y2="-5" width="0.1524" layer="48" style="shortdash"/>
-<wire x1="0" y1="22" x2="0" y2="-5" width="0.1524" layer="48" style="shortdash"/>
+<wire x1="-2" y1="23" x2="-2" y2="-4" width="0.1524" layer="48" style="shortdash"/>
 <wire x1="-5" y1="0" x2="51" y2="0" width="0.1524" layer="48" style="shortdash"/>
+<dimension x1="47" y1="-5" x2="15" y2="-5" x3="31" y3="-7" textsize="1.778" layer="51"/>
+<wire x1="15" y1="23" x2="15" y2="-4" width="0.1524" layer="48" style="shortdash"/>
+<dimension x1="-5" y1="0" x2="-5" y2="22" x3="-5" y3="11" textsize="1.778" layer="51"/>
+<dimension x1="-8" y1="0" x2="-8" y2="32" x3="-8" y3="16" textsize="1.778" layer="51"/>
+<wire x1="-4" y1="32" x2="51" y2="32" width="0.1524" layer="48" style="shortdash"/>
 </plain>
 <libraries>
 <library name="con-lstb" urn="urn:adsk.eagle:library:162">
@@ -1336,27 +1341,27 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <description>RS485 Module
 from LC-Tech
 based on Max485</description>
-<wire x1="0" y1="19" x2="47" y2="19" width="0.127" layer="21"/>
-<wire x1="47" y1="19" x2="47" y2="0" width="0.127" layer="21"/>
-<wire x1="47" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="19" width="0.127" layer="21"/>
-<pad name="GND" x="2.54" y="5.08" drill="0.8" shape="offset" rot="R180"/>
-<pad name="RX-MAP" x="2.54" y="7.62" drill="0.8" shape="offset" rot="R180"/>
-<pad name="TX-MAP" x="2.54" y="10.16" drill="0.8" shape="offset" rot="R180"/>
-<pad name="VCC" x="2.54" y="12.7" drill="0.8" shape="offset" rot="R180"/>
+<wire x1="0" y1="13.92" x2="47" y2="13.92" width="0.127" layer="21"/>
+<wire x1="47" y1="13.92" x2="47" y2="-8" width="0.127" layer="21"/>
+<wire x1="47" y1="-8" x2="0" y2="-8" width="0.127" layer="21"/>
+<wire x1="0" y1="-8" x2="0" y2="13.92" width="0.127" layer="21"/>
+<pad name="GND" x="2.54" y="12.7" drill="0.8" shape="offset" rot="R180"/>
+<pad name="RX-MAP" x="2.54" y="10.16" drill="0.8" shape="offset" rot="R180"/>
+<pad name="TX-MAP" x="2.54" y="7.62" drill="0.8" shape="offset" rot="R180"/>
+<pad name="VCC" x="2.54" y="5.08" drill="0.8" shape="offset" rot="R180"/>
 <pad name="VCC1" x="44.45" y="5.08" drill="0.8" shape="offset"/>
 <pad name="TX-MAP1" x="44.45" y="7.62" drill="0.8" shape="offset"/>
 <pad name="RX-MAP1" x="44.45" y="10.16" drill="0.8" shape="offset"/>
 <pad name="GND1" x="44.45" y="12.7" drill="0.8" shape="offset"/>
-<text x="4.43" y="5.49" size="1.27" layer="21" rot="R180" align="bottom-right">GND</text>
-<text x="8.03" y="1.92" size="1.778" layer="21">MAPLE-CUL V4.x AddOn</text>
-<text x="4.43" y="13.11" size="1.27" layer="21" rot="R180" align="bottom-right">VCC</text>
+<text x="4.43" y="13.11" size="1.27" layer="21" rot="R180" align="bottom-right">GND</text>
+<text x="11.57" y="-5.08" size="1.778" layer="21">MAPLE-CUL V4.x AddOn</text>
+<text x="4.43" y="5.49" size="1.27" layer="21" rot="R180" align="bottom-right">VCC</text>
 <text x="38.72" y="13.11" size="1.27" layer="21" rot="R180" align="bottom-right">GND</text>
 <text x="38.72" y="5.49" size="1.27" layer="21" rot="R180" align="bottom-right">VCC</text>
 <text x="33.64" y="8.03" size="1.27" layer="21" rot="R180" align="bottom-right">TX-MAPLE</text>
 <text x="33.64" y="10.57" size="1.27" layer="21" rot="R180" align="bottom-right">RX-MAPLE</text>
-<text x="4.43" y="8.03" size="1.27" layer="21" rot="R180" align="bottom-right">RX-MAPLE</text>
-<text x="4.43" y="10.57" size="1.27" layer="21" rot="R180" align="bottom-right">TX-MAPLE</text>
+<text x="4.43" y="10.57" size="1.27" layer="21" rot="R180" align="bottom-right">RX-MAPLE</text>
+<text x="4.43" y="8.03" size="1.27" layer="21" rot="R180" align="bottom-right">TX-MAPLE</text>
 </package>
 </packages>
 </library>
@@ -1555,64 +1560,48 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="UART0" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA04-1" package3d_urn="urn:adsk.eagle:package:8337/1" value="" x="2.54" y="8.89" smashed="yes" rot="R270">
-<attribute name="MF" value="" x="2.54" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="2.54" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="4.191" y="13.97" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="OC_FARNELL" value="unknown" x="2.54" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="2.54" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="4.191" y="8.255" size="1.27" layer="27" ratio="10" rot="R270"/>
+<element name="UART0" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA04-1" package3d_urn="urn:adsk.eagle:package:8337/1" value="" x="45" y="17" smashed="yes" rot="R90">
+<attribute name="MF" value="" x="45" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="45" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="43.349" y="11.92" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="OC_FARNELL" value="unknown" x="45" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="45" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="43.349" y="17.635" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22pF" x="2.605" y="16.605" smashed="yes" rot="R90">
-<attribute name="NAME" x="1.335" y="15.335" size="1.27" layer="25" rot="R90"/>
-<attribute name="SPICEPREFIX" value="C" x="-29.78" y="-14.51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="5.145" y="15.335" size="1.27" layer="27" rot="R90"/>
+<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22pF" x="44.605" y="8.605" smashed="yes" rot="R90">
+<attribute name="NAME" x="43.335" y="7.335" size="1.27" layer="25" rot="R90"/>
+<attribute name="SPICEPREFIX" value="C" x="12.22" y="-22.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="47.145" y="7.335" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1812" package3d_urn="urn:adsk.eagle:package:23622/2" value="" x="3.97" y="16.67" smashed="yes" rot="MR0">
-<attribute name="NAME" x="5.875" y="19.21" size="1.27" layer="26" rot="MR0"/>
-<attribute name="SPICEPREFIX" value="C" x="57.31" y="23.02" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="5.875" y="12.86" size="1.27" layer="28" rot="MR0"/>
+<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1812" package3d_urn="urn:adsk.eagle:package:23622/2" value="" x="44.33" y="5.97" smashed="yes" rot="MR270">
+<attribute name="NAME" x="41.79" y="7.875" size="1.27" layer="26" rot="MR270"/>
+<attribute name="SPICEPREFIX" value="C" x="37.98" y="59.31" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="48.14" y="7.875" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="U$1" library="Martin-Communication-V4" package="MAPLE-CUL-V01" value="MAPLE-CUL-ADDON-V01" x="1.27" y="24.13" smashed="yes"/>
-<element name="UART1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA04-1" package3d_urn="urn:adsk.eagle:package:8337/1" value="" x="44.45" y="8.89" smashed="yes" rot="R90">
-<attribute name="MF" value="" x="44.45" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="44.45" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="42.799" y="3.81" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="OC_FARNELL" value="unknown" x="44.45" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="44.45" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="42.799" y="9.525" size="1.27" layer="27" ratio="10" rot="R90"/>
-</element>
+<element name="U$1" library="Martin-Communication-V4" package="MAPLE-CUL-V01" value="MAPLE-CUL-ADDON-V01" x="0" y="49" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND" class="1">
 <contactref element="C6" pad="2"/>
 <contactref element="C7" pad="1"/>
 <contactref element="UART0" pad="4"/>
-<contactref element="UART1" pad="4"/>
-<wire x1="2.605" y1="17.555" x2="5.92" y2="16.67" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="5.08" x2="2.605" y2="17.555" width="0" layer="19" extent="1-1"/>
-<wire x1="44.45" y1="12.7" x2="2.54" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="44.605" y1="9.555" x2="44.33" y2="7.92" width="0" layer="19" extent="1-16"/>
+<wire x1="45" y1="20.81" x2="44.605" y2="9.555" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC" class="1">
 <contactref element="C6" pad="1"/>
 <contactref element="C7" pad="2"/>
 <contactref element="UART0" pad="1"/>
-<contactref element="UART1" pad="1"/>
-<wire x1="2.605" y1="15.655" x2="2.02" y2="16.67" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="12.7" x2="2.605" y2="15.655" width="0" layer="19" extent="1-1"/>
-<wire x1="44.45" y1="5.08" x2="2.54" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="44.33" y1="4.02" x2="45" y2="13.19" width="0" layer="19" extent="16-16"/>
+<wire x1="44.605" y1="7.655" x2="44.33" y2="4.02" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="TX-MAPLE0">
 <contactref element="UART0" pad="2"/>
-<contactref element="UART1" pad="2"/>
-<wire x1="44.45" y1="7.62" x2="2.54" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1" class="1">
 </signal>
 <signal name="RX-MAPLE0">
 <contactref element="UART0" pad="3"/>
-<contactref element="UART1" pad="3"/>
-<wire x1="44.45" y1="10.16" x2="2.54" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

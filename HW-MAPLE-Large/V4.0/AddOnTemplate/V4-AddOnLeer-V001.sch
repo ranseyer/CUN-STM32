@@ -2900,15 +2900,6 @@ Metric Code Size 4564</description>
 <rectangle x1="-2.8" y1="-3.15" x2="-2.2" y2="3.15" layer="51"/>
 <rectangle x1="2.2" y1="-3.15" x2="2.8" y2="3.15" layer="51"/>
 </package>
-<package name="HPC0201" urn="urn:adsk.eagle:footprint:23195/1" library_version="3">
-<description>&lt;b&gt; &lt;/b&gt;&lt;p&gt;
-Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
-<smd name="1" x="-0.18" y="0" dx="0.2" dy="0.35" layer="1"/>
-<smd name="2" x="0.18" y="0" dx="0.2" dy="0.35" layer="1"/>
-<text x="-0.75" y="0.74" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.785" y="-1.865" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.305" y1="-0.15" x2="0.305" y2="0.15" layer="51"/>
-</package>
 <package name="C0201" urn="urn:adsk.eagle:footprint:23196/1" library_version="3">
 <description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
 <smd name="1" x="-0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
@@ -2956,20 +2947,17 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="HPC0201" urn="urn:adsk.eagle:footprint:25783/1" library_version="10">
+<description>&lt;b&gt; &lt;/b&gt;&lt;p&gt;
+Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
+<smd name="1" x="-0.18" y="0" dx="0.2" dy="0.35" layer="1"/>
+<smd name="2" x="0.18" y="0" dx="0.2" dy="0.35" layer="1"/>
+<text x="-0.75" y="0.74" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.785" y="-1.865" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.305" y1="-0.15" x2="0.305" y2="0.15" layer="51"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="C0402" urn="urn:adsk.eagle:package:23626/1" type="box" library_version="3">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C0402"/>
-</packageinstances>
-</package3d>
-<package3d name="C0504" urn="urn:adsk.eagle:package:23624/1" type="box" library_version="3">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C0504"/>
-</packageinstances>
-</package3d>
 <package3d name="C0603" urn="urn:adsk.eagle:package:23616/2" type="model" library_version="3">
 <description>CAPACITOR</description>
 <packageinstances>
@@ -2992,12 +2980,6 @@ Source: AVX .. aphvc.pdf</description>
 <description>CAPACITOR</description>
 <packageinstances>
 <packageinstance name="C1210"/>
-</packageinstances>
-</package3d>
-<package3d name="C1310" urn="urn:adsk.eagle:package:23620/1" type="box" library_version="3">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C1310"/>
 </packageinstances>
 </package3d>
 <package3d name="C1608" urn="urn:adsk.eagle:package:23621/2" type="model" library_version="3">
@@ -3440,13 +3422,6 @@ Metric Code Size 4532</description>
 <packageinstance name="C1812K"/>
 </packageinstances>
 </package3d>
-<package3d name="C1825K" urn="urn:adsk.eagle:package:23684/1" type="box" library_version="3">
-<description>Ceramic Chip Capacitor KEMET 1825 reflow solder
-Metric Code Size 4564</description>
-<packageinstances>
-<packageinstance name="C1825K"/>
-</packageinstances>
-</package3d>
 <package3d name="C2220K" urn="urn:adsk.eagle:package:23687/2" type="model" library_version="3">
 <description>Ceramic Chip Capacitor KEMET 2220 reflow solderMetric Code Size 5650</description>
 <packageinstances>
@@ -3457,13 +3432,6 @@ Metric Code Size 4564</description>
 <description>Ceramic Chip Capacitor KEMET 2225 reflow solderMetric Code Size 5664</description>
 <packageinstances>
 <packageinstance name="C2225K"/>
-</packageinstances>
-</package3d>
-<package3d name="HPC0201" urn="urn:adsk.eagle:package:23688/1" type="box" library_version="3">
-<description> 
-Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
-<packageinstances>
-<packageinstance name="HPC0201"/>
 </packageinstances>
 </package3d>
 <package3d name="C0201" urn="urn:adsk.eagle:package:23690/2" type="model" library_version="3">
@@ -3492,6 +3460,39 @@ Source: AVX .. aphvc.pdf</description>
 <packageinstance name="C01005"/>
 </packageinstances>
 </package3d>
+<package3d name="CAPC1005X60" urn="urn:adsk.eagle:package:23626/2" type="model" library_version="10">
+<description>Chip, 1.00 X 0.50 X 0.60 mm body
+&lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.60 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="C0402"/>
+</packageinstances>
+</package3d>
+<package3d name="C0504" urn="urn:adsk.eagle:package:23624/2" type="model" library_version="10">
+<description>CAPACITOR</description>
+<packageinstances>
+<packageinstance name="C0504"/>
+</packageinstances>
+</package3d>
+<package3d name="C1310" urn="urn:adsk.eagle:package:23620/2" type="model" library_version="10">
+<description>CAPACITOR</description>
+<packageinstances>
+<packageinstance name="C1310"/>
+</packageinstances>
+</package3d>
+<package3d name="C1825K" urn="urn:adsk.eagle:package:23684/2" type="model" library_version="10">
+<description>Ceramic Chip Capacitor KEMET 1825 reflow solder
+Metric Code Size 4564</description>
+<packageinstances>
+<packageinstance name="C1825K"/>
+</packageinstances>
+</package3d>
+<package3d name="HPC0201" urn="urn:adsk.eagle:package:26213/1" type="box" library_version="10">
+<description> 
+Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
+<packageinstances>
+<packageinstance name="HPC0201"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="C-EU" urn="urn:adsk.eagle:symbol:23120/1" library_version="3">
@@ -3506,7 +3507,7 @@ Source: AVX .. aphvc.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="C-EU" urn="urn:adsk.eagle:component:23793/42" prefix="C" uservalue="yes" library_version="3">
+<deviceset name="C-EU" urn="urn:adsk.eagle:component:23793/45" prefix="C" uservalue="yes" library_version="10">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
@@ -3518,7 +3519,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23626/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23626/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3532,7 +3533,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23624/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23624/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3602,7 +3603,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23620/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23620/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4512,7 +4513,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23684/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23684/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4554,7 +4555,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23688/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26213/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4619,6 +4620,12 @@ Source: AVX .. aphvc.pdf</description>
 </technologies>
 </device>
 </devices>
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
 </deviceset>
 </devicesets>
 </library>
@@ -4628,27 +4635,27 @@ Source: AVX .. aphvc.pdf</description>
 <description>RS485 Module
 from LC-Tech
 based on Max485</description>
-<wire x1="0" y1="19" x2="47" y2="19" width="0.127" layer="21"/>
-<wire x1="47" y1="19" x2="47" y2="0" width="0.127" layer="21"/>
-<wire x1="47" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="19" width="0.127" layer="21"/>
-<pad name="GND" x="2.54" y="5.08" drill="0.8" shape="offset" rot="R180"/>
-<pad name="RX-MAP" x="2.54" y="7.62" drill="0.8" shape="offset" rot="R180"/>
-<pad name="TX-MAP" x="2.54" y="10.16" drill="0.8" shape="offset" rot="R180"/>
-<pad name="VCC" x="2.54" y="12.7" drill="0.8" shape="offset" rot="R180"/>
+<wire x1="0" y1="13.92" x2="47" y2="13.92" width="0.127" layer="21"/>
+<wire x1="47" y1="13.92" x2="47" y2="-8" width="0.127" layer="21"/>
+<wire x1="47" y1="-8" x2="0" y2="-8" width="0.127" layer="21"/>
+<wire x1="0" y1="-8" x2="0" y2="13.92" width="0.127" layer="21"/>
+<pad name="GND" x="2.54" y="12.7" drill="0.8" shape="offset" rot="R180"/>
+<pad name="RX-MAP" x="2.54" y="10.16" drill="0.8" shape="offset" rot="R180"/>
+<pad name="TX-MAP" x="2.54" y="7.62" drill="0.8" shape="offset" rot="R180"/>
+<pad name="VCC" x="2.54" y="5.08" drill="0.8" shape="offset" rot="R180"/>
 <pad name="VCC1" x="44.45" y="5.08" drill="0.8" shape="offset"/>
 <pad name="TX-MAP1" x="44.45" y="7.62" drill="0.8" shape="offset"/>
 <pad name="RX-MAP1" x="44.45" y="10.16" drill="0.8" shape="offset"/>
 <pad name="GND1" x="44.45" y="12.7" drill="0.8" shape="offset"/>
-<text x="4.43" y="5.49" size="1.27" layer="21" rot="R180" align="bottom-right">GND</text>
-<text x="8.03" y="1.92" size="1.778" layer="21">MAPLE-CUL V4.x AddOn</text>
-<text x="4.43" y="13.11" size="1.27" layer="21" rot="R180" align="bottom-right">VCC</text>
+<text x="4.43" y="13.11" size="1.27" layer="21" rot="R180" align="bottom-right">GND</text>
+<text x="11.57" y="-5.08" size="1.778" layer="21">MAPLE-CUL V4.x AddOn</text>
+<text x="4.43" y="5.49" size="1.27" layer="21" rot="R180" align="bottom-right">VCC</text>
 <text x="38.72" y="13.11" size="1.27" layer="21" rot="R180" align="bottom-right">GND</text>
 <text x="38.72" y="5.49" size="1.27" layer="21" rot="R180" align="bottom-right">VCC</text>
 <text x="33.64" y="8.03" size="1.27" layer="21" rot="R180" align="bottom-right">TX-MAPLE</text>
 <text x="33.64" y="10.57" size="1.27" layer="21" rot="R180" align="bottom-right">RX-MAPLE</text>
-<text x="4.43" y="8.03" size="1.27" layer="21" rot="R180" align="bottom-right">RX-MAPLE</text>
-<text x="4.43" y="10.57" size="1.27" layer="21" rot="R180" align="bottom-right">TX-MAPLE</text>
+<text x="4.43" y="10.57" size="1.27" layer="21" rot="R180" align="bottom-right">RX-MAPLE</text>
+<text x="4.43" y="8.03" size="1.27" layer="21" rot="R180" align="bottom-right">TX-MAPLE</text>
 </package>
 </packages>
 <symbols>
@@ -4720,9 +4727,6 @@ by Ranseyer</text>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$1" library="Martin-Communication-V4" deviceset="MAPLE-CUL-ADDON-V01" device=""/>
-<part name="UART1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1"/>
-<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4733,8 +4737,8 @@ by Ranseyer</text>
 <attribute name="VALUE" x="194.31" y="-140.97" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="194.31" y="-156.972" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="GND1" gate="1" x="121.92" y="-30.48" smashed="yes" rot="R90">
-<attribute name="VALUE" x="124.46" y="-33.02" size="1.778" layer="96" rot="R90"/>
+<instance part="GND1" gate="1" x="231.14" y="-76.2" smashed="yes">
+<attribute name="VALUE" x="228.6" y="-78.74" size="1.778" layer="96"/>
 </instance>
 <instance part="GND7" gate="1" x="184.15" y="-158.75" smashed="yes">
 <attribute name="VALUE" x="181.61" y="-161.29" size="1.778" layer="96"/>
@@ -4742,12 +4746,12 @@ by Ranseyer</text>
 <instance part="SUPPLY5" gate="G$1" x="184.15" y="-140.97" smashed="yes">
 <attribute name="VALUE" x="182.245" y="-137.795" size="1.778" layer="96"/>
 </instance>
-<instance part="C6" gate="G$1" x="101.6" y="-30.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="101.219" y="-28.956" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="106.299" y="-28.956" size="1.778" layer="96" rot="R90"/>
+<instance part="C6" gate="G$1" x="231.14" y="-63.5" smashed="yes">
+<attribute name="NAME" x="232.664" y="-63.119" size="1.778" layer="95"/>
+<attribute name="VALUE" x="232.664" y="-68.199" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="91.44" y="-30.48" smashed="yes" rot="R90">
-<attribute name="VALUE" x="88.265" y="-32.385" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY2" gate="G$1" x="231.14" y="-55.88" smashed="yes">
+<attribute name="VALUE" x="229.235" y="-52.705" size="1.778" layer="96"/>
 </instance>
 <instance part="C7" gate="G$1" x="248.92" y="-66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="249.301" y="-61.214" size="1.778" layer="95" rot="R270"/>
@@ -4760,16 +4764,6 @@ by Ranseyer</text>
 <attribute name="VALUE" x="242.57" y="-77.47" size="1.778" layer="96"/>
 </instance>
 <instance part="U$1" gate="G$1" x="154.94" y="-71.12" smashed="yes"/>
-<instance part="UART1" gate="1" x="193.04" y="-186.69" smashed="yes" rot="R180">
-<attribute name="VALUE" x="194.31" y="-176.53" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="194.31" y="-192.532" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="GND2" gate="1" x="184.15" y="-194.31" smashed="yes">
-<attribute name="VALUE" x="181.61" y="-196.85" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY1" gate="G$1" x="184.15" y="-176.53" smashed="yes">
-<attribute name="VALUE" x="182.245" y="-173.355" size="1.778" layer="96"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -4784,7 +4778,7 @@ by Ranseyer</text>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="106.68" y1="-30.48" x2="119.38" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="-68.58" x2="231.14" y2="-73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="245.11" y1="-71.12" x2="248.92" y2="-71.12" width="0.1524" layer="91"/>
@@ -4792,12 +4786,6 @@ by Ranseyer</text>
 <wire x1="248.92" y1="-71.12" x2="248.92" y2="-68.58" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="245.11" y1="-71.12" x2="245.11" y2="-72.39" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="185.42" y1="-189.23" x2="184.15" y2="-189.23" width="0.1524" layer="91"/>
-<wire x1="184.15" y1="-189.23" x2="184.15" y2="-191.77" width="0.1524" layer="91"/>
-<pinref part="UART1" gate="1" pin="4"/>
 </segment>
 </net>
 <net name="VCC" class="1">
@@ -4810,19 +4798,13 @@ by Ranseyer</text>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
-<wire x1="99.06" y1="-30.48" x2="93.98" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="-60.96" x2="231.14" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="248.92" y1="-58.42" x2="245.11" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="248.92" y1="-60.96" x2="248.92" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
-<wire x1="185.42" y1="-181.61" x2="184.15" y2="-181.61" width="0.1524" layer="91"/>
-<wire x1="184.15" y1="-181.61" x2="184.15" y2="-179.07" width="0.1524" layer="91"/>
-<pinref part="UART1" gate="1" pin="1"/>
 </segment>
 </net>
 <net name="TX-MAPLE0" class="0">
@@ -4831,12 +4813,6 @@ by Ranseyer</text>
 <wire x1="173.99" y1="-148.59" x2="166.37" y2="-148.59" width="0.1524" layer="91"/>
 <label x="172.72" y="-148.59" size="1.778" layer="95"/>
 <pinref part="UART0" gate="1" pin="2"/>
-</segment>
-<segment>
-<wire x1="185.42" y1="-184.15" x2="173.99" y2="-184.15" width="0.1524" layer="91"/>
-<wire x1="173.99" y1="-184.15" x2="166.37" y2="-184.15" width="0.1524" layer="91"/>
-<label x="172.72" y="-184.15" size="1.778" layer="95"/>
-<pinref part="UART1" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$1" class="1">
@@ -4850,12 +4826,6 @@ by Ranseyer</text>
 <wire x1="172.72" y1="-151.13" x2="185.42" y2="-151.13" width="0.1524" layer="91"/>
 <label x="172.72" y="-151.13" size="1.778" layer="95"/>
 <pinref part="UART0" gate="1" pin="3"/>
-</segment>
-<segment>
-<wire x1="165.1" y1="-186.69" x2="172.72" y2="-186.69" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="-186.69" x2="185.42" y2="-186.69" width="0.1524" layer="91"/>
-<label x="172.72" y="-186.69" size="1.778" layer="95"/>
-<pinref part="UART1" gate="1" pin="3"/>
 </segment>
 </net>
 </nets>
@@ -4882,6 +4852,12 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="8.4" severity="warning">
+Since Version 8.4, EAGLE supports properties for SPICE simulation. 
+Probes in schematics and SPICE mapping objects found in parts and library devices
+will not be understood with this version. Update EAGLE to the latest version
+for full support of SPICE simulation. 
 </note>
 </compatibility>
 </eagle>

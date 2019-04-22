@@ -172,6 +172,8 @@
 <wire x1="47" y1="22" x2="47" y2="-5" width="0.1524" layer="48" style="shortdash"/>
 <wire x1="0" y1="22" x2="0" y2="-5" width="0.1524" layer="48" style="shortdash"/>
 <wire x1="-5" y1="0" x2="51" y2="0" width="0.1524" layer="48" style="shortdash"/>
+<dimension x1="-5" y1="0" x2="-5" y2="17" x3="-3" y3="8.5" textsize="1.778" layer="48"/>
+<dimension x1="0" y1="22" x2="33" y2="22" x3="16.5" y3="28" textsize="1.778" layer="48"/>
 </plain>
 <libraries>
 <library name="Martin-Communication-V4">

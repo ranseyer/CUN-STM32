@@ -4685,31 +4685,12 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="+3V3">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+3V3" prefix="+3V3">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="+3V3" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -5111,7 +5092,6 @@ DIL version for mounting with pin header (and SMD soldering) and SMD only varian
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="PORT20" library="frames" deviceset="PORT5" device=""/>
 <part name="PORT22" library="frames" deviceset="PORT5" device=""/>
-<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="A11A" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="A11B" library="wireless" deviceset="SMA" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
@@ -5125,6 +5105,7 @@ DIL version for mounting with pin header (and SMD soldering) and SMD only varian
 <part name="PORT5" library="frames" deviceset="PORT7" device=""/>
 <part name="PORT6" library="frames" deviceset="PORT7" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
+<part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5170,9 +5151,6 @@ DIL version for mounting with pin header (and SMD soldering) and SMD only varian
 </instance>
 <instance part="PORT20" gate="G$1" x="-29.21" y="-127" smashed="yes" rot="R180"/>
 <instance part="PORT22" gate="G$1" x="-29.21" y="-139.7" smashed="yes" rot="R180"/>
-<instance part="+3V3" gate="G$1" x="-16.51" y="-111.76" smashed="yes">
-<attribute name="VALUE" x="-19.05" y="-116.84" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="A11A" gate="G$1" x="38.1" y="-149.86" smashed="yes">
 <attribute name="NAME" x="31.75" y="-146.685" size="1.778" layer="95"/>
 <attribute name="VALUE" x="31.75" y="-154.94" size="1.778" layer="96"/>
@@ -5199,6 +5177,9 @@ DIL version for mounting with pin header (and SMD soldering) and SMD only varian
 <instance part="PORT6" gate="G$1" x="-31.75" y="-81.28" smashed="yes" rot="R180"/>
 <instance part="SUPPLY1" gate="G$1" x="33.02" y="-78.74" smashed="yes" rot="R270">
 <attribute name="VALUE" x="36.195" y="-76.835" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY3" gate="G$1" x="-20.32" y="-119.38" smashed="yes">
+<attribute name="VALUE" x="-22.225" y="-116.205" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -5282,6 +5263,11 @@ DIL version for mounting with pin header (and SMD soldering) and SMD only varian
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
 <wire x1="30.48" y1="-78.74" x2="25.4" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="-20.32" y1="-121.92" x2="-13.97" y2="-121.92" width="0.1524" layer="91"/>
+<pinref part="CC1101" gate="G$1" pin="VCC"/>
+<pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
+</segment>
 </net>
 <net name="TX-MAPLE0" class="0">
 <segment>
@@ -5348,14 +5334,6 @@ DIL version for mounting with pin header (and SMD soldering) and SMD only varian
 <wire x1="-12.7" y1="-83.82" x2="-16.51" y2="-83.82" width="0.1524" layer="91"/>
 <label x="-29.21" y="-85.725" size="1.778" layer="95"/>
 <pinref part="U$2" gate="G$1" pin="D3"/>
-</segment>
-</net>
-<net name="+3V3" class="0">
-<segment>
-<wire x1="-16.51" y1="-121.92" x2="-13.97" y2="-121.92" width="0.1524" layer="91"/>
-<wire x1="-16.51" y1="-121.92" x2="-16.51" y2="-114.3" width="0.1524" layer="91"/>
-<pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<pinref part="CC1101" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="CSN" class="0">
