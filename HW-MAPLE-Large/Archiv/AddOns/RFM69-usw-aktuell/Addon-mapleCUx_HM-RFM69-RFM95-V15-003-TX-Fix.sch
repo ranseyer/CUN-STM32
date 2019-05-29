@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15156,7 +15156,7 @@ siehe 1Wire...</text>
 von A 330  Ohm nach VCC, von B 330 Ohm nach GND. 
 Damit wird er Bus auf HIGH  gehalten wenn Teilnehmer passiv sind.
 AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
-<text x="242.57" y="-194.31" size="3.81" layer="95" ratio="15">1Wire</text>
+<text x="242.57" y="-194.31" size="3.81" layer="95" ratio="15">RS485</text>
 <text x="364.49" y="-205.74" size="1.778" layer="95" rot="R90">External Power</text>
 <text x="142.24" y="-243.84" size="1.778" layer="97">Free Pins</text>
 <text x="165.1" y="-195.58" size="1.778" layer="91">RFM69(H)W</text>
@@ -15709,6 +15709,11 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <wire x1="200.66" y1="-71.12" x2="180.34" y2="-71.12" width="0.1524" layer="91"/>
 <label x="185.42" y="-71.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="RX_SEL" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="-121.92" x2="165.1" y2="-121.92" width="0.1524" layer="91"/>
+<label x="165.1" y="-121.92" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TX1" class="0">
 <segment>
@@ -16007,11 +16012,6 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 </segment>
 </net>
 <net name="RX0" class="0">
-<segment>
-<pinref part="RX_SEL" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="-121.92" x2="165.1" y2="-121.92" width="0.1524" layer="91"/>
-<label x="165.1" y="-121.92" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="134.62" y1="-46.99" x2="142.24" y2="-46.99" width="0.1524" layer="91"/>
 <pinref part="UART0" gate="1" pin="3"/>

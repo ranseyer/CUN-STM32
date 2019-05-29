@@ -1,0 +1,1 @@
+Bei V1.4 gehen rx und TX auf verschiedene UARTs. Es muss daher einer der beiden Pins an den RX/TX-Sel Jumpern auf den anderen UART gelegt werden, so dass der Arduino nur mit einem UART kommuniziert.
