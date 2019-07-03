@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -26850,12 +26850,14 @@ based on Max485</description>
 <pad name="GND1" x="45.72" y="12.7" drill="0.8" shape="offset" rot="R180"/>
 <text x="3.668" y="12.856" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">GND</text>
 <text x="3.668" y="5.236" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">VCC</text>
-<text x="41.768" y="13.11" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">GND</text>
-<text x="42.022" y="5.49" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">VCC</text>
-<text x="42.53" y="8.03" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">TX</text>
-<text x="41.26" y="10.57" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">RX(M)</text>
-<text x="3.668" y="10.316" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">RX(M)</text>
+<text x="42.149" y="12.983" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">GND</text>
+<text x="42.022" y="5.363" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">VCC</text>
+<text x="42.657" y="7.903" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">TX</text>
+<text x="41.895" y="10.443" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">R(M)</text>
+<text x="3.668" y="10.316" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">R(M)</text>
 <text x="3.668" y="8.03" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">TX</text>
+<pad name="5V" x="1.27" y="2.54" drill="0.8" shape="offset"/>
+<text x="3.668" y="2.696" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">5V</text>
 </package>
 </packages>
 <symbols>
@@ -26867,7 +26869,7 @@ based on Max485</description>
 <wire x1="33.02" y1="7.62" x2="33.02" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="33.02" y1="-12.7" x2="-22.86" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-22.86" y1="-12.7" x2="-22.86" y2="7.62" width="0.254" layer="94"/>
-<pin name="VCC" x="-27.94" y="5.08" length="middle"/>
+<pin name="VCC" x="-27.94" y="2.54" length="middle"/>
 <pin name="GND" x="-27.94" y="-10.16" length="middle"/>
 <pin name="RX-MAPLE" x="-27.94" y="-5.08" length="middle"/>
 <pin name="TX-MAPLE" x="-27.94" y="0" length="middle"/>
@@ -26877,6 +26879,7 @@ based on Max485</description>
 <pin name="VCC1" x="38.1" y="-10.16" length="middle" rot="R180"/>
 <text x="-5.08" y="-10.16" size="1.778" layer="94">AddOn for MapleCUL
 by Ranseyer</text>
+<pin name="5V" x="-27.94" y="5.08" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -26888,6 +26891,7 @@ by Ranseyer</text>
 <devices>
 <device name="" package="MAPLE-CUL-V01">
 <connects>
+<connect gate="G$1" pin="5V" pad="5V"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="GND1" pad="GND1"/>
 <connect gate="G$1" pin="RX-MAPLE" pad="RX-MAP"/>
@@ -27025,6 +27029,7 @@ by Ranseyer</text>
 <text x="189.23" y="36.83" size="1.778" layer="95">Debug</text>
 <text x="190.5" y="67.31" size="1.778" layer="95">UART1</text>
 <text x="143.51" y="68.58" size="1.778" layer="95">UART0</text>
+<text x="193.04" y="113.03" size="1.778" layer="97">5V Tolererant</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="151.13" y="135.89" smashed="yes">
@@ -27256,8 +27261,8 @@ by Ranseyer</text>
 <instance part="GND21" gate="1" x="66.04" y="15.24" smashed="yes">
 <attribute name="VALUE" x="63.5" y="12.7" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY13" gate="G$1" x="129.54" y="78.74" smashed="yes">
-<attribute name="VALUE" x="127.635" y="81.915" size="1.778" layer="96"/>
+<instance part="SUPPLY13" gate="G$1" x="129.54" y="76.2" smashed="yes">
+<attribute name="VALUE" x="127.635" y="79.375" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY14" gate="G$1" x="214.63" y="60.96" smashed="yes" rot="R270">
 <attribute name="VALUE" x="217.805" y="62.865" size="1.778" layer="96" rot="R270"/>
@@ -27767,12 +27772,12 @@ by Ranseyer</text>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="VCC"/>
-<wire x1="137.16" y1="76.2" x2="129.54" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="76.2" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="73.66" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="73.66" x2="129.54" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="VCC"/>
-<wire x1="129.54" y1="45.72" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="43.18" x2="137.16" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="SUPPLY13" gate="G$1" pin="VCC"/>
-<junction x="129.54" y="76.2"/>
+<junction x="129.54" y="73.66"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="VCC1"/>
@@ -27791,9 +27796,9 @@ by Ranseyer</text>
 <label x="180.34" y="113.03" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="RX-MAPLE1"/>
-<wire x1="203.2" y1="71.12" x2="219.71" y2="71.12" width="0.1524" layer="91"/>
-<label x="219.71" y="71.12" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="RX-MAPLE"/>
+<wire x1="137.16" y1="66.04" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
+<label x="114.3" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="TX1" class="0">
@@ -27803,9 +27808,9 @@ by Ranseyer</text>
 <label x="180.34" y="115.57" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="TX-MAPLE1"/>
-<wire x1="203.2" y1="66.04" x2="219.71" y2="66.04" width="0.1524" layer="91"/>
-<label x="219.71" y="66.04" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="TX-MAPLE"/>
+<wire x1="137.16" y1="71.12" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
+<label x="114.3" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RX-MAPLE" class="0">
@@ -27821,14 +27826,14 @@ by Ranseyer</text>
 <label x="111.76" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="RX-MAPLE"/>
-<wire x1="137.16" y1="66.04" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
-<label x="114.3" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="HMMOD-UART" gate="G$1" pin="TX"/>
 <wire x1="317.5" y1="76.2" x2="297.18" y2="76.2" width="0.1524" layer="91"/>
 <label x="302.26" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="RX-MAPLE1"/>
+<wire x1="203.2" y1="71.12" x2="219.71" y2="71.12" width="0.1524" layer="91"/>
+<label x="219.71" y="71.12" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TX-MAPLE" class="0">
@@ -27843,14 +27848,14 @@ by Ranseyer</text>
 <label x="111.76" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="TX-MAPLE"/>
-<wire x1="137.16" y1="71.12" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
-<label x="114.3" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="HMMOD-UART" gate="G$1" pin="RX"/>
 <wire x1="317.5" y1="78.74" x2="297.18" y2="78.74" width="0.1524" layer="91"/>
 <label x="302.26" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="TX-MAPLE1"/>
+<wire x1="203.2" y1="66.04" x2="219.71" y2="66.04" width="0.1524" layer="91"/>
+<label x="219.71" y="66.04" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CC_CS0" class="0">
@@ -28286,6 +28291,16 @@ by Ranseyer</text>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="361.95" y1="176.53" x2="351.79" y2="176.53" width="0.1524" layer="91"/>
 <label x="351.79" y="176.53" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="5V"/>
+<wire x1="137.16" y1="76.2" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
+<label x="137.16" y="81.28" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="5V"/>
+<wire x1="137.16" y1="45.72" x2="137.16" y2="50.8" width="0.1524" layer="91"/>
+<label x="137.16" y="50.8" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">

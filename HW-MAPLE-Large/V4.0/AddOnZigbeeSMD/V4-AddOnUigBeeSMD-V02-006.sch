@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5598,58 +5598,6 @@ Holes are 0.05".
 </deviceset>
 </devicesets>
 </library>
-<library name="supply1">
-<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
- GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
- Please keep in mind, that these devices are necessary for the
- automatic wiring of the supply signals.&lt;p&gt;
- The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
- In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
- &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="GND">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-<symbol name="VCC">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND" prefix="GND">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VCC" prefix="P+">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="VCC" symbol="VCC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="con-lstb" urn="urn:adsk.eagle:library:162">
 <description>&lt;b&gt;Pin Headers&lt;/b&gt;&lt;p&gt;
 Naming:&lt;p&gt;
@@ -5819,11 +5767,6 @@ W = angled&lt;p&gt;
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="P+4" library="supply1" deviceset="VCC" device=""/>
-<part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="RASPI2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA05-2" device="" package3d_urn="urn:adsk.eagle:package:8329/1"/>
 </parts>
 <sheets>
@@ -5831,7 +5774,6 @@ W = angled&lt;p&gt;
 <plain>
 <text x="254" y="45.72" size="1.778" layer="97">Volt-Sense</text>
 <text x="129.54" y="-38.1" size="1.778" layer="97">SZ1Zigeebee Module: https://de.aliexpress.com/item/CC2530-wireless-module-Zigbee-module/1861120386.html</text>
-<text x="241.3" y="-210.82" size="1.778" layer="94" rot="R90">Notwendig für RUN</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="154.94" y="-71.12" smashed="yes"/>
@@ -5877,21 +5819,6 @@ W = angled&lt;p&gt;
 </instance>
 <instance part="GND5" gate="1" x="205.74" y="-63.5" smashed="yes" rot="R180">
 <attribute name="VALUE" x="208.28" y="-60.96" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="GND3" gate="1" x="236.22" y="-220.98" smashed="yes">
-<attribute name="VALUE" x="233.68" y="-223.52" size="1.778" layer="96"/>
-</instance>
-<instance part="GND8" gate="1" x="243.84" y="-220.98" smashed="yes">
-<attribute name="VALUE" x="241.3" y="-223.52" size="1.778" layer="96"/>
-</instance>
-<instance part="P+4" gate="VCC" x="124.46" y="-160.02" smashed="yes">
-<attribute name="VALUE" x="121.92" y="-162.56" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND7" gate="1" x="271.78" y="-167.64" smashed="yes" rot="R90">
-<attribute name="VALUE" x="274.32" y="-170.18" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND9" gate="1" x="152.4" y="-157.48" smashed="yes" rot="R270">
-<attribute name="VALUE" x="149.86" y="-154.94" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="RASPI2" gate="G$1" x="147.32" y="-120.65" smashed="yes" rot="R180">
 <attribute name="VALUE" x="151.13" y="-110.49" size="1.778" layer="96" rot="R180"/>
@@ -5940,23 +5867,6 @@ W = angled&lt;p&gt;
 <wire x1="127" y1="-81.28" x2="111.76" y2="-81.28" width="0.1524" layer="91"/>
 <label x="114.3" y="-81.28" size="1.778" layer="95"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="215.9" y1="-175.26" x2="236.22" y2="-175.26" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="-175.26" x2="236.22" y2="-218.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="243.84" y1="-208.28" x2="243.84" y2="-218.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="269.24" y1="-167.64" x2="259.08" y2="-167.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="154.94" y1="-157.48" x2="160.02" y2="-157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="RASPI2" gate="G$1" pin="6"/>
@@ -6018,15 +5928,6 @@ W = angled&lt;p&gt;
 <wire x1="127" y1="-66.04" x2="111.76" y2="-66.04" width="0.1524" layer="91"/>
 <label x="114.3" y="-66.04" size="1.778" layer="95"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="P+4" gate="VCC" pin="VCC"/>
-<wire x1="124.46" y1="-172.72" x2="124.46" y2="-162.56" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="-175.26" x2="162.56" y2="-175.26" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="-175.26" x2="124.46" y2="-175.26" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="-172.72" x2="124.46" y2="-175.26" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="-172.72" x2="162.56" y2="-175.26" width="0.1524" layer="91"/>
-<junction x="162.56" y="-175.26"/>
 </segment>
 <segment>
 <pinref part="RASPI2" gate="G$1" pin="1"/>
@@ -6134,39 +6035,6 @@ W = angled&lt;p&gt;
 <pinref part="U$2" gate="G$1" pin="P2.0"/>
 <wire x1="162.56" y1="-7.62" x2="149.86" y2="-7.62" width="0.1524" layer="91"/>
 <label x="149.86" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<wire x1="182.88" y1="-162.56" x2="162.56" y2="-162.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<wire x1="215.9" y1="-172.72" x2="243.84" y2="-172.72" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="-198.12" x2="243.84" y2="-172.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ESP-TX" class="0">
-<segment>
-<wire x1="220.98" y1="-157.48" x2="215.9" y2="-157.48" width="0.1524" layer="91"/>
-<label x="220.98" y="-157.48" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="ESP-RX" class="0">
-<segment>
-<wire x1="215.9" y1="-160.02" x2="231.14" y2="-160.02" width="0.1524" layer="91"/>
-<label x="231.14" y="-160.02" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<wire x1="182.88" y1="-157.48" x2="170.18" y2="-157.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<wire x1="215.9" y1="-167.64" x2="248.92" y2="-167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RASPI-RX" class="0">
