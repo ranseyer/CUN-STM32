@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -23364,12 +23364,14 @@ based on Max485</description>
 <pad name="GND1" x="45.72" y="12.7" drill="0.8" shape="offset" rot="R180"/>
 <text x="3.668" y="12.856" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">GND</text>
 <text x="3.668" y="5.236" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">VCC</text>
-<text x="41.768" y="13.11" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">GND</text>
-<text x="42.022" y="5.49" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">VCC</text>
-<text x="42.53" y="8.03" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">TX</text>
-<text x="41.26" y="10.57" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">RX(M)</text>
-<text x="3.668" y="10.316" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">RX(M)</text>
+<text x="42.149" y="12.983" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">GND</text>
+<text x="42.022" y="5.363" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">VCC</text>
+<text x="42.657" y="7.903" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">TX</text>
+<text x="41.895" y="10.443" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">R(M)</text>
+<text x="3.668" y="10.316" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">R(M)</text>
 <text x="3.668" y="8.03" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">TX</text>
+<pad name="5V" x="1.27" y="2.54" drill="0.8" shape="offset"/>
+<text x="3.668" y="2.696" size="0.6096" layer="21" font="vector" rot="R180" align="bottom-right">5V</text>
 </package>
 </packages>
 <symbols>
@@ -23381,7 +23383,7 @@ based on Max485</description>
 <wire x1="33.02" y1="7.62" x2="33.02" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="33.02" y1="-12.7" x2="-22.86" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-22.86" y1="-12.7" x2="-22.86" y2="7.62" width="0.254" layer="94"/>
-<pin name="VCC" x="-27.94" y="5.08" length="middle"/>
+<pin name="VCC" x="-27.94" y="2.54" length="middle"/>
 <pin name="GND" x="-27.94" y="-10.16" length="middle"/>
 <pin name="RX-MAPLE" x="-27.94" y="-5.08" length="middle"/>
 <pin name="TX-MAPLE" x="-27.94" y="0" length="middle"/>
@@ -23391,6 +23393,7 @@ based on Max485</description>
 <pin name="VCC1" x="38.1" y="-10.16" length="middle" rot="R180"/>
 <text x="-5.08" y="-10.16" size="1.778" layer="94">AddOn for MapleCUL
 by Ranseyer</text>
+<pin name="5V" x="-27.94" y="5.08" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -23402,6 +23405,7 @@ by Ranseyer</text>
 <devices>
 <device name="" package="MAPLE-CUL-V01">
 <connects>
+<connect gate="G$1" pin="5V" pad="5V"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="GND1" pad="GND1"/>
 <connect gate="G$1" pin="RX-MAPLE" pad="RX-MAP"/>
@@ -23650,11 +23654,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="con-phoenix-350">
+<library name="con-phoenix-350" urn="urn:adsk.eagle:library:174">
 <description>&lt;b&gt;Phoenix Connectors&lt;/b&gt; Grid 3.50 mm&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="1751264">
+<package name="1751264" urn="urn:adsk.eagle:footprint:9373/1" library_version="1">
 <description>&lt;b&gt;MKDS 1/ 4-3,5&lt;/b&gt; Printklemme&lt;p&gt;
 Nennstrom: 10 A&lt;br&gt;
 Bemessungsspannung: 160 V&lt;br&gt;
@@ -23719,8 +23723,24 @@ Source: http://eshop.phoenixcontact.com .. 1751264.pdf</description>
 </polygon>
 </package>
 </packages>
+<packages3d>
+<package3d name="1751264" urn="urn:adsk.eagle:package:9397/1" type="box" library_version="1">
+<description>MKDS 1/ 4-3,5 Printklemme
+Nennstrom: 10 A
+Bemessungsspannung: 160 V
+Raster: 3,5 mm
+Polzahl: 4
+Montageart: Löten
+Anschlussart: Schraubanschluss
+Anschlussrichtung vom Leiter zur Platine: 0°
+Source: http://eshop.phoenixcontact.com .. 1751264.pdf</description>
+<packageinstances>
+<packageinstance name="1751264"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="SCHRAUBKLEMME">
+<symbol name="SCHRAUBKLEMME" urn="urn:adsk.eagle:symbol:9370/1" library_version="1">
 <wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
@@ -23732,7 +23752,7 @@ Source: http://eshop.phoenixcontact.com .. 1751264.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1751264" prefix="X">
+<deviceset name="1751264" urn="urn:adsk.eagle:component:9416/1" prefix="X" library_version="1">
 <description>&lt;b&gt;MKDS 1/ 4-3,5&lt;/b&gt; Printklemme&lt;p&gt;
 Nennstrom: 10 A&lt;br&gt;
 Bemessungsspannung: 160 V&lt;br&gt;
@@ -23756,6 +23776,9 @@ Source: http://eshop.phoenixcontact.com .. 1751264.pdf</description>
 <connect gate="-3" pin="K" pad="3"/>
 <connect gate="-4" pin="K" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9397/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MF" value="" constant="no"/>
@@ -24731,7 +24754,7 @@ at 30/07/2012 11:04:18</description>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$5" library="#Usr-tcp232" deviceset="USR-TCP232-E2" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="X7" library="con-phoenix-350" deviceset="1751264" device=""/>
+<part name="X7" library="con-phoenix-350" library_urn="urn:adsk.eagle:library:174" deviceset="1751264" device="" package3d_urn="urn:adsk.eagle:package:9397/1"/>
 <part name="J2" library="RJ45" deviceset="RJ45_2X_S" device=""/>
 <part name="LAN1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK"/>
 <part name="LAN2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK"/>
@@ -24797,6 +24820,8 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <wire x1="166.37" y1="-76.2" x2="165.1" y2="-76.2" width="0.4064" layer="95"/>
 <text x="147.32" y="-50.8" size="1.778" layer="95">UART0</text>
 <text x="193.04" y="-50.8" size="1.778" layer="95">Debug</text>
+<text x="8.89" y="66.04" size="1.778" layer="97">Max 5,3V</text>
+<text x="53.34" y="68.58" size="3.81" layer="95" ratio="15">3,3V Regulator</text>
 </plain>
 <instances>
 <instance part="SUPPLY1" gate="G$1" x="176.53" y="176.53" smashed="yes" rot="R90">
@@ -24896,8 +24921,8 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <instance part="GND21" gate="1" x="66.04" y="15.24" smashed="yes">
 <attribute name="VALUE" x="63.5" y="12.7" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY13" gate="G$1" x="129.54" y="78.74" smashed="yes">
-<attribute name="VALUE" x="127.635" y="81.915" size="1.778" layer="96"/>
+<instance part="SUPPLY13" gate="G$1" x="129.54" y="76.2" smashed="yes">
+<attribute name="VALUE" x="126.365" y="79.375" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY14" gate="G$1" x="214.63" y="60.96" smashed="yes" rot="R270">
 <attribute name="VALUE" x="217.805" y="62.865" size="1.778" layer="96" rot="R270"/>
@@ -25257,12 +25282,12 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="VCC"/>
-<wire x1="137.16" y1="76.2" x2="129.54" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="76.2" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="73.66" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="73.66" x2="129.54" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="VCC"/>
-<wire x1="129.54" y1="45.72" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="43.18" x2="137.16" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="SUPPLY13" gate="G$1" pin="VCC"/>
-<junction x="129.54" y="76.2"/>
+<junction x="129.54" y="73.66"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="VCC1"/>
@@ -25325,8 +25350,8 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
-<wire x1="133.35" y1="-41.91" x2="140.97" y2="-41.91" width="0.1524" layer="91"/>
-<label x="133.35" y="-41.91" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="133.35" y1="-44.45" x2="140.97" y2="-44.45" width="0.1524" layer="91"/>
+<label x="133.35" y="-44.45" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="RAW" gate="1" pin="2"/>
@@ -25379,6 +25404,16 @@ AC-Widerstand ca. bei 120 Ohm (150 // (330+330)) = 122,2.</text>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="454.66" y1="107.95" x2="444.5" y2="107.95" width="0.1524" layer="91"/>
 <label x="444.5" y="107.95" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="5V"/>
+<wire x1="137.16" y1="45.72" x2="137.16" y2="52.07" width="0.1524" layer="91"/>
+<label x="137.16" y="52.07" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="5V"/>
+<wire x1="137.16" y1="76.2" x2="137.16" y2="82.55" width="0.1524" layer="91"/>
+<label x="137.16" y="82.55" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="VIN" class="1">
