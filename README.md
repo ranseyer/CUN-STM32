@@ -1,7 +1,7 @@
 View this project on [CADLAB.io](https://cadlab.io/project/1060). 
 
 # CUN-STM32
-The MAPLE-CUL is an ARM based RF Transceiver w/wo LAN for 433 or 866 MHz
+The MAPLE-CUL is an ARM based RF Transceiver w/wo LAN for 433 or 868 MHz
 
 - based on the STM32 / MAPLE Microcontroller
 - Up to 4 Transceiver-Modules
